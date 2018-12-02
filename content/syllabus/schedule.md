@@ -1,0 +1,77 @@
++++
+title = "Course Schedule"
+weight = 110
+type="page"
+
+# Creator's Display name
+creatordisplayname = "Eric Ford"
+# Creator's Email
+creatoremail = "ebf11@psu.edu"
+# LastModifier's Display name
+lastmodifierdisplayname = "Eric Ford"
+# LastModifier's Email
+lastmodifieremail = "ebf11@psu.edu"
+
+# menu = "main"
+
++++
+
+# Weekly Schedule
+## TODO: UPDATE FOR Spring 2018
+
+- Week 1: Course Overview & Expectations, Programming Languages, Floating Point Arithmetic & Lab 1
+    + Read Getting Started with Julia Programming (GSJP) pg9-12 (i.e., "First Pages" of free preview at Amazon)
+    + Fri, Aug 28:      Read Writing Scientific Software (WSS) Ch 2 (22pgs)  & [github tutorial](https://help.github.com/articles/set-up-git) (including “Fork a Repo”)
+- Week 2: Priorities for Scientific Computing & Programming Best Practices & Lab 2
+    + Tues, Sep 1: Read WSS Ch 3 Priorities (6pg), Ch 4 Famous Disasters (4pg) & [Best Practices for Scientiﬁc Computing](https://arxiv.org/pdf/1210.0530v4.pdf) (11pg)
+    + Fri, Sept 4:      HW #1 (Intro to Julia, Version Control, Floating Point Arithmetic & Functions) Due
+- Week 3: Programming Best Practices, Code Reviews, Software Design & Lab 3
+    + Tues, Sep 8: Read WSS Ch 7 (ok to skip 7.11-12), Software Design (26pg) & [Code Review blog @ Scientopia](http://goodmath.scientopia.org/2011/07/06/things-everyone-should-do-code-review/)
+    + Fri, Sept 11:  HW #2 (Assertions, Unit Testing, Benchmarking) Due
+- Week 4: Computer Architectures & Lab 4
+    + Tues, Sep 15: Read WSS Ch 6 Computer Org. (12pg), IHPC4SE Ch 1 Modern Processors (32pg); Project Proposal Due Fri
+    + Fri, Sept 18:   HW #3 (Benchmarking, Documentation, Disk I/O, Integration Tests) Due; Read: WSS Ch 17.3 Profiling (2pg)
+- Week 5: Serial Optimization & Lab 5
+    + Tues, Sep 22: Read IHPC4SE Ch 2 Serial Optimization (26pg)
+    + Fri, Sept 25:    HW #4 (Performance Comparisons 1/2 : Profiling, Loops vs Vectorized vs Map) Due
+- Week 6:  Memory Systems & Work on project
+    + Tues, Sept 29:  No class.  (Students are encouraged to meet and discuss progress on lab #5 & class projects)
+    + Fri, Oct 2: Read: HW #5 (Performance Comparisons 2/2:  Memory Access) Due
+- Week 7:  Parallel Computing Concepts & Talk through Serial Project Code with Peer Reviewer
+    + 4pm Mon, Oct 5 (in Davey 541; TBC): Read: WSS Ch 14 (excl 14.5) Memory Allocation & Garbage Collection (11pg);
+		 Read IHPC4SE Ch 3 (excl. 3.1.2, 3.3, 3.6) Data Access Optimization (21pg)
+    + Tues, Oct 6: Read IHPC4SE Ch 4 Parallel Computers (20pg); Read IHPC4SE Ch 5 Basics of Parallelization (22pg)
+    + Fri, Oct 9: Serial Project Code due (solves problem, passes test, serial, not necessarily optimized)
+- Week 8:  Shared-Memory Parallel Programming & Lab 6
+    + Tues, Oct 13:  Read IHPC4SE Ch 6 Shared-memory Parallel Programming w/ OpenMP (22 pg) & 
+		IHPC4SE Ch 7.2 Efficient OpenMP Programming: Performance Pitfalls (15 pg)
+    + Fri, Oct 16:      Code Review Due (see  [Code Review Checklist](https://courses.cs.washington.edu/courses/cse403/12wi/sections/12wi_code_review_checklist.pdf)) 
+- Week 9:  Distributed Memory Parallel Programming & Parallelizing Project Code
+    + Tues, Oct 20: Read IHPC4SE Ch 9 (excl. 9.2.5) Distributed Memory Parallel programming w/ MPI (29 pg);  
+	Optional: IHPC4SE Ch 10 Efficient MPI Programming & Ch 11.-11.1.2 Hybrid Parallelization w/ MPI & OpenMP 
+    + Fri, Oct 23: HW #6 (Parallel Programming for a Multi-Core System) Due
+- Week 10: Workflows & Reproducible Results & Lab 7
+    + Tues, Oct 27: Read WSS Ch 17.0-17.1 Make (4pg); [Julia Package Development](https://docs.julialang.org/en/v1.0/stdlib/Pkg/); BPSC 2; 
+    + Fri, Oct 30:   HW #7 (Parallel Programming for Clusters) Due 
+- Week 11:  Accelerators, GPU Computing & Lab 8
+    + Tues, Nov 3: Read [Introduction to CUDA](http://mc.stanford.edu/cgi-bin/images/f/f7/Darve_cme343_cuda_1.pdf); TODO Add reading about relevant package
+    + Fri, Nov 6:  Work on HW #8 or Parallel Project Code 
+- Week 12:  Cloud Computing & Lab 9
+    + Tues, Nov 10:  Watch: [AWS: What is Cloud Computing?](https://www.youtube.com/watch?v=j8wRkZLbkzw&feature=youtu.be) (first 15 min)
+    + Fri, Nov 13: First Set of Parallel Project Code Due (passes tests, optimized for multi-core shared-memory system)
+- Week 13:  Work on Projects 
+    + Tues, Nov 17:  Work on Projects
+    + Fri, Nov 20:  Due HW #8 (GPU Computing)  &  Parallel Project Code Review Due 
+- Week 14:  Thanksgiving Break
+- Week 15:  Work on Projects
+    + Tues, Dec 1:  Work on Projects (No class)
+    + Fri, Dec 4:  Second Set of Parallel Project Code due (passes tests, optimized for 2nd architecture, ready for code review)
+	(This time, submitting by the end of day ok, rather than before class.)
+- Weeks 16: Student Presentations
+   + Tues, Dec 8: Student Presentations
+   + Fri, Dec 11:   Student Presentations, continued;  All Class Projects Final Code & Supporting Documentation Due & 
+		Optional HW #9 (Cloud Computing) 
+
+
+{{%attachments title="PDF Files" pattern=".*(pdf)"/%}}
+

@@ -2,16 +2,18 @@ baseURL = "/"
 
 languageCode = "en-us"
 DefaultContentLanguage = "en"
-title = "DocDock Documentation"
+title = "Astro 528: High-Performance Scientific Computing for Astrophysics"
 theme = "docdock"
 #themesdir = "../.."
 pygmentsCodeFences = true
 pygmentsStyle = "monokailight"
+markup = "markdown"
 
 defaultContentLanguage = "en"
 defaultContentLanguageInSubdir= false
 enableMissingTranslationPlaceholders = false
 
+sectionPagesMenu = "main"
 
 # [Languages]
 # [Languages.en]
@@ -40,15 +42,18 @@ highlightClientSide = false # set true to use highlight.pack.js instead of the d
 menushortcutsnewtab = true # set true to open shortcuts links to a new tab/window
 enableGitInfo = true
 
+
+
 [outputs]
 home = [ "HTML", "RSS", "JSON"]
 
+[menu]
 
 [[menu.shortcuts]]
 pre = "<h3>More</h3>"
 name = "OpenOnDemand Portal"
 identifier = "ood portal"
-url = "http://portal.aciics.psu.edu"
+url = "http://portal.aci.ics.psu.edu"
 weight = 10
 
 [[menu.shortcuts]]

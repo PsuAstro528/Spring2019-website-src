@@ -23,3 +23,5 @@ The primary goal is for students to improve their skills in scientific computing
 
 All of these objectives may not be realized within the one-semester course, and we will adapt the scope and emphasis based on student interests and programming experience.  The version of the syllabus on the course website will be updated throughout the semester and supersede the printed version.  Students should check the website regularly for updates.
 
+{{% children depth="1" %}}
+- [Additional Resources](/resources)

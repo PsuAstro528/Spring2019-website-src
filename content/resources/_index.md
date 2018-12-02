@@ -2,6 +2,7 @@
 title = "Resources"
 weight = 900
 type="page"
+include_toc = true
 
 # Creator's Display name
 creatordisplayname = "Eric Ford"
@@ -12,6 +13,7 @@ lastmodifierdisplayname = "Eric Ford"
 # LastModifier's Email
 lastmodifieremail = "ebf11@psu.edu"
 +++
+
 
 
 # Julia
@@ -39,6 +41,7 @@ lastmodifieremail = "ebf11@psu.edu"
 # Git
 
 - [GitHub Guides](https://guides.github.com/)
+- [Git for Everyone](https://thenewstack.io/tutorial-git-for-absolutely-everyone/)
 - [Data Camp on Git](https://www.datacamp.com/courses/introduction-to-git-for-data-science)
 - [Git Desktop](https://desktop.github.com/)
 
