@@ -47,7 +47,7 @@ The written proposal should include:
 - a discussion of the relevant range of problem sizes, 
 - what computer architectures, programming languages, and libraries you will use, as well as an justification of your choices.  
 
-More information about the expectations for class projects will be provided. 
+For more information about the expectations for class projects and grading rubrics will be provided.
 
 
 ## Readings & Reading Questions
