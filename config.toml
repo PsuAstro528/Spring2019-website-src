@@ -2,7 +2,7 @@ baseURL = "https://psuastro528.github.io/"
 
 languageCode = "en-us"
 DefaultContentLanguage = "en"
-title = "Astro 528: High-Performance Scientific Computing for Astrophysics"
+title = "Astro 528: HPC for Astrophysics"
 theme = "docdock"
 #themesdir = "../.."
 pygmentsCodeFences = true
