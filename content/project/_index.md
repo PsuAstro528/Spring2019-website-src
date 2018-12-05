@@ -1,5 +1,5 @@
 +++
-title = "Project"
+title = "Class Project"
 weight = 300
 type="page"
 

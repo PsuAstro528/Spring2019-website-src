@@ -19,6 +19,6 @@ lastmodifieremail = "ebf11@psu.edu"
 - Email: ebf11 at psu edot edu
 - Phone: x3-5558
 - Office Hours: Thursdays 11:50am-12:50pm or by appointment
-- Website: TBD
+- Website: https://psuastro528.github.io/
 
 

@@ -36,7 +36,6 @@ The grading rubric for each part of the proposal is provided below.
 
 
 ### Checkpoint 1: Serial version of code
-(10 points total)
 
 - Code performs proposed tasks (1 point)
 - Comprehensive set of unit tests, at least one integration or regression test (1 point)
@@ -50,7 +49,6 @@ The grading rubric for each part of the proposal is provided below.
 - Code is modular, rather than having chunks of same code copied and pasted (1 point)
   
 ### Checkpoint 2: Multi-core version of code
-(10 points total)
 
 - Choice of portion of code to parallelize (1 point)
 - Choice of approach for parallelizing code (1 point)
@@ -63,7 +61,6 @@ The grading rubric for each part of the proposal is provided below.
 
 
 ### Checkpoint 3: Distributed/GPU/Cloud version of code
-(10 points total)
 
 - Choice of portion of code to parallelize (1 point)
 - Choice of approach for parallelizing code (1 point)
@@ -75,7 +72,6 @@ The grading rubric for each part of the proposal is provided below.
 - Significant performance improvement (1 point)
 
 ### Peer Code Reviews 
-(5 points total)
 
 - Constructive suggestions for improving programming practices (1 point)
 - Specific, constructive suggestions for improving code readability/documentation (1 point)
@@ -85,7 +81,6 @@ The grading rubric for each part of the proposal is provided below.
 - Finding any bugs (if code author confirms) (bonus points?)
 
 ### Project Presentation
-(10 points total)
 
 - Motivation/Introduction/Overview, so class can understand broader goals (1 point)
 - Explanation of specific calculation being performed, so class can understand what follows (1 point)

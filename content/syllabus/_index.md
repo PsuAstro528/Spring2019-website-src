@@ -2,6 +2,16 @@
 title = "Syllabus: Astro 528 (Spring 2018)"
 weight = 100
 type="page"
+chapter = true
+#type="slide"
+#theme = "moon"
+
+[revealOptions]
+transition= 'concave'
+controls= true
+progress= true
+history= false
+center= true
 
 # Creator's Display name
 creatordisplayname = "Eric Ford"
@@ -13,7 +23,7 @@ lastmodifierdisplayname = "Eric Ford"
 lastmodifieremail = "ebf11@psu.edu"
 +++
 
-## Scope &amp; Sprit of the Course
+## Scope & Sprit of the Course
 
 High-Performance Scientific Computing for Astrophysics will combine class discussion and programming exercises to train students in the use of modern computing hardware and programming strategies for application to astronomy and astrophysics research.  Students will gain experience applying these practices during a class project (potentially in support of the student’s dissertation research).  While it is primarily intended for graduate students in the astronomy & astrophysics program, it is likely also beneficial for graduate students in other physical sciences and engineering.
 
@@ -25,3 +35,5 @@ All of these objectives may not be realized within the one-semester course, and 
 
 {{% children depth="1" %}}
 - [Additional Resources](/resources)
+
+

@@ -2,6 +2,7 @@
 title = "Lessons"
 weight = 200
 type="page"
+chapter= true
 
 # Creator's Display name
 creatordisplayname = "Eric Ford"
@@ -14,6 +15,8 @@ lastmodifieremail = "ebf11@psu.edu"
 +++
 
 ## Homework/Lab Assignments
+### TODO Update for Spring 2019
+List below is just based on a previous semester
 
 1.  Julia, Git, Floating Point Arithmetic & Functions
 2.  Assertions, Unit Testing, Benchmarking

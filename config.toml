@@ -51,13 +51,13 @@ home = [ "HTML", "RSS", "JSON"]
 
 [[menu.shortcuts]]
 pre = "<h3>More</h3>"
-name = "OpenOnDemand Portal"
-identifier = "ood portal"
+name = "ACI Portal"
+identifier = "aci portal"
 url = "http://portal.aci.ics.psu.edu"
 weight = 10
 
 [[menu.shortcuts]]
-name = "<i class='fa fa-github'></i> <label>Github Org</label>"
+name = "<i class='fa fa-github'></i> <label>Github</label>"
 identifier = "github-org"
 url = "https://github.com/PsuAstro528"
 weight = 20
