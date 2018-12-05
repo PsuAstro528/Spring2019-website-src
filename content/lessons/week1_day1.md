@@ -1,36 +1,47 @@
 +++
 title = "Week 1, Class 1:  Course Overview"
 date = "8 Jan 2019"
+course_inst = "Penn State"
+course_number = "Astro 528"
+course_name = "High-Performance Scientific Computing for Astrophysics"
 type = "slide"
 hidden = false
 weight = 101
 
-theme = "league"
+theme = "psu" # "league"
 [revealOptions]
-transition= 'concave'
+transition= 'slide' # 'none','fade','concave','convex','zoom'
 controls= true
 progress= true
 history= false
-center= false 
+center= true
+loop= false
 pdfSeparateFragments= false
+showNotes= true
 +++
 
-# Welcome
+## Welcome
 Penn State Astro 528 <br>
 High-Performance Scientific Computing for Astrophysics <br>
 Eric Ford
+
 
 ---
 ## Course goals
 
 Enhance your skills for scientific computing
 - Increase your productivity
+   + Choose right tool for right task
    + Reduce time debugging
    + Improve reproducibility 
    + Increase impact of your software
-- Enable you to take on bigger/harder problems
+- Enable you to
+   + Analyze "Big Data"
+   + Increase resolution of simulations
+   + Include more complex physics
   
 ---
+<!-- .slide: data-background="#093162" -->
 ### Course outline
 
 - Software Development Practices
@@ -54,6 +65,9 @@ ___
 <!-- .element: class="fragment" -->
 - Workflow
 <!-- .element: class="fragment" -->
+
+Note:
+Ask what students think of when they hear "software development practices".
 ___
 ### Writing efficient serial code
 - Processor architectures
@@ -74,6 +88,8 @@ ___
    + Intel Phis
 - Cloud
 
+Note:
+Ask if any students already using parallel codes.  If so, how were they parallelized?
 ---
 ### Specific Objectives
 
@@ -85,7 +101,7 @@ ___
     + Make good habits rouine
 - Transfer skills into real work environment
     + Class project
-    + Apply skills learned to your research
+    + Apply new skills to your research
     + Build deeper expertise in special topics most relevant to you
     + Share what you learn with the class
 ___
@@ -93,10 +109,13 @@ ___
 - Textbooks
    + _Writing Scientific Software: A Guide to Good Style_
    + _ThinkJulia: How to Think like a Computer Scientist_
-   + _Introduction to High Performance Computing for Scientists and Engineers_
+   + _Introduction to High Performance Computing for Scientists and Engineers_ (optional)
 - Online PDFs 
 - Online tutorials 
 - Audio?
+
+Note:
+Ask students if they like the idea of an audio lesson prior to class.
 ___
 ### Class discussions
 - Let's learn from each other
@@ -105,7 +124,7 @@ ___
    + Department (if not Astro)
    + What skill you hope to strengthen through this course
 ---
-
+<section id="setup">
 ## Let's get you set up
 ### Accounts
 - [Github](https://github.com)
@@ -113,6 +132,9 @@ ___
 - Penn State
 - [ICS-ACI](https://ics.psu.edu/computing-services/account-setup/)
 - [Travis-CI_.com_](https://travis-ci.com/)
+
+Note: For travis-ci, it's a dot com and not a dot org (in order to link to private github repos with the assignments).
+</section> 
 ___
 ### Get started
 - Accept invitation for Lesson 1
@@ -128,4 +150,5 @@ ___
 ---
 
 # Questions?
+<a href="#/0/0">Jump to start.</a>
 

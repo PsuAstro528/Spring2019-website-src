@@ -17,7 +17,7 @@ lastmodifieremail = "ebf11@psu.edu"
 +++
 
 # Weekly Schedule
-## TODO: UPDATE FOR Spring 2018
+## TODO: UPDATE FOR Spring 2019
 
 - Week 1: Course Overview & Expectations, Programming Languages, Floating Point Arithmetic & Lab 1
     + Read Getting Started with Julia Programming (GSJP) pg9-12 (i.e., "First Pages" of free preview at Amazon)
@@ -72,6 +72,4 @@ lastmodifieremail = "ebf11@psu.edu"
    + Fri, Dec 11:   Student Presentations, continued;  All Class Projects Final Code & Supporting Documentation Due & 
 		Optional HW #9 (Cloud Computing) 
 
-
-{{%attachments title="PDF Files" pattern=".*(pdf)"/%}}
 

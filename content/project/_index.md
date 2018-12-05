@@ -24,3 +24,4 @@ The regular homework exercises are designed to provide the scafolding to help st
 - Presentation  to class
 
 See the grading rubric for details of the expectations for each part of the project.
+

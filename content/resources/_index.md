@@ -14,8 +14,6 @@ lastmodifierdisplayname = "Eric Ford"
 lastmodifieremail = "ebf11@psu.edu"
 +++
 
-
-
 # Julia
 
 - [Julia Manual](http://docs.julialang.org/en/v1.0/)
@@ -73,5 +71,7 @@ lastmodifieremail = "ebf11@psu.edu"
 The Eberly College of Science is committed to the academic success of students enrolled in the College's courses and undergraduate programs. When in need of help, students can utilize various College and University wide resources for learning assistance.  
 For more information see: http://www.science.psu.edu/advising/success/.
 
+### Improve this page
+You can add your suggestions by submitting a pull request for editing [this file's source](https://github.com/PsuAstro528/Spring2019-website-src/blob/master/content/resources/_index.md).  Thanks!
 
 
