@@ -59,6 +59,7 @@ lastmodifieremail = "ebf11@psu.edu"
 - [ICS-ACI User's Guide](https://ics.psu.edu/computing-services/ics-aci-user-guide/)
 - [ICS-ACI Training Series](https://ics.psu.edu/computing-services/ics-aci-training-series/)
 - [ICS-ACI On-demand Tutorial Videos](https://ics.psu.edu/computing-services/ics-aci-training-resources/ics-aci-on-demand-tutorial-videos/)
+- [Open On Demand Portal](https://www.osc.edu/resources/online_portals/ondemand) (written for OSU, but much of info is similar)
 
 # Cloud Computing
 - [Amazon EC2](https://aws.amazon.com/ec2/?sc_channel=PS&sc_campaign=AWS_Free_Tier_2013&sc_country=US&sc_publisher=Google&sc_medium=Brand_Core_EC2_E&sc_content=36175458882&sc_detail=Amazon%20ec2&sc_category=compute_networking&sc_segment=compute_networking&sc_matchtype=e)
