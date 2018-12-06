@@ -53,20 +53,24 @@ cd julia_depot
 export JULIA_DEPOT_PATH=$PWD
 echo "export JULIA_DEPOT_PATH=$PWD" >> ~/.bashrc
 cd ..
+
 # Install Julia in your work directory
 mkdir julia_install
 cd julia_install/
 wget https://julialang-s3.julialang.org/bin/linux/x64/1.0/julia-1.0.2-linux-x86_64.tar.gz
 tar -xf julia-1.0.2-linux-x86_64.tar.gz
-2. # Setup paths so Julia can be found
+
+# Setup paths so Julia can be found
 export PATH=$PWD/bin:$PATH
 export LD_LIBRARY_PATH=$PWD/lib:$LD_LIBRARY_PATH
 export LD_LIBRARY_PATH=$PWD/lib/julia:$LD_LIBRARY_PATH
 echo "export PATH=$PWD/bin:$PATH" >> ~/.bashrc
 echo "export LD_LIBRARY_PATH=$PWD/lib:$LD_LIBRARY_PATH" >> ~/.bashrc
 echo "export LD_LIBRARY_PATH=$PWD/lib/julia:$LD_LIBRARY_PATH" >> ~/.bashrc
-# Setup IJulia
-julia -e 'using Pkg; Pkg.add(["IJulia","Weave"])'
+
+# Setup IJulia and a few packages that we'll be using lots
+julia -e 'using Pkg; Pkg.add(["IJulia","Weave","NBInclude"])'
+
 # Create ssh-keys
 ssh-keygen -t rsa -b 4096  # follow prompts, default location should be ok
 cat ~/.ssh/id_rsa.pub
@@ -120,12 +124,18 @@ Each time in the future you want to start a Jupyter notebook session on ICS-ACI
 ```shell
 git clone REPO_URL  # where REPO_URL is what you'll paste from the clipboard
 ```
+- Change into the directory that was created for the repository (we'll call REPO_DIR) and setup all the packge dependancies required.
+
+```shell
+cd REPO_DIR 
+julia -e 'using Pkg; Pkg.activate("."); Pkg.instantiate(); Pkg.precompile() '
+```
 - In case I make changes to the template, it would be useful to set a remote upstream repository.  Here I assume that your REPO_URL was https://github.com/GITHUBID/example-GITHUBID.git.  Notice that we're replacing the first GITHUB id by the organization name "PsuAstro528" and remove the "-GITHUBID" at the end.
 ```shell
 git remote add upstream https://github.com/PsuAstro528/example.git
 ```
 - Go back to the browser tab with your Jupyter notebook server running.
-- Click the directory name of the repot that you just installed.
+- Click the directory name of the repository that you just installed.
 - Open a Jupyter notebook (file ending in .ipynb) in that repo, or use the _New_ button to create a new one.
 - Do your work in the Jupyter notebook.
 - When you're done with a notebook, save it and close the tab.
