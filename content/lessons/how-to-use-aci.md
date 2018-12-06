@@ -105,7 +105,7 @@ Each time in the future you want to start a Jupyter notebook session on ICS-ACI
 - Go back to the "My Interactive Sessions" tab in the ACI Portal, click "Delete" for this Sessions and confirm.
 
 ---
-<a id="clone-repo">
+<a id="clone-repo"></a>
 ## Clone your github repository to begin a new assignment
 
 - Request a Jupyter notebook session on ACI (see [above](#start-jupyter))
@@ -141,7 +141,7 @@ git remote add upstream https://github.com/PsuAstro528/example.git
 - When you're done with a notebook, save it and close the tab.
 
 ---
-<a id="commit-push">
+<a id="commit-push"></a>
 ## Commit your changes and push to Github
 
 - Return to the terminal tab # (or open a new one)
@@ -158,7 +158,7 @@ git push                                        # Uploads your progress to githu
 - When you're all done, close browser tabs and remember to go back to the "My Interactive Sessions" tab in the ACI Portal, click "Delete" for this Sessions and confirm.
 
 ---
-<a id="run-tests">
+<a id="run-tests"></a>
 ## [Test your code](#test-code)
 
 - Make sure you've committed all your changes
@@ -173,7 +173,7 @@ include("test/test1.jl")
 - You can test your full repository as it will be tested by Travis-CI by opening a terminal window and running `julia test/runtests.jl`
 
 ---
-<a id="submit-pr">
+<a id="submit-pr"></a>
 ## [Submit your work via Github pull request](#submit-pr)
 
 - Make sure you've committed all your changes
