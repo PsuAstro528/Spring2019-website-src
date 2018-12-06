@@ -6,11 +6,11 @@ type="page"
 # Creator's Display name
 creatordisplayname = "Eric Ford"
 # Creator's Email
-creatoremail = "ebf11@psu.edu"
+creatoremail = "ebf11 at psu dot edu"
 # LastModifier's Display name
 lastmodifierdisplayname = "Eric Ford"
 # LastModifier's Email
-lastmodifieremail = "ebf11@psu.edu"
+lastmodifieremail = "ebf11 at psu dot edu"
 +++
 
 The regular homework exercises are designed to provide the scafolding to help students succeed with a class project.  In any weeks where you complete the homework exercises quickly, consider making progress on your class project.  While students will choose different projects, all should share the same key elements:

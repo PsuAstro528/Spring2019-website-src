@@ -6,7 +6,7 @@ course_number = "Astro 528"
 course_name = "High-Performance Scientific Computing for Astrophysics"
 type = "slide"
 hidden = false
-weight = 101
+weight = 01101
 
 theme = "psu" # "league"
 [revealOptions]
@@ -137,15 +137,21 @@ Note: For travis-ci, it's a dot com and not a dot org (in order to link to priva
 </section> 
 ___
 ### Get started
+For your first lab session, you'll
 - Accept invitation for Lesson 1
 - View your new repository on [Github](https://github.com)
 - Login to where you'll run your Jupyter notebooks (with Julia 1.0 kernel)
    + [JuliaBox](https://juliabox.com)
-   + [ICS Portal](http://portal.aci.ics.psu.edu/)
+   + [ICS-ACI Portal](http://portal.aci.ics.psu.edu/)
    + [Install locally](https://julialang.org/downloads) (not for today)
 - Clone repo for Lesson 1
 - Start working through intro.ipynb
-- Ask questions
+- Ask questions as you go
+- Commit your changes to your repo and push them to github
+- If/when you're done, create a pull request to merge your work into the original branch.
+
+For this first lab/assignment, there are [more detailed instructions](lessons/how-to-use-aci.md) about doing these using the ICS-ACI Portal.
+
 
 ---
 

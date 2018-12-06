@@ -4,13 +4,9 @@ weight = 900
 type="page"
 include_toc = true
 
-# Creator's Display name
 creatordisplayname = "Eric Ford"
-# Creator's Email
-creatoremail = "ebf11@psu.edu"
-# LastModifier's Display name
-lastmodifierdisplayname = "Eric Ford"
-# LastModifier's Email
+creatoremail = "ebf11 at psu dot edu"
+lastmodifierdisplayname = "ebf11 at psu dot edu"
 lastmodifieremail = "ebf11@psu.edu"
 +++
 

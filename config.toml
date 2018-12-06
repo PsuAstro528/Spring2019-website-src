@@ -51,7 +51,7 @@ home = [ "HTML", "RSS", "JSON"]
 
 [[menu.shortcuts]]
 pre = "<h3>More</h3>"
-name = "ACI Portal"
+name = "<img src='/images/psu-avatar-no_containing_shape.png' height='90%'> <label>ACI Portal</label>"
 identifier = "aci portal"
 url = "http://portal.aci.ics.psu.edu"
 weight = 10
@@ -63,12 +63,12 @@ url = "https://github.com/PsuAstro528"
 weight = 20
 
 #[[menu.shortcuts]]
-#name = "<i class='fa fa-cloud-download'></i> <label>Download</label>"
-#url = "https://github.com/vjeantet/hugo-theme-docdock/archive/master.zip"
-#weight = 111
+#name = "<i class='fa fa-cloud-download'></i> <label>DockDoc theme</label>"
+#url = "https://github.com/vjeantet/hugo-theme-docdock/"
+#weight = 130
 
 #[[menu.shortcuts]]
-#name = "<i class='fa fa-bookmark'></i> <label>Hugo Documentation</label>"
+#name = "<i class='fa fa-bookmark'></i> <label>Hugo</label>"
 #identifier = "hugodoc"
 #url = "https://gohugo.io/"
 #weight = 120

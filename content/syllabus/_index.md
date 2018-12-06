@@ -23,10 +23,14 @@ lastmodifierdisplayname = "Eric Ford"
 lastmodifieremail = "ebf11@psu.edu"
 +++
 
+# High-Performance Scientific Computing for Astrophysics
 # Astro 528:  Spring 2019
 ## Scope & Sprit of the Course
 
-_High-Performance Scientific Computing for Astrophysics_ will combine class discussion and programming exercises to train students in the use of modern computing hardware and programming strategies for application to astronomy and astrophysics research.  Students will gain experience applying these practices during a class project (potentially in support of the student’s dissertation research).  While it is primarily intended for graduate students in the astronomy & astrophysics program, it is likely also beneficial for graduate students in other physical sciences and engineering.
+{{%excerpt%}}
+_High-Performance Scientific Computing for Astrophysics_ will combine class discussion and programming exercises to train students in the use of modern computing hardware and programming strategies for application to astronomy and astrophysics research.  Students will gain experience applying these practices during a class project (potentially in support of the student’s dissertation research).  
+{{%/excerpt%}}
+While it is primarily intended for graduate students in the astronomy & astrophysics program, it is likely also beneficial for graduate students in other physical sciences and engineering.
 
 This course can count toward the Penn State [Graduate Minor in Computational Science](http://www.csci.psu.edu/).  It is complementary to Phys/Astro 587 Computational Physics/Astrophysics, the recent Astro 585 on Astrostatistics and Stat/IST 557 Data Mining.  The combination of these four courses with the domain expertise from their Ph.D. program would provide students with an excellent introduction to “[Data Science](https://s3.amazonaws.com/aws.drewconway.com/viz/venn_diagram/data_science.html)”.  
 

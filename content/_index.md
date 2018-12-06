@@ -6,15 +6,16 @@ type="page"
 # Creator's Display name
 creatordisplayname = "Eric Ford"
 # Creator's Email
-creatoremail = "ebf11@psu.edu"
+creatoremail = "ebf11 at psu dot edu"
 # LastModifier's Display name
 lastmodifierdisplayname = "Eric Ford"
 # LastModifier's Email
-lastmodifieremail = "ebf11@psu.edu"
+lastmodifieremail = "ebf11 at psu dot edu"
 +++
 
 # _High-Performance Scientific Computing for Astrophysics_ 
-Astro 528 will combine class discussion and programming exercises to train students in the use of modern computing hardware and programming strategies for application to astronomy and astrophysics research.  Students will gain experience applying these practices during a class project (potentially in support of the student’s research).  
+## Astro 528: Spring 2019
+{{%excerpt-include filename="syllabus/_index.md" /%}}
 
 - [Syllabus](/syllabus)
 - [Schedule](/syllabus/schedule)
