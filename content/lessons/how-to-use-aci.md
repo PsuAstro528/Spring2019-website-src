@@ -28,6 +28,7 @@ showNotes= true
 5.  [Commit your work and push to Github](#commit-push)
 6.  [Submit your work via Github pull request](#submit-pr)
 7.  [Review the feedback on your submission](#discuss-pr)
+
 ---
 
 <a id="setup-julia"></a>

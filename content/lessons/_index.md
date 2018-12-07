@@ -19,9 +19,9 @@ lastmodifieremail = "ebf11 at psu dot edu"
 #### [Lab 1] (https://github.com/PsuAstro528/lab1-start):  
 
 - Exercise 1: Core development tools
-    + [ICS-ACI portal](http://portal.aci.ics.psu.edu/) or <JuliaBox.com> 
+    + [ICS-ACI portal](http://portal.aci.ics.psu.edu/) or [JuliaBox.com] 
     + [git](https://try.github.io/)
-    + <GitHub.com>
+    + [GitHub.com]
     + [Jupyter Notebooks](jupyter.org)
     + [Julia](https://julialang.org/)
 - Exercise 2: Floating Point Arithmetic, Functions, Tests
@@ -29,7 +29,7 @@ lastmodifieremail = "ebf11 at psu dot edu"
 - Along the way:  
     + Strings, Modules, Namespace, Types, include
     + Packages, Functions, Docstrings, Pseudo-random numbers, Broadcasting, Single & Double precssion, type stability, online algorithms
-    + <Travis-CI.com>
+    + [Travis-CI.com]
 
 #### [Lab 2](https://github.com/PsuAstro528/lab2-start):  
 
