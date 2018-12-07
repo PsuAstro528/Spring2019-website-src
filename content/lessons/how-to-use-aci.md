@@ -20,18 +20,18 @@ pdfSeparateFragments= false
 showNotes= true
 +++
 
-# Instructions for Completing Labs via ICS ACI Portal
+## Instructions for Completing Labs via ICS ACI Portal
 1.  [Setup Julia kernel to work with ICS-ACI](#setup-julia) (only needs to be done once per user)
 2.  [Start a Jupyter Notebook session on ACI](#start-jupyter)
 3.  [Clone your Github Repository on ACI](#clone-repo) (only need to do once per assignment)
-4.  [Commit your work and push to Github](#commit-push)
-5.  [Test your code](#test-code)
+4.  [Test your code](#test-code)
+5.  [Commit your work and push to Github](#commit-push)
 6.  [Submit your work via Github pull request](#submit-pr)
 
 ---
 
 <a id="setup-julia"></a>
-## Setup Julia kernel to work with ACI's Jupyter notebook server
+### Setup Julia kernel to work with ACI's Jupyter notebook server
 
 - Browse to portal.aci.ics.psu.edu
 - Login (if necessary)
@@ -76,13 +76,20 @@ ssh-keygen -t rsa -b 4096  # follow prompts, default location should be ok
 cat ~/.ssh/id_rsa.pub
 ```
 
+- If this is your first time using git, then enter something for your name and email (you may wish to use your github id rather than your real name, and a non-email address like nobody@nowhere.org).
+
+```shell
+git config --global user.email "nobody@nowhere.org"
+git config --global user.name "Your Github Id"
+```
+
 - Authorize your ssh-keys on GitHub, following [these instructions](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/#platform-linux) but manually copying the key rather than using xclip (i.e., starting from step 2)
 - Shutdown the session and close the browser window/tab with the ACI Interactive Desktop
 - Go back to the "My Interactive Sessions" tab in the ACI Portal, click "Delete" for this Sessions and confirm.
 
 ---
 <a id="start-jupyter"></a>
-## Start a Jupyter notebook session on ACI
+### Start a Jupyter notebook session on ACI
 Each time in the future you want to start a Jupyter notebook session on ICS-ACI
 
 - Browse to portal.aci.ics.psu.edu
@@ -106,7 +113,7 @@ Each time in the future you want to start a Jupyter notebook session on ICS-ACI
 
 ---
 <a id="clone-repo"></a>
-## Clone your github repository to begin a new assignment
+### Clone your github repository to begin a new assignment
 
 - Request a Jupyter notebook session on ACI (see [above](#start-jupyter))
 - While waiting for it to start, let's get the url for the repo to be cloned.
@@ -128,12 +135,13 @@ git clone REPO_URL  # where REPO_URL is what you'll paste from the clipboard
 
 ```shell
 cd REPO_DIR 
-julia -e 'using Pkg; Pkg.activate("."); Pkg.instantiate(); Pkg.precompile() '
+julia -e 'using Pkg; Pkg.activate("."); Pkg.instantiate(); '
 ```
-- In case I make changes to the template, it would be useful to set a remote upstream repository.  Here I assume that your REPO_URL was https://github.com/GITHUBID/example-GITHUBID.git.  Notice that we're replacing the first GITHUB id by the organization name "PsuAstro528" and remove the "-GITHUBID" at the end.
+- In case I make changes to the template, it would be useful to set a remote upstream repository.  Here I assume that your REPO_URL was git@github.com/GITHUBID/example-GITHUBID.git.  Notice that we're replacing the first GITHUB id by the organization name "PsuAstro528" and remove the "-GITHUBID" at the end.
 ```shell
-git remote add upstream https://github.com/PsuAstro528/example.git
+git remote add upstream git@github.com/PsuAstro528/example.git
 ```
+
 - Go back to the browser tab with your Jupyter notebook server running.
 - Click the directory name of the repository that you just installed.
 - Open a Jupyter notebook (file ending in .ipynb) in that repo, or use the _New_ button to create a new one.
@@ -141,25 +149,8 @@ git remote add upstream https://github.com/PsuAstro528/example.git
 - When you're done with a notebook, save it and close the tab.
 
 ---
-<a id="commit-push"></a>
-## Commit your changes and push to Github
-
-- Return to the terminal tab # (or open a new one)
-- Run the following commands
-
-```shell
-cd YOUR_REPO_DIRECTORY     # You'll need to replace YOUR_REPO_DIRECTORY and NOTEBOOK_NAME
-julia -e 'using Weave; convert_doc("NOTEBOOK_NAME.ipynb","NOTEBOOK_NAME.jmd")'
-git add NOTEBOOK_NAME.jmd                       # Only need to do this command only once for each new file to be added to your repository
-git commit -a -m "note about what you've done"  # Commit all changes you've made
-git push                                        # Uploads your progress to github
-```
-- If this repository is configured to apply tests via continuous integration, then check back on whether your changes pass the tests.  
-- When you're all done, close browser tabs and remember to go back to the "My Interactive Sessions" tab in the ACI Portal, click "Delete" for this Sessions and confirm.
-
----
 <a id="run-tests"></a>
-## [Test your code](#test-code)
+### Test your code
 
 - Make sure you've committed all your changes
 - Check that your code passes the tests for each exercise as you go in a separate test notebook like
@@ -173,8 +164,25 @@ include("test/test1.jl")
 - You can test your full repository as it will be tested by Travis-CI by opening a terminal window and running `julia test/runtests.jl`
 
 ---
+<a id="commit-push"></a>
+### Commit your changes and push to Github
+
+- Return to the terminal tab # (or open a new one)
+- Run the following commands
+
+```shell
+cd YOUR_REPO_DIRECTORY     # You'll need to replace YOUR_REPO_DIRECTORY and NOTEBOOK_NAME
+julia -e 'using Weave; convert_doc("NOTEBOOK_NAME.ipynb","NOTEBOOK_NAME.jmd")'
+git add NOTEBOOK_NAME.jmd  # Only need to do this once per new file if you use the -a option with "git commit" below.  Otherwise, need to do each time you want to deposit a new version of the file into your respository.
+git commit -a -m "note about what you've done"  # Commit all changes you've made
+git push                                        # Uploads your progress to github
+```
+- If this repository is configured to apply tests via continuous integration, then check back on whether your changes pass the tests.  
+- When you're all done, close browser tabs and remember to go back to the "My Interactive Sessions" tab in the ACI Portal, click "Delete" for this Sessions and confirm.
+
+---
 <a id="submit-pr"></a>
-## [Submit your work via Github pull request](#submit-pr)
+### [Submit your work via Github pull request](#submit-pr)
 
 - Make sure you've committed all your changes
 - Check that your code passes all the tests (or as many as practical)

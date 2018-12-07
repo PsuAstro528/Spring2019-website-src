@@ -51,7 +51,7 @@ home = [ "HTML", "RSS", "JSON"]
 
 [[menu.shortcuts]]
 pre = "<h3>More</h3>"
-name = "<img src='ihttp://socialmedia.psu.edu/files/2015/09/psu-avatar-no_containing_shape-285x300.png' height='90%'> <label>ACI Portal</label>"
+name = "<img src='http://socialmedia.psu.edu/files/2015/09/psu-avatar-no_containing_shape-285x300.png' height='90%'> <label>ACI Portal</label>"
 identifier = "aci portal"
 url = "http://portal.aci.ics.psu.edu"
 weight = 10
