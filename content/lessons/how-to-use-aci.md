@@ -27,7 +27,7 @@ showNotes= true
 4.  [Commit your work and push to Github](#commit-push)
 5.  [Test your code](#test-code)
 6.  [Submit your work via Github pull request](#submit-pr)
-
+7.  [Review the feedback on your submission](#discuss-pr)
 ---
 
 <a id="setup-julia"></a>
@@ -130,7 +130,7 @@ git clone REPO_URL  # where REPO_URL is what you'll paste from the clipboard
 cd REPO_DIR 
 julia -e 'using Pkg; Pkg.activate("."); Pkg.instantiate(); Pkg.precompile() '
 ```
-- In case I make changes to the template, it would be useful to set a remote upstream repository.  Here I assume that your REPO_URL was https://github.com/GITHUBID/example-GITHUBID.git.  Notice that we're replacing the first GITHUB id by the organization name "PsuAstro528" and remove the "-GITHUBID" at the end.
+- Optional (can do later if needed):  In case the instructor makes changes to the template, it would be useful to be able to merge in those changes easily.  To prepare for that, let's set a remote upstream repository.  Here I assume that your REPO_URL was https://github.com/GITHUBID/example-GITHUBID.git.  Notice that we're replacing the first GITHUB id by the organization name "PsuAstro528" and remove the "-GITHUBID" at the end.
 ```shell
 git remote add upstream https://github.com/PsuAstro528/example.git
 ```
@@ -186,9 +186,13 @@ include("test/test1.jl")
 - Optionally, write a longer messages in the larger box below
 - Click _Create Pull Request_
 
-To discuss your submission
-- You or the instructor can discuss the pull request using the text box at the bottom of the page (under the conversation tab)
-- Later, the instructor will navigate to the "Files changed" tab to provide comments on specific lines of your submission.
+---
+<a id="discuss-pr"></a>
+## Review the feedback on your submission (your pull request)
+- Browse to your github repository.
+- Click _Pull Requests_, click the name of your pull request.
+- In the conversations tab (default), you and the instructor can discuss the pull request using the text box at the bottom of the page.
+- In the "Files changed" tab, the instructor can provide comments on specific lines of your submission.
 - You can view the comments, reply, close the pull request, make more changes, create a new pull request, etc.
 
 
