@@ -12,8 +12,10 @@ weight = 01105  # wwdpp
 
 {{<revealjs theme="psu" transition="slide" controls="true" progress="true" history="false" center="false" loop="false" pdfSeparateFragments="false" showNotes="true" >}}
 ## Welcome
-Penn State Astro 528 <br>
-High-Performance Scientific Computing for Astrophysics <br>
+Penn State Astro 528
+
+High-Performance Scientific Computing for Astrophysics
+
 Eric Ford
 
 
@@ -148,3 +150,4 @@ For this first lab/assignment, there are [more detailed instructions](lessons/ho
 
 # Questions?
 <a href="#/0/0">Jump to start.</a>
+{{</revealjs>}}

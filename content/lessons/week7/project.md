@@ -1,5 +1,5 @@
 +++
-title = "Serical Code for Project due"
+title = "Serial Code for Project due"
 weight = 07120  #wwdpp
 type="page"
 chapter= false

@@ -1,7 +1,8 @@
 +++
 title = "Peer Code Reviews"
-weight = 120
+weight = 150
 type="page"
+hidden = false
 
 # Creator's Display name
 creatordisplayname = "Eric Ford"
@@ -13,19 +14,13 @@ lastmodifierdisplayname = "Eric Ford"
 lastmodifieremail = "ebf11 at psu dot edu"
 +++
 
-### Peer Code Reviews 
-
-- Constructive suggestions for improving programming practices (1 point)
-- Specific, constructive suggestions for improving code readability/documentation (1 point)
-- Specific, constructive suggestions for improving tests and/or assertions (1 point)
-- Specific, constructive suggestions for improving code modularity/organization/maintainability (1 point)
-- Specific, constructive suggestions for improving code efficiency (1 point)
-- Finding any bugs (if code author confirms) (bonus points?)
-
 Advice on how to conduct a peer code review
 
+- [Things Everyone Should Do: Code Review](http://goodmath.scientopia.org/2011/07/06/things-everyone-should-do-code-review/)
 - [Code Reiew Best Practices](https://medium.com/palantir/code-review-best-practices-19e02780015f) from Palantir Blog
 - [11 Proven Practices for Peer Review](https://www.ibm.com/developerworks/rational/library/11-proven-practices-for-peer-review/index.html) from IBM
+
+{{%excerpt-include filename="lessons/week8/project.md" /%}}
 
 {{%attachments title="Form for code review" pattern=".*(pdf)"/%}}
 

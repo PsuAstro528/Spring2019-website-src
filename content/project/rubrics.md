@@ -1,6 +1,6 @@
 +++
 title = "Grading Rubric"
-weight = 180
+weight = 130
 type="page"
 
 # Creator's Display name
