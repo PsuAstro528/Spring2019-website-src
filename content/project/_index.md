@@ -1,6 +1,6 @@
 +++
 title = "Class Project"
-weight = 300
+weight = 500
 type="page"
 chapter = true
 

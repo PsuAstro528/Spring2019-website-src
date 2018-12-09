@@ -1,8 +1,8 @@
 +++
-title = "Weeks 13-15: Class Presentations"
-weight = 13101  #wwdpp
+title = "Lab Exercises"
+weight = 300
 type="page"
-chapter= true
+chapter= false
 
 # Creator's Display name
 creatordisplayname = "Eric Ford"
@@ -14,5 +14,10 @@ lastmodifierdisplayname = "Eric Ford"
 lastmodifieremail = "ebf11 at psu dot edu"
 +++
 
-## Lessons / Resources
-{{% children depth="2" %}}
+<a id="labs"></a>
+{{%excerpt-include filename="lessons/week1/lab.md" /%}}
+
+{{%excerpt-include filename="lessons/week2/lab.md" /%}}
+
+
+TODO: Add goals for future weeks.

@@ -14,10 +14,11 @@ lastmodifierdisplayname = "Eric Ford"
 lastmodifieremail = "ebf11 at psu dot edu"
 +++
 
-## Lab 1: Tools, Floating Point Arithmetic, Functions, Tests
+# Lab 1: Tools, Floating Point Arithmetic, Functions, Tests
 
 {{%excerpt%}}
-- [Lab 1 Git Repository](https://github.com/PsuAstro528/lab1-start)
+[Lab 1 Git Repository](https://github.com/PsuAstro528/lab1-start)  (Due Jan 13)
+
 - Exercise 1: Core development tools
     + [ICS-ACI portal](http://portal.aci.ics.psu.edu/) or [JuliaBox](https://www.juliabox.com) 
     + [git](https://try.github.io/)
