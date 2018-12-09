@@ -66,9 +66,12 @@ Week 12
 # Lab/Homework Exercises
 {{%excerpt-include filename="lessons/week1/lab.md" /%}}
 {{%excerpt-include filename="lessons/week2/lab.md" /%}}
-{{%excerpt-include filename="lessons/week2/lab.md" /%}}
-
-TODO: Add labs for future weeks.
+{{%excerpt-include filename="lessons/week3/lab.md" /%}}
+{{%excerpt-include filename="lessons/week5/lab.md" /%}}
+{{%excerpt-include filename="lessons/week6/lab.md" /%}}
+{{%excerpt-include filename="lessons/week9/lab.md" /%}}
+{{%excerpt-include filename="lessons/week10/lab.md" /%}}
+{{%excerpt-include filename="lessons/week12/lab.md" /%}}
 
 ---
 

@@ -14,12 +14,18 @@ lastmodifierdisplayname = "Eric Ford"
 lastmodifieremail = "ebf11 at psu dot edu"
 +++
 
-## Assertions, Unit Testing, Countinuous Integrations, Benchmarking
-
 {{%excerpt%}}
+<b>Assertions, Unit Testing, Countinuous Integrations, Benchmarking</b><br />
 [Lab 2 Git Repository](https://github.com/PsuAstro528/lab2-start) (due Jan 20)
 
 - Exercise 1: Assertions
 - Exercise 2: Unit Testing, Continuous Integration
 - Exercise 3: Benchmarking
 {{%/excerpt%}}
+
+## Lessons / Resources
+- [Getting Started with Julia on ACI](/lessons/week1/how-to-use-aci)
+- [Julia Manual](http://docs.julialang.org/en/v1.0/)
+- [Think Julia: How to Think Like a Computer Scientist](https://benlauwens.github.io/ThinkJulia.jl/latest/book.html)
+- [Learn Julia in Y Minutes](https://learnxinyminutes.com/docs/julia/)
+{{% children depth="1" %}}
