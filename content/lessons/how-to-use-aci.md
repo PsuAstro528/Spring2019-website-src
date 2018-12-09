@@ -27,6 +27,7 @@ showNotes= true
 4.  [Test your code](#test-code)
 5.  [Commit your work and push to Github](#commit-push)
 6.  [Submit your work via Github pull request](#submit-pr)
+7.  [Review the feedback on your submission](#discuss-pr)
 
 ---
 
@@ -126,7 +127,7 @@ Each time in the future you want to start a Jupyter notebook session on ICS-ACI
 - Hopefully, there's now a _Connect to Jupyter Notebook Server_ button. Click it
 - Go to the newly opened tab, you'll have a Jupyter Notebook Server.
 - Find _New_ button and choose _Terminal_
-- In the new terminal tab, clone your github repo by running 
+- In the new terminal tab, clone your github repo by running
 
 ```shell
 git clone REPO_URL  # where REPO_URL is what you'll paste from the clipboard
@@ -134,10 +135,10 @@ git clone REPO_URL  # where REPO_URL is what you'll paste from the clipboard
 - Change into the directory that was created for the repository (we'll call REPO_DIR) and setup all the packge dependancies required.
 
 ```shell
-cd REPO_DIR 
+cd REPO_DIR
 julia -e 'using Pkg; Pkg.activate("."); Pkg.instantiate(); '
 ```
-- In case I make changes to the template, it would be useful to set a remote upstream repository.  Here I assume that your REPO_URL was git@github.com/GITHUBID/example-GITHUBID.git.  Notice that we're replacing the first GITHUB id by the organization name "PsuAstro528" and remove the "-GITHUBID" at the end.
+- Optional (can do later if needed):  In case the instructor makes changes to the template, it would be useful to be able to merge in those changes easily.  To prepare for that, let's set a remote upstream repository.  Here I assume that your REPO_URL was https://github.com/GITHUBID/example-GITHUBID.git.  Notice that we're replacing the first GITHUB id by the organization name "PsuAstro528" and remove the "-GITHUBID" at the end.
 ```shell
 git remote add upstream git@github.com/PsuAstro528/example.git
 ```
@@ -177,12 +178,12 @@ git add NOTEBOOK_NAME.jmd  # Only need to do this once per new file if you use t
 git commit -a -m "note about what you've done"  # Commit all changes you've made
 git push                                        # Uploads your progress to github
 ```
-- If this repository is configured to apply tests via continuous integration, then check back on whether your changes pass the tests.  
+- If this repository is configured to apply tests via continuous integration, then check back on whether your changes pass the tests.
 - When you're all done, close browser tabs and remember to go back to the "My Interactive Sessions" tab in the ACI Portal, click "Delete" for this Sessions and confirm.
 
 ---
 <a id="submit-pr"></a>
-### [Submit your work via Github pull request](#submit-pr)
+### Submit your work via Github pull request
 
 - Make sure you've committed all your changes
 - Check that your code passes all the tests (or as many as practical)
@@ -194,9 +195,11 @@ git push                                        # Uploads your progress to githu
 - Optionally, write a longer messages in the larger box below
 - Click _Create Pull Request_
 
-To discuss your submission
-- You or the instructor can discuss the pull request using the text box at the bottom of the page (under the conversation tab)
-- Later, the instructor will navigate to the "Files changed" tab to provide comments on specific lines of your submission.
+---
+<a id="discuss-pr"></a>
+## Review the feedback on your submission (your pull request)
+- Browse to your github repository.
+- Click _Pull Requests_, click the name of your pull request.
+- In the conversations tab (default), you and the instructor can discuss the pull request using the text box at the bottom of the page.
+- In the "Files changed" tab, the instructor can provide comments on specific lines of your submission.
 - You can view the comments, reply, close the pull request, make more changes, create a new pull request, etc.
-
-
