@@ -18,8 +18,7 @@ lastmodifieremail = "ebf11 at psu dot edu"
 # Week 12
 {{%excerpt%}}
 - Prior to Tuesday's class
-  + TODO: Pick reading
+   + TODO: Pick reading
 - Prior to Thursday's class
-  + Submit First set of Parallel Project Code (passes tests, optimized for mult-core, shared-memory system)
-  + Begin Lab 9
+   + Begin Lab 9
 {{%/excerpt%}}

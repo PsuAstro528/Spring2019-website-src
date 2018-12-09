@@ -22,5 +22,5 @@ lastmodifieremail = "ebf11 at psu dot edu"
    + _Introduction to High Performance Computing for Scientists and Engineers_ Ch 1: Modern Processors (32pg) (TODO: Find alternative for students without book)
 - Prior to Thursday's class
    + _Writing Scientific Software_ Ch 17.3: Profiling (2pg)
-   + Submit Project Proposal
+   + [Submit Project Proposal](/lessons/week4/project)
 {{%/excerpt%}}

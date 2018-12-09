@@ -21,6 +21,7 @@ lastmodifieremail = "ebf11 at psu dot edu"
    + _Writing Scientific Software_ Ch 4: Memory Allocation & Garbage Collection (excluding 14.5; 11pg)
    + [“What Every Programmer Should Know about Memory” (Drepper 2007)](http://www.akkadia.org/drepper/cpumemory.pdf) (TODO pick subset)
    + _Introduction to High Performance Computing for Scientists and Engineers_ Ch 3 Data Access Optimization (excluding 3.1.2, 3.3, 3.3; 20pg) (optional)
+   + [Latency Numbers Every Programmer Should Know](https://people.eecs.berkeley.edu/~rcs/research/interactive_latency.html)
 - Prior to Thursday's class
   + Begin Lab 6
 {{%/excerpt%}}

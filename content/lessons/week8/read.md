@@ -21,5 +21,5 @@ lastmodifieremail = "ebf11 at psu dot edu"
    + _Introduction to High Performance Computing for Scientists and Engineers_ Ch 6: Shared-memory Parallel Programming w/ OpenMP (22pg)
    + _Introduction to High Performance Computing for Scientists and Engineers_ Ch 7.2: Efficient OpenMP Programming: Performance Pitfalls (22pg) (optional)
 - Prior to Thursday's class
-  + Submit Peer Code Review
+  + [Submit Peer Code Review](/lessons/week8/project)
 {{%/excerpt%}}

@@ -1,6 +1,6 @@
 +++
-title = "Week 4: Computer Architectures"
-weight = 04101  #wwdpp
+title = "Week 14: Full Class Project"
+weight = 14101  #wwdpp
 type="page"
 chapter= true
 
