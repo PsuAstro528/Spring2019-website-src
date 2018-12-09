@@ -1,6 +1,6 @@
 +++
-title = "Discussion Topics"
-date = "10 Jan 2019"
+title = "Discussion Topics 1"
+date = "8 Jan 2019"
 course_inst = "Penn State"
 course_number = "Astro 528"
 course_name = "High-Performance Scientific Computing for Astrophysics"
@@ -21,31 +21,22 @@ High-Performance Scientific Computing for Astrophysics
 
 ## Floating Point Arithmetic
 
-- When should we be paranoid?
-
----
-
-## Precssion
-
-- Is there a place for single precission?
-- Where?
-
----
-## Documenting our code
-
-- Who is likely to reuse my code?
-
----
-## Modular Programming
-
-- What can we do it increase chance our code will be reused efficiently?
+- When do we need to be paranoid?
 
 ---
 
 ## Testing
 
-- Does testing make sense for codes developed to support scientific research?
-- How is it similar/different from coding in industry?
+- Does it make sense for scientific codes?
+- When?
+
+---
+
+## Is anyone really going to reuse my code?
+
+---
+
+## What can we do to ease code reuse?
 
 ---
 
