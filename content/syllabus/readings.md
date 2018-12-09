@@ -30,5 +30,4 @@ We will also make use of a variety of web resources, including:
 - [_Real Computing Made Real_ (Acton 2005)](http://www.amazon.com/Real-Computing-Made-Engineering-Calculations/dp/0486442217)
 - [Easy GPU Parallelism with OpenAcc](http://www.drdobbs.com/parallel/easy-gpu-parallelism-with-openacc/240001776)
 - [The Why’s and How’s of Licensing Scientific Code](http://www.astrobetter.com/blog/2014/03/10/the-whys-and-hows-of-licensing-scientific-code/)
-
-
+- [Introduction to Parallel Programming with GPUs & CUDA](https://www.udacity.com/course/cs344) at Udacity

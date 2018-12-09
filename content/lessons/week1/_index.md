@@ -1,6 +1,6 @@
 +++
-title = "Schedule"
-weight = 200
+title = "Week 1: Development Tools"
+weight = 01101  #wwdpp
 type="page"
 chapter= true
 
@@ -14,5 +14,5 @@ lastmodifierdisplayname = "Eric Ford"
 lastmodifieremail = "ebf11 at psu dot edu"
 +++
 
-{{% children depth="2" %}}
-
+## Lessons / Resources
+{{% children depth="1" %}}

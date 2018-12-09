@@ -1,6 +1,6 @@
 +++
-title = "Schedule"
-weight = 200
+title = "Week 10: Packaging & Reproducility"
+weight = 10101  #wwdpp
 type="page"
 chapter= true
 
@@ -14,5 +14,5 @@ lastmodifierdisplayname = "Eric Ford"
 lastmodifieremail = "ebf11 at psu dot edu"
 +++
 
+## Lessons / Resources
 {{% children depth="2" %}}
-

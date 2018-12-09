@@ -50,6 +50,7 @@ lastmodifieremail = "ebf11@psu.edu"
 
 # ICS-ACI
 
+- [Getting Started on ICS-ACI](/lessons/week1/how-to-use-aci)
 - [ICS-ACI User's Guide](https://ics.psu.edu/computing-services/ics-aci-user-guide/)
 - [ICS-ACI Training Series](https://ics.psu.edu/computing-services/ics-aci-training-series/)
 - [ICS-ACI On-demand Tutorial Videos](https://ics.psu.edu/computing-services/ics-aci-training-resources/ics-aci-on-demand-tutorial-videos/)

@@ -1,0 +1,25 @@
++++
+title = "Readings"
+weight = 12104  #wwdpp
+type="page"
+chapter= false
+
+# Creator's Display name
+creatordisplayname = "Eric Ford"
+# Creator's Email
+creatoremail = "ebf11 at psu dot edu"
+# LastModifier's Display name
+lastmodifierdisplayname = "Eric Ford"
+# LastModifier's Email
+lastmodifieremail = "ebf11 at psu dot edu"
++++
+
+
+# Week 12
+{{%excerpt%}}
+- Prior to Tuesday's class
+  + TODO: Pick reading
+- Prior to Thursday's class
+  + Submit First set of Parallel Project Code (passes tests, optimized for mult-core, shared-memory system)
+  + Begin Lab 9
+{{%/excerpt%}}
