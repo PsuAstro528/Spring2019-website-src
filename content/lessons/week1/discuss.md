@@ -25,6 +25,13 @@ High-Performance Scientific Computing for Astrophysics
 
 ---
 
+## Software Industry
+
+- How is scientific sofware development different?
+-                                      ...similar?
+
+---
+
 ## Testing
 
 - Does it make sense for scientific codes?
