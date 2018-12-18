@@ -14,12 +14,14 @@ lastmodifieremail = "ebf11@psu.edu"
 # Creating & Maintaining Course Content
 
 #### [GitHub](https://github.com/PsuAstro528)
+
 - Share lessons & assignments, version control, backup
 - Provide feedback to students via pull requests
 - Hosts website, lesson, assignments
 
 
 #### [GitHub Classroom](https://classroom.github.com/)
+
 - For distributing lessons & assignments via individual private repositories, providing feedback via GitHub pull requests.
 
 ---
@@ -47,7 +49,12 @@ lastmodifieremail = "ebf11@psu.edu"
 - [DocDock theme](https://github.com/vjeantet/hugo-theme-docdock)
 - [Reveal.js](https://github.com/hakimel/reveal.js/):  For building slideshows for class discussion and learning outside of classroom
 - [Pennsylvania Palette](https://sites.psu.edu/liberalartscommunications/visual-identity/colors/)
+---
+## Docker
 
+- 
+
+---
 
 ### Improve this page
 You can add your suggestions by submitting a pull request for editing [this file's source](https://github.com/PsuAstro528/Spring2019-website-src/blob/master/content/tools_used/_index.md).  Thanks!

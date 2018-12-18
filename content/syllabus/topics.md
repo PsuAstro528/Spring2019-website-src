@@ -24,11 +24,12 @@ lastmodifieremail = "ebf11@psu.edu"
     + Documentation & Literate Programing
     + Debugging
     + Benchmarking & Profiling
-    + Reproducible Results
-    + Containers
+    + Reproducible Results & Workflows
+    + Containers, Images, Environments
     + Efficient Workflows
 - Optimizing Code Performance
     + Modern Processors, Memory & Networking Architectures
+    + Choosing Algorithms
     + Serial Codes
     + Parraleling for Shared Memory (with in one node)
     + Distrbiuted Memory (across multiple nodes)

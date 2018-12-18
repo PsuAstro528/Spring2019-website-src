@@ -40,4 +40,4 @@ All of these objectives may not be realized within the one-semester course, and 
 
 {{% children depth="1" %}}
 - [Course Schedule](/lessons/)
-- [Additional Resources](/resources/)
+- [Additional Resources](/resources/other)
