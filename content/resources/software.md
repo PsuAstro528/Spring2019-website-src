@@ -51,7 +51,7 @@ lastmodifieremail = "ebf11@psu.edu"
 - [Docker Orientation](https://docs.docker.com/get-started/)
 - Docker for homework exercises:  [Github Repo](https://github.com/PsuAstro528/notebook) [Cloud.Docker.com Repo](https://cloud.docker.com/u/astro528/repository/docker/astro528/notebook)
 - [Jupyter Docker Stacks](https://github.com/jupyter/docker-stacks): More ready-to-run Docker images containing Jupyter applications [User guide](https://jupyter-docker-stacks.readthedocs.io/en/latest/)
-- [Setting up Docker on Linux](https://docs.docker.com/install/linux/docker-ce/ubuntu/#set-up-the-repository
+- [Setting up Docker on Linux](https://docs.docker.com/install/linux/docker-ce/ubuntu/#set-up-the-repository)
 - [How to remove Docker containers, images, volumes, networks](https://linuxize.com/post/how-to-remove-docker-images-containers-volumes-and-networks/)
 )
 

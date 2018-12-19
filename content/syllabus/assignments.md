@@ -53,7 +53,7 @@ For more information about the expectations for class projects and grading rubri
 ## Readings & Reading Questions
 Students will be expected to read assignments (or review a website, watch an online presentation, or listen to audio) before class on the days indicated, so they will be prepared to participate in class discussions and/or make progress writing code for the assignment.  
 
-All students should submit at least one question about the day’s readings via the [Canvas](http://canvas.psu.edu) discussion board at least _one hour prior_ to each discussion-based class (as opposed to lab classes).  The hour before class is important, so the instructor will have time to read the questions and plan how to organize the day’s discussion.  Submitting questions via the discussion is particularly important for any student who are reluctant to ask questions in class.  
+All students should submit at least one question about the day’s readings via email to the instructor with "Astro 528" in the subject line at least _one hour prior_ to each discussion-based class (as opposed to lab classes).  The hour before class is important, so the instructor will have time to read the questions and plan how to organize the day’s discussion.  Submitting questions via email is particularly important for any student who are reluctant to ask questions in class.  
 
  
 ## Class Participation

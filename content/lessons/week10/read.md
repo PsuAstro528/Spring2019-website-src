@@ -21,6 +21,7 @@ lastmodifieremail = "ebf11 at psu dot edu"
    + _Writing Scientific Software_ Ch 10: Make (4pg)
    + [Best Practices for Scientiﬁc Computing](http://arxiv.org/pdf/1210.0530v4.pdf): Sec. 2
    + [Julia Package Development](https://docs.julialang.org/en/v1/stdlib/Pkg/index.html)
+   + [Docker Orientation](https://docs.docker.com/get-started/) 
 - Prior to Thursday's class
   + [Best Practices for Scientiﬁc Computing](http://arxiv.org/pdf/1210.0530v4.pdf): Sec. 5-9 (5pg)
   + Begin Lab 8
