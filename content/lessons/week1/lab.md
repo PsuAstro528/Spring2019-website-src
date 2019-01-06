@@ -26,7 +26,7 @@ lastmodifieremail = "ebf11 at psu dot edu"
     + [Jupyter Notebooks](jupyter.org)
     + [Julia](https://julialang.org/)
 - Exercise 2: Floating Point Arithmetic, Functions, Tests
-- Exercise 3: TBD
+- Exercise 3: Reflect on your goals for the semester (and write them as a markdown document)
 {{%/excerpt%}}
 
 ## Lessons / Resources

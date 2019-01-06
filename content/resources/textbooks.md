@@ -15,6 +15,9 @@ lastmodifieremail = "ebf11@psu.edu"
 
 - [Think Julia: How to Think Like a Computer Scientist](https://benlauwens.github.io/ThinkJulia.jl/latest/book.html)
 
+# Related Courses
+- [Applications of Parallel Computers](https://sites.google.com/lbl.gov/cs267-spr2018/) (UC Berkeley CS 267)
+
 # Lawrence Livermore National Laboratory
 
 - [Introduction to Parallel Computing by Blaise Barney](https://computing.llnl.gov/tutorials/parallel_comp/)

@@ -5,3 +5,6 @@
 	path = public
 	url = git@github.com:PsuAstro528/PsuAstro528.github.io.git
 	branch = master
+[submodule "themes/book"]
+	path = themes/book
+	url = https://github.com/alex-shpak/hugo-book.git

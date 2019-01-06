@@ -19,6 +19,57 @@ High-Performance Scientific Computing for Astrophysics
 
 ---
 
+Priorities 
+(from textbook)
+- Correctness
+- Numerical stability
+- Accuracy (e.g., Discritization, Monte Carlo)
+- Flexibility
+- Efficiency
+   + Time
+   + Memory
+   + Code development
+
+Do you agree?
+
+---
+
+## What would unit tests miss?
+
+---
+
+## What if some code isn't being tested?
+
+- Coverage checking
+
+---
+
+## What if units aren't being connected correctly?
+
+---
+
+### Increasing chances of correctness
+
+- Modular code (functions)
+- Generic programming (design functions to take multiple types)
+- Reduce risk of interpretting inputs incorrectly
+  + Assertions to document/enforce pre-conditions
+  + Named parameters
+  + Specify types for function inputs
+- Document your functions/modules
+
+---
+
+### Increasing chances of correctness
+
+- Setup automatic testing
+- Use version control
+- Make and comit small changes
+- Test frequently 
+- Turn bugs into tests
+  
+---
+
 ## Continuous Integration
 
 - When is it important?
@@ -27,7 +78,45 @@ High-Performance Scientific Computing for Astrophysics
 
 ---
 
+Dangers of Documentation
+
+- Inaccurate
+- Out of date
+
+Solution:
+- Write documentation in code
+- Documentation generators (e.g., Documenter.jl)
+- Provide examples as documentation
+
+---
+
+## Documentation
+
+- Code can be a form of documentation!
+- Why add anything more?
+- Interfaces:  Inputs, outputs, pre/post-conditions
+- Reasons for design choices
+
+---
+
+## Collaborate
+
+- Pair coding
+- Peer code reviews
+- Commit & test often
+- Test/Review prior to merging
+- Track issues
+
+---
+
+## Your experiences
+
+- Premature optimization
+- Documentation
+- Collaboration
+
+---
+
 # Questions?
-<a href="#/0/0">Jump to start.</a>
 
 {{</revealjs>}}

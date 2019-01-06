@@ -1,6 +1,6 @@
 +++
 title = "Learning goals"
-weight = 01103  #wwdpp
+weight = 01101  #wwdpp
 type="page"
 chapter= false
 
@@ -17,9 +17,13 @@ lastmodifieremail = "ebf11 at psu dot edu"
 
 # Week 1
 {{%excerpt%}}
-- Course goals, overview, organization
-- Accessing ISC-ACI Portal / JuliaBox
-- Ex 1: Core software development tools
+- Understand course goals, overview, organization
+- Access ICS-ACI Portal's Jupyter Notebook Server using Julia Kernel
+   - Optionally access JuliaBox or Jupyter+Julia+Git on your own computer
+- Use Git & GitHub.com for retreiving and submitting lab assignments
+- Become vigilant about potential pitfalls with floating-point arithmetic
+- Recognize opportunities to improve producitivty through software development practices
+Ex 1: Core software development tools
 - Ex 2: Floating Point Arithmetic, Functions, Tests
 - Lessons along the way
     - Strings, Modules, Namespace, Types, include

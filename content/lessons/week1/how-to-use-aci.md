@@ -6,7 +6,7 @@ course_number = "Astro 528"
 course_name = "High-Performance Scientific Computing for Astrophysics"
 type = "page"
 hidden = false
-weight = 01102
+weight = 01104
 
 theme = "psu" # "league"
 [revealOptions]

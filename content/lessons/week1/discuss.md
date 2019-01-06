@@ -1,5 +1,5 @@
 +++
-title = "Discussion Topics 1"
+title = "Discussion Topics Week 1"
 date = "8 Jan 2019"
 course_inst = "Penn State"
 course_number = "Astro 528"
@@ -19,23 +19,30 @@ High-Performance Scientific Computing for Astrophysics
 
 ---
 
-## Floating Point Arithmetic
+## What makes scientific software special?
 
-- When do we need to be paranoid?
-
+Note:
+Floating-point arithmetic, Numerically intensive, Large data sets, Sophisticated tool sets, Rapidly changing specifications.  All also show up in other applications.
 ---
 
-## Software Industry
+## Comparing to Computer Software Industry
 
 - How is scientific sofware development different?
 -                                      ...similar?
 
 ---
 
+## Floating Point Arithmetic
+
+- When should we be paranoid?
+- What can we do about it?
+
+---
+
 ## Testing
 
+- How can you test a code solving an unsolved problem?
 - Does it make sense for scientific codes?
-- When?
 
 ---
 
@@ -43,11 +50,28 @@ High-Performance Scientific Computing for Astrophysics
 
 ---
 
-## What can we do to ease code reuse?
+## How to ease code reuse
+- Correctness?
+- Efficiency?
+- Likelihood?
+
+---
+
+## Your experiences
+- Programming
+- Size of project/team
+
+---
+
+## Your experiences
+- Testing (or lack thereof)
+- Floating-point arithmetic gotchas
+- Someone reusing your code
+- Favorite Software development practices
 
 ---
 
 # Questions?
-<a href="#/0/0">Jump to start.</a>
 
 {{</revealjs>}}
+
