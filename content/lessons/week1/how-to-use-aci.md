@@ -73,7 +73,7 @@ echo "export LD_LIBRARY_PATH=$PWD/lib/julia:$LD_LIBRARY_PATH" >> ~/.bashrc
 # Setup IJulia and a few packages that we'll be using lots
 julia -e 'using Pkg; Pkg.add(["IJulia","Weave","NBInclude"])'
 
-# Create ssh-keys
+# Create ssh-keys (unless you've already done that on ACI)
 ssh-keygen -t rsa -b 4096  # follow prompts, default location should be ok
 cat ~/.ssh/id_rsa.pub
 ```
@@ -101,7 +101,7 @@ Each time in the future you want to start a Jupyter notebook session on ICS-ACI
     + Select:
         - Anaconda version: 5.0.1-3.6.3
         - Allocation: Open
-        - Number of hours: 1 hour
+        - Number of hours: 2 hours
         - Node type: ACI-i
     + Click _Launch_
     + Wait while your job starts
@@ -109,7 +109,7 @@ Each time in the future you want to start a Jupyter notebook session on ICS-ACI
     + Near the upper right, there's a _New_ button, from which you can create a new blank notebook using Julia 1.0.2 or access a terminal or text editor.
     + If you'd like to create a blank notebook, then choose _New.Julia 1.0.2_
     + A new browser tab should open where you can work with a notebook interactively.
-    + Do your work, remembering to save your notebook after key edits and before you quite.
+    + Do your work, remembering to save your notebook after key edits and before you quit.
 - When you're done, close notebook tabs and click logout in upper right (of the Jupyter server session).
 - Go back to the "My Interactive Sessions" tab in the ACI Portal, click "Delete" for this Sessions and confirm.
 
@@ -133,11 +133,11 @@ Each time in the future you want to start a Jupyter notebook session on ICS-ACI
 ```shell
 git clone REPO_URL  # where REPO_URL is what you'll paste from the clipboard
 ```
-- Change into the directory that was created for the repository (we'll call REPO_DIR) and setup all the packge dependancies required.
+- Change into the directory that was created for the repository (we'll call REPO_DIR) and setup all the packge dependancies required (as specified by the test/Project.toml file).  (For people who are particularly interested in Julia's package manager:  Normally, this would be in the root directory, but I found having one broken mybinder.org's ability to install Julia packages successfully.  So putting the Project.toml in the test directory is a work around for repositories that don't need to become a Julia package.)
 
 ```shell
 cd REPO_DIR
-julia -e 'using Pkg; Pkg.activate("."); Pkg.instantiate(); '
+julia -e 'using Pkg; cd("test"); Pkg.activate("."); Pkg.instantiate(); '
 ```
 - Optional (can do later if needed):  In case the instructor makes changes to the template, it would be useful to be able to merge in those changes easily.  To prepare for that, let's set a remote upstream repository.  Here I assume that your REPO_URL was https://github.com/GITHUBID/example-GITHUBID.git.  Notice that we're replacing the first GITHUB id by the organization name "PsuAstro528" and remove the "-GITHUBID" at the end.
 ```shell
@@ -154,8 +154,8 @@ git remote add upstream git@github.com/PsuAstro528/example.git
 <a id="run-tests"></a>
 ### Test your code
 
-- Make sure you've committed all your changes
-- Check that your code passes the tests for each exercise as you go in a separate test notebook like
+- Make sure you've committed all your changes (including adding any new files)
+- Check that your code passes the tests for each exercise as you go in a separate test notebook like test_myself.ipynb:
 
 ```julia
 using NBInclude
@@ -163,7 +163,7 @@ using NBInclude
 include("test/test1.jl")
 ```
 - If you make changes and retest, then restart the kernel for the test notebook to be sure there aren't unintended carryover effects
-- You can test your full repository as it will be tested by Travis-CI by opening a terminal window and running `julia test/runtests.jl`
+- You can test your full repository even more similarly to how it will be tested by Travis-CI by opening a terminal window and running `julia test/runtests.jl`
 
 ---
 <a id="commit-push"></a>
@@ -179,7 +179,8 @@ git add NOTEBOOK_NAME.jmd  # Only need to do this once per new file if you use t
 git commit -a -m "note about what you've done"  # Commit all changes you've made
 git push                                        # Uploads your progress to github
 ```
-- If this repository is configured to apply tests via continuous integration, then check back on whether your changes pass the tests.
+- If this repository is configured to apply tests via continuous integration, then check back on whether your changes pass the tests.  The results will be avaliable at a url like https://travis-ci.com/PsuAstro528/labN-GITHUBID/ .
+
 - When you're all done, close browser tabs and remember to go back to the "My Interactive Sessions" tab in the ACI Portal, click "Delete" for this Sessions and confirm.
 
 ---
@@ -187,9 +188,9 @@ git push                                        # Uploads your progress to githu
 ### Submit your work via Github pull request
 
 - Make sure you've committed all your changes
-- Check that your code passes all the tests (or as many as practical)
+- Check that your code passes all the tests (or as many as practical in reasonable ammount of your time)
 - Navigate to your github repository for the assignment
-- Click _New Pull Request_ button
+- Click _New Pull Request_ button (second button from left, below the orange bar)
 - Set the left button to "base:original".  Leave the right button "compare:master".
 - Review the updates to the page and make sure this is the version you intend to submit.
 - Enter a name for the pull request in the text box to the right of your avitar/icon.
@@ -204,3 +205,4 @@ git push                                        # Uploads your progress to githu
 - In the conversations tab (default), you and the instructor can discuss the pull request using the text box at the bottom of the page.
 - In the "Files changed" tab, the instructor can provide comments on specific lines of your submission.
 - You can view the comments, reply, close the pull request, make more changes, create a new pull request, etc.
+
