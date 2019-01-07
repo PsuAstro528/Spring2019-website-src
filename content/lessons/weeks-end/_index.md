@@ -1,5 +1,5 @@
 +++
-title = "Weeks 13-15: Class Presentations"
+title = "Weeks 13-15: Project Presentations"
 weight = 13101  #wwdpp
 type="page"
 chapter= true

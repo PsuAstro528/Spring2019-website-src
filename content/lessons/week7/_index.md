@@ -1,5 +1,5 @@
 +++
-title = "Week 7: Parallel Computing Principles"
+title = "Week 7: Parallel Computing"
 weight = 07101  #wwdpp
 type="page"
 chapter= true

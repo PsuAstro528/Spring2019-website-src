@@ -1,5 +1,5 @@
 +++
-title = "Present Project Results to Class"
+title = "Present Project to Class"
 weight = 14120  #wwdpp
 type="page"
 chapter= false
@@ -14,7 +14,15 @@ lastmodifierdisplayname = "Eric Ford"
 lastmodifieremail = "ebf11 at psu dot edu"
 +++
 
-## Grading Rubric
+## Schedule of Presentations 
+- April  9:
+- April 11:
+- April 16: 
+- April 18:
+- April 23:
+- April 25:
+
+## Grading Rubric for Project Presentation 
 {{%excerpt%}}
 - Motivation/Introduction/Overview, so class can understand broader goals (1 point)
 - Explanation of specific calculation being performed, so class can understand what follows (1 point)
