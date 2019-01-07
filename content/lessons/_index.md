@@ -2,6 +2,7 @@
 title = "Schedule"
 weight = 200
 type="page"
+alwaysopen = true
 chapter= true
 
 # Creator's Display name

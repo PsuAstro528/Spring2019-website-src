@@ -2,7 +2,9 @@ baseURL = "https://psuastro528.github.io/"
 
 languageCode = "en-us"
 DefaultContentLanguage = "en"
-title = "Astro 528: HPC for Astrophysics"
+title = "PSU Astro 528"
+description = "High-Performance Scientific Computing for Astrophysics"
+tags = ["Penn State", "PSU", "Astronomy", "Astrophysics", "ICS", "Institute for CyberScience", "Astro 528", "2019"]
 theme = "docdock"
 #themesdir = "../.."
 pygmentsCodeFences = true
@@ -50,7 +52,7 @@ home = [ "HTML", "RSS", "JSON"]
 [menu]
 
 [[menu.shortcuts]]
-pre = "<h3>More</h3>"
+#pre = "<h3>More</h3>"
 name = "<img src='http://socialmedia.psu.edu/files/2015/09/psu-avatar-no_containing_shape-285x300.png' height='90%'> <label>ACI Portal</label>"
 identifier = "aci portal"
 url = "http://portal.aci.ics.psu.edu"

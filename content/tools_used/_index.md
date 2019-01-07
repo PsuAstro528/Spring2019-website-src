@@ -1,8 +1,8 @@
 +++
 title = "The Making of..."
 weight = 1000
-type="page"
-hidden=false
+type = "page"
+hidden = false
 include_toc = true
 
 creatordisplayname = "Eric Ford"
