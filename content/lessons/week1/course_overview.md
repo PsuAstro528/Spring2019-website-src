@@ -102,6 +102,10 @@ Ask if any students already using parallel codes.  If so, how were they parallel
     + Share what you learn with the class
 ___
 ### Readings, presentation
+![textbooks](/images/textbooks.jpg)
+
+___
+### Readings, presentation
 - Textbooks
    + _Writing Scientific Software: A Guide to Good Style_
    + _ThinkJulia: How to Think like a Computer Scientist_
