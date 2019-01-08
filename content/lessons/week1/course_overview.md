@@ -42,6 +42,11 @@ Enhance your skills for scientific computing
 - Parallelizing code efficiently
 ___
 ### Software Development Practices
+
+Note:
+Ask what students think of when they hear "software development practices".
+___
+### Software Development Practices
 - Version control
 <!-- .element: class="fragment" -->
 - Testing & Continuous Integration
@@ -59,9 +64,6 @@ ___
 - Workflow
 <!-- .element: class="fragment" -->
 
-Note:
-Ask what students think of when they hear "software development practices".
-___
 ### Writing efficient serial code
 - Processor architectures
 - Memeory heirarchy
@@ -74,11 +76,12 @@ ___
 - Optimizing
 ___
 ### Parallelizing code efficiently
-- Shared-memory
-- Distributed-memory
+- Shared-memory (e.g., one workstation)
+- Distributed-memory (e.g., cluster)
 - Accelerators
    + GPUs
    + Intel Phis
+   + TPUs (volunteers?)
 - Cloud
 
 Note:
@@ -91,7 +94,7 @@ Ask if any students already using parallel codes.  If so, how were they parallel
 - Practice fundamentals on a small scalle
     + Lab/homework exercises
     + Make lots of mistakes quickly & learn from them
-    + Make good habits rouine
+    + Make good habits routine
 - Transfer skills into real work environment
     + Class project
     + Apply new skills to your research
@@ -120,34 +123,45 @@ ___
 <section id="setup">
 ## Let's get you set up
 ### Accounts
-- [Github](https://github.com)
-- [JuliaBox](https://juliabox.com)
 - Penn State
 - [ICS-ACI](https://ics.psu.edu/computing-services/account-setup/)
+- [Github](https://github.com)
 - [Travis-CI_.com_](https://travis-ci.com/)
+- [JuliaBox](https://juliabox.com) (if ICS-ACI account isn't active yet)
 
 Note: For travis-ci, it's a dot com and not a dot org (in order to link to private github repos with the assignments).
 </section>
 ___
-### Get started
-For your first lab session, you'll
-- Accept invitation for Lesson 1
-- View your new repository on [Github](https://github.com)
+<section id="start">
+### Get Started
+For your first lab session, you'll:
+- Follow link for lab 1 from Canvas announcement
+- View _your_ new repository on [Github](https://github.com)
 - Login to where you'll run your Jupyter notebooks (with Julia 1.0 kernel)
-   + [JuliaBox](https://juliabox.com)
    + [ICS-ACI Portal](http://portal.aci.ics.psu.edu/)
+   + [JuliaBox](https://juliabox.com)
    + [Install locally](https://julialang.org/downloads) (not for today)
-- Clone repo for Lesson 1
-- Start working through intro.ipynb
-- Ask questions as you go
-- Commit your changes to your repo and push them to github
-- If/when you're done, create a pull request to merge your work into the original branch.
+- _Clone_ your "repo" for the lab
+- Start working through ex1.ipynb, then ex2.ipynb
 
-For this first lab/assignment, there are [more detailed instructions](lessons/how-to-use-aci.md) about doing these using the ICS-ACI Portal.
+There are [more detailed instructions](lessons/how-to-use-aci.md) about doing these using the [ICS-ACI Portal](http://portal.aci.ics.psu.edu/).
+___
+### Commiting Changes
 
+- _Commit_ your changes to local "repo"
+- For human-readable version control:
+  + Use Weave's convert_doc to conver Jupyter notebook (ex1.ipynb) into Julia Markdown (ex1.jmd)
+  + Add & commit both ex?.ipynb and ex?.jmd files to your local repo
+  + Before signing off for the session, "push" your commits to GitHub
+- When done with lab, create a _pull request_ to merge your work into the _branch_ named "original".
 
----
+- See [more detailed instructions](lessons/how-to-use-aci/#commit-push) & 
+  ask questions as you go
+___
+</section>
 
 # Questions?
-<a href="#/0/0">Jump to start.</a>
+[Jump to start](#/0/0")
+
 {{</revealjs>}}
+

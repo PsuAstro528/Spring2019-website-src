@@ -46,7 +46,7 @@ Floating-point arithmetic, Numerically intensive, Large data sets, Sophisticated
 
 ---
 
-## Is anyone really going to reuse my code?
+## Is anyone going to reuse my code?
 
 ---
 
