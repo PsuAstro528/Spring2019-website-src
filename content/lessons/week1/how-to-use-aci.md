@@ -156,7 +156,7 @@ julia -e 'using Pkg; cd("test"); Pkg.activate("."); Pkg.instantiate(); '
 ```
 - Optional (can do later if needed):  In case the instructor makes changes to the template, it would be useful to be able to merge in those changes easily.  To prepare for that, let's set a remote upstream repository.  Here I assume that your REPO_URL was https://github.com/GITHUBID/example-GITHUBID.git.  Notice that we're replacing the first GITHUB id by the organization name "PsuAstro528" and remove the "-GITHUBID" at the end.
 ```shell
-git remote add upstream git@github.com/PsuAstro528/example.git
+git remote add upstream git@github.com:PsuAstro528/example.git
 ```
 
 - Go back to the browser tab with your Jupyter notebook server running.
