@@ -38,11 +38,11 @@ The grading rubric for each part of the proposal is provided below.
 
 {{%excerpt-include filename="lessons/week8/project.md" /%}}
 
-### Checkpoint 2: Parallel version of code (multi-core)
+### Checkpoint 2: Submit first parallel version of code (multi-core)
 
 {{%excerpt-include filename="lessons/week11/project.md" /%}}
 
-### Completed Project: Second parallel version of code (Distributed-Memory/GPU/Cloud)
+### Completed Project: Submit second parallel version of code (Distributed-Memory/GPU/Phi/Cloud)
 
 {{%excerpt-include filename="lessons/week14/project.md" /%}}
 

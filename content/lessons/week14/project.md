@@ -14,7 +14,7 @@ lastmodifierdisplayname = "Eric Ford"
 lastmodifieremail = "ebf11 at psu dot edu"
 +++
 
-# Submit Completed Class Project
+# Grading Rubric for second parallelization method
 {{%excerpt%}}
 - Choice of portion of code to parallelize (1 point)
 - Choice of approach for parallelizing code (1 point)

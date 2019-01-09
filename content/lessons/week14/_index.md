@@ -1,5 +1,5 @@
 +++
-title = "Week 14: Full Class Project"
+title = "Week 14: Full Class Project due"
 weight = 14101  #wwdpp
 type="page"
 chapter= true
@@ -16,3 +16,5 @@ lastmodifieremail = "ebf11 at psu dot edu"
 
 ## Lessons / Resources
 {{% children depth="2" %}}
+
+{{% alert theme="danger" %}} Due April 18 {{% /alert %}}
