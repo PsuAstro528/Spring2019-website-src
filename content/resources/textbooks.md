@@ -32,4 +32,4 @@ lastmodifieremail = "ebf11@psu.edu"
 - [Parallel Programming in MPI and OpenMP](https://bitbucket.org/VictorEijkhout/parallel-computing-book/raw/7238cedd075f59a840ae72def47e004aab669811/EijkhoutParComp.pdf) by Eijkhout (2017):  ([slides on OpenMP](https://bitbucket.org/VictorEijkhout/parallel-computing-book/raw/7238cedd075f59a840ae72def47e004aab669811/EijkhoutOMPlecture.pdf)) ([slides on MPI](https://bitbucket.org/VictorEijkhout/parallel-computing-book/raw/7238cedd075f59a840ae72def47e004aab669811/EijkhoutMPIlecture.pdf)) ([source](https://bitbucket.org/VictorEijkhout/parallel-computing-book/src/7238cedd075f?at=default))
 
 ### Improve this page
-You can add your suggestions by submitting a pull request for editing [this file's source](https://github.com/PsuAstro528/Spring2019-website-src/blob/master/content/resources/_index.md).  Thanks!
+You can add your suggestions by submitting a pull request for editing [this file's source](https://github.com/PsuAstro528/Spring2019-website-src/blob/master/content/resources/textbooks.md).  Thanks!
