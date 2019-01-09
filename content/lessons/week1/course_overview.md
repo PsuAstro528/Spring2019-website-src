@@ -144,7 +144,7 @@ For your first lab session, you'll:
 - _Clone_ your "repo" for the lab
 - Start working through ex1.ipynb, then ex2.ipynb
 
-There are [more detailed instructions](lessons/how-to-use-aci.md) about doing these using the [ICS-ACI Portal](http://portal.aci.ics.psu.edu/).
+There are [more detailed instructions](lessons/week1/how-to-use-aci.md) about doing these using the [ICS-ACI Portal](http://portal.aci.ics.psu.edu/).
 ___
 ### Commiting Changes
 
@@ -155,7 +155,7 @@ ___
   + Before signing off for the session, "push" your commits to GitHub
 - When done with lab, create a _pull request_ to merge your work into the _branch_ named "original".
 
-- See [more detailed instructions](lessons/how-to-use-aci/#commit-push) & 
+- See [more detailed instructions](lessons/week1/how-to-use-aci/#commit-push) & 
   ask questions as you go
 ___
 </section>
