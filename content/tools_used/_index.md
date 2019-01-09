@@ -1,5 +1,5 @@
 +++
-title = "The Making of..."
+title = "The Making of Astro528"
 weight = 1000
 type = "page"
 hidden = false
@@ -11,7 +11,7 @@ lastmodifierdisplayname = "ebf11 at psu dot edu"
 lastmodifieremail = "ebf11@psu.edu"
 +++
 
-# Creating & Maintaining Course Content
+# Tools for Creating & Maintaining Course Content
 
 ## [GitHub](https://github.com/PsuAstro528)
 
@@ -31,7 +31,8 @@ lastmodifieremail = "ebf11@psu.edu"
 - [Weave](https://github.com/mpastell/Weave.jl): 
    + Converts draft Jupyter notebooks into [Julia Markdown](https://docs.julialang.org/en/latest/stdlib/Markdown/)
    + Quickly update and regenerate Jupyter notebooks from updated Julia Markdown.
-   + Converts student Jupyter notebooks into Julia scripts for feedback on pull requests.
+   + Converts student Jupyter notebooks into Julia Markdown 
+   + Makes GitHub diffs human readable and comments on pull requests useful
 - [NBInclude](https://github.com/stevengj/NBInclude.jl): For testing student's code provided in Jupyter notebook form
 - [NBDime](https://github.com/jupyter/nbdime#installation): For diffing Jupyter notebooks
 
