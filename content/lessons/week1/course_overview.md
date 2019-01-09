@@ -64,6 +64,7 @@ ___
 - Workflow
 <!-- .element: class="fragment" -->
 
+___
 ### Writing efficient serial code
 - Processor architectures
 - Memeory heirarchy

@@ -63,16 +63,31 @@ tar -xf julia-1.0.2-linux-x86_64.tar.gz
 cd julia-1.0.2
 
 # Setup paths so Julia can be found
+# If you've not used ICS-ACI before (or have used it without changing the
+# default settings), then the follow lines should work.  
 export PATH=$PWD/bin:$PATH
 export LD_LIBRARY_PATH=$PWD/lib:$LD_LIBRARY_PATH
 export LD_LIBRARY_PATH=$PWD/lib/julia:$LD_LIBRARY_PATH
 echo "export PATH=$PWD/bin:$PATH" >> ~/.bashrc
 echo "export LD_LIBRARY_PATH=$PWD/lib:$LD_LIBRARY_PATH" >> ~/.bashrc
 echo "export LD_LIBRARY_PATH=$PWD/lib/julia:$LD_LIBRARY_PATH" >> ~/.bashrc
+# But if you have already been using ICS-ACI, then you may have adjusted
+# your default paths in a way that prevents the ICS-ACI portal from starting 
+# properly.  (Or a program may have done it for you.  In that case, I 
+# suggest commenting out the lines of your .bashrc, .bash_profile, 
+# .bash_login or .profile that set your PATH variable.  
+# Then logout of aci-i and log back in, so that you're back to the "default" 
+# PATH.  Then try following command (not commented out) 
+# export PATH=${PATH}:/storage/home/ebf11/work/julia_install/julia-1.0.2/bin:/opt/aci/sw/python/3.6.3_anaconda-5.0.1/scripts:/usr/lib64/qt-3.3/bin
+# to update your path default to including julia and python.
+
 
 # Setup IJulia and a few packages that we'll be using lots
 julia -e 'using Pkg; Pkg.add(["IJulia","Weave","NBInclude"])'
+```
 
+- If you do not already have ssh keys setup on ICS-ACI, then create them with:
+```shell
 # Create ssh-keys (unless you've already done that on ACI)
 ssh-keygen -t rsa -b 4096  # follow prompts, default location should be ok
 cat ~/.ssh/id_rsa.pub
@@ -119,8 +134,8 @@ Each time in the future you want to start a Jupyter notebook session on ICS-ACI
 
 - Request a Jupyter notebook session on ACI (see [above](#start-jupyter))
 - While waiting for it to start, let's get the url for the repo to be cloned.
-    + If you haven't followed the link to create your repo for this week's assignment, do that now.
-    + Navigate to the github repository you'll be using.
+    + If you haven't followed the link to create your repo for this week's assignment, do that now.  Following that link should trigger GitHub to create a private git repository named labN-GITHUBID (where N is the week number and GITHUBID is the GitHub username that you're logged in as at the time you follow the link).  
+    + Navigate to the github repository you'll be using in your browser.
     + Click _Clone or download_.
     + If it says "Clone with https", click "Use ssh".
     + Click the clipboard icon to copy the url onto your clipboard
