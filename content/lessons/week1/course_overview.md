@@ -1,5 +1,5 @@
 +++
-title = "Course Overview"
+title = "Course Overview (slides)"
 date = "8 Jan 2019"
 course_inst = "Penn State"
 course_number = "Astro 528"

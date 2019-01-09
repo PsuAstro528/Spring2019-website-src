@@ -1,5 +1,5 @@
 +++
-title = "Discussion Topics Week 1"
+title = "Discussion Topics Week 1 (slides)"
 date = "8 Jan 2019"
 course_inst = "Penn State"
 course_number = "Astro 528"
