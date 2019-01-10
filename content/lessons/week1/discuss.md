@@ -23,7 +23,7 @@ High-Performance Scientific Computing for Astrophysics
 
 Note:
 Floating-point arithmetic, Numerically intensive, Large data sets, Sophisticated tool sets, Rapidly changing specifications.  All also show up in other applications.
----
+___
 
 ## Comparing to Computer Software Industry
 
@@ -37,6 +37,48 @@ Floating-point arithmetic, Numerically intensive, Large data sets, Sophisticated
 - When should we be paranoid?
 - What can we do about it?
 
+___
+
+## Floating Point Arithmetic
+
+- Would using extended precision number help?
+  + DoubleFloats.jl: Double16, Double32, Double64 
+- When would it not help?
+
+---
+## Your Questions
+How (often) to submit reading questions?
+___
+
+## Languages
+
+- Why other langues slower?
+- What is Julia _not_ good for?
+
+---
+
+# Questions about Lab
+___
+## One-pass versus a two-pass algorithm?
+- What does `var(x)` do?
+___
+## Do I need to declare a variable's type?
+
+Languages:
+
+- Static (e.g., C/C++, Fortran)
+- Dynamic (e.g., perl, Python)
+- Optional (Julia)
+___
+
+## Julia's Type Heirarchy
+
+- Float32 <: Real
+- Float64 <: Real
+- Real <: Number
+- Int64 <: Integer
+- Integer <: Real
+
 ---
 
 ## Testing
@@ -47,21 +89,20 @@ Floating-point arithmetic, Numerically intensive, Large data sets, Sophisticated
 ---
 
 ## Is anyone going to reuse my code?
-
----
+___
 
 ## How to ease code reuse
 - Correctness?
 - Efficiency?
 - Likelihood?
 
----
+----
 
 ## Your experiences
 - Programming
 - Size of project/team
 
----
+___
 
 ## Your experiences
 - Testing (or lack thereof)
@@ -74,4 +115,3 @@ Floating-point arithmetic, Numerically intensive, Large data sets, Sophisticated
 # Questions?
 
 {{</revealjs>}}
-
