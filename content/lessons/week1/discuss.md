@@ -42,7 +42,7 @@ ___
 ## Floating Point Arithmetic
 
 - Would using extended precision number help?
-  + DoubleFloats.jl: Double16, Double32, Double64 
+  + DoubleFloats.jl: Double16, Double32, Double64
 - When would it not help?
 
 ---
@@ -96,7 +96,7 @@ ___
 - Efficiency?
 - Likelihood?
 
-----
+---
 
 ## Your experiences
 - Programming
@@ -113,5 +113,7 @@ ___
 ---
 
 # Questions?
+- [Queue for help with lab](https://classroomq.com/students/):
+- Class Code: EI59CV
 
 {{</revealjs>}}
