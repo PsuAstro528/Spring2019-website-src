@@ -18,7 +18,6 @@ lastmodifieremail = "ebf11 at psu dot edu"
 - [Readings, Tutorials & Other Preparation for Class](#readings)
 - [Lab/Homework Exercises](#labs)
 - [Class Project](#project)
-- [Learng Goals & Objectives](#goals)
 
 ---
 
@@ -88,13 +87,3 @@ Week 12
 
 ---
 
-<a id="goals"></a>
-# Learning Goals & Objectives
-
-Week 1/Lab 1
-{{%excerpt-include filename="lessons/week1/goals.md" /%}}
-
-Week 2/Lab 2
-{{%excerpt-include filename="lessons/week2/goals.md" /%}}
-
-TODO: Add goals for future weeks.

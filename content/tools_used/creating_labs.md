@@ -89,20 +89,19 @@ git checkout solution exN.jmd
    - Search for SOLUTION and remove code not for students to see
    - Should I automate this?
 
-11.  Recreate cleaned notebook files exN.ipynb and add to master branch
-```julia
-using Weave
-convert_doc("ex1.jmd","ex1.ipynb")
-convert_doc("ex2.jmd","ex2.ipynb")
-convert_doc("exN.jmd","exN.ipynb")
+11.  Recreate cleaned notebook files exN.ipynb
+```shell
+julia -e 'using Weave; convert_doc("ex1.jmd","ex1.ipynb");'
+julia -e 'using Weave; convert_doc("ex2.jmd","ex2.ipynb");'
+julia -e 'using Weave; convert_doc("exN.jmd","exN.ipynb");'
 ```
-   - Check that you're happy with the resulting notebooks
+12. Check that you're happy with the resulting notebooks, then add & commit them to master branch.
 ```shell
 git add ex?.jmd ex?.ipynb
 git commit -m "cleaned ex"
 ```
 
-12.  Create starter repostiory on GitHub.com from development repository
+13.  Create starter repostiory on GitHub.com from development repository
    - Create an empty public lab named labN-start at GitHub as part of the organization for the class.
       + Go to https://github.com/PsuAstro528, click New
       + Description: Lab N:  List super-short lesson goals
@@ -122,16 +121,16 @@ git commit -m "init"
 git push
 ```
 
-13. Make original branch for comparison purposes
+14. Make original branch for comparison purposes
 ```shell
 git checkout -b original
 git push -u origin original
 git checkout master
 ```
 
-14. Check that you're happy with the labN-start repository
+15. Check that you're happy with the labN-start repository
 
-15. Go to https://classroom.github.com/classrooms
+16. Go to https://classroom.github.com/classrooms
    - Choose class
    - New Assignment
    - Create an Individual Assignment
