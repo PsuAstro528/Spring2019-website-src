@@ -36,13 +36,13 @@ Do you agree?
 
 ## What would unit tests miss?
 
----
+___
 
 ## What if some code isn't being tested?
 
 - Coverage checking
 
----
+___
 
 ## What if units aren't being connected correctly?
 
@@ -58,7 +58,7 @@ Do you agree?
   + Specify types for function inputs
 - Document your functions/modules
 
----
+___
 
 ### Increasing chances of correctness
 
@@ -68,7 +68,7 @@ Do you agree?
 - Test frequently 
 - Turn bugs into tests
   
----
+___
 
 ## Continuous Integration
 
@@ -88,7 +88,7 @@ Solution:
 - Documentation generators (e.g., Documenter.jl)
 - Provide examples as documentation
 
----
+___
 
 ## Documentation
 
