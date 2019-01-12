@@ -29,7 +29,7 @@ The regular homework exercises are designed to provide the scafolding to help st
 - Second Peer Code Review (of parallelized code)
 - Code parallelized for distributed-memory, accelerator or cloud
 - Benchmarking results showing how the performance of the code scales with increasing number of processors for multiple problem sizes
-- Presentation to class
+- Presentation to class  ([Presentation Schedule](https://github.com/PsuAstro528/PresentationsSchedule2019))
 - Documentation and packaging of code for reuse by others
 
 See the [grading rubrics](rubrics) for details of the expectations for each part of the project.
