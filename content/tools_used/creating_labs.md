@@ -67,7 +67,7 @@ git commit -m "for exN"
 git push -u origin solution`
 ```
 
-7. Check status of test at https://travis-ci.com/PsuAstro528/labN-start/ .  Once it passes tests using Travis-CI and you're ready to share, use Weave package to convert notebooks into jmd files
+7. Check status of test at https://travis-ci.com/PsuAstro528/labN-dev/ .  Once it passes tests using Travis-CI and you're ready to share, use Weave package to convert notebooks into jmd files
 ```shell
 julia -e 'using Weave; convert_doc("ex1.ipynb","ex1.jmd");'
 julia -e 'using Weave; convert_doc("ex2.ipynb","ex2.jmd");'
@@ -83,6 +83,7 @@ git add ex?.jmd; git commit -m "convert from ipynb"
 ```shell 
 git checkout master
 git checkout solution exN.jmd 
+git checkout solution test/testN.jl
 ```
 
 10. Edit each exN.jmd to remove code
@@ -97,8 +98,9 @@ julia -e 'using Weave; convert_doc("exN.jmd","exN.ipynb");'
 ```
 12. Check that you're happy with the resulting notebooks, then add & commit them to master branch.
 ```shell
-git add ex?.jmd ex?.ipynb
+git add ex?.jmd ex?.ipynb test/test?.jl
 git commit -m "cleaned ex"
+git push
 ```
 
 13.  Create starter repostiory on GitHub.com from development repository
@@ -114,11 +116,14 @@ git commit -m "cleaned ex"
    - Make _sure_ you're in the labN-start subdirectory
    - `rm -f .git`
    - `git init`
+   - `git remote add origin git@github.com:PsuAstro528/labN-start.git`
    - Edit .travis.yml to no longer just test solution and now exclude original branch
+
 ```shell
 git add *
+git add .gitignore .travis.yml 
 git commit -m "init"
-git push
+git push --set-upstream origin master
 ```
 
 14. Make original branch for comparison purposes

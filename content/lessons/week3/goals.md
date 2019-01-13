@@ -16,8 +16,8 @@ lastmodifieremail = "ebf11 at psu dot edu"
 
 # Week 3
 {{%excerpt%}}
-- Apply "Programming in the Large" to your class project
-- Compare algorithms using Big-O notation
+- Apply "Programming in the Large" to your class project 
+- Choose data structures wisely
 - Choose data structures wisely
 - Document code to make peer code review effective
 - Lessons along the way

@@ -16,10 +16,10 @@ lastmodifieremail = "ebf11 at psu dot edu"
 
 
 {{%excerpt%}}
-<b>Benchmarking, Memory Access, Disk I/O</b><br />
+<b>Memory Access, Disk I/O</b><br />
 [Lab 3 Git Repository](https://github.com/PsuAstro528/lab3-start) (due Jan 27)
 
-- Exercise 1:
-- Exercise 2:
-- Exercise 3:
+- Exercise 1: TBD
+- Exercise 2: TBD
+- Exercise 3: TBD
 {{%/excerpt%}}

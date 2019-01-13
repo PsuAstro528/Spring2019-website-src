@@ -18,9 +18,9 @@ lastmodifieremail = "ebf11 at psu dot edu"
 <b>Assertions, Unit Testing, Countinuous Integrations, Benchmarking</b><br />
 [Lab 2 Git Repository](https://github.com/PsuAstro528/lab2-start) (due Jan 20)
 
-- Exercise 1: Numerical Stability & N-body Integration
-- Exercise 2: Assertions, Unit Testing, Continuous Integration
-- Exercise 3: Benchmarking
+- Exercise 1: Benchmarking, Big-O Analysis, Compute vs Memory Limits
+- Exercise 2: Numerical Stability of N-body Integration
+- Exercise 3: Unit Testing for Floating Point Arithmetic, Defensive Programming, Assertions, Continuous Integration, End-to-end testing, Validation
 {{%/excerpt%}}
 
 ## Lessons / Resources
