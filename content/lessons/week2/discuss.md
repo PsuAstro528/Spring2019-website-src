@@ -1,6 +1,6 @@
 +++
 title = "Discussion Topics 2"
-date = "8 Jan 2019"
+date = "15 Jan 2019"
 course_inst = "Penn State"
 course_number = "Astro 528"
 course_name = "High-Performance Scientific Computing for Astrophysics"
@@ -113,7 +113,6 @@ ___
 ___
 What should you do with existing code that's already poorly written but you may need to use again in the future?
 - Rewrite it, or try to fix it?
-
 
 ---
 ## Your Questions 
