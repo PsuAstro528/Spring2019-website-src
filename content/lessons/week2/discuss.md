@@ -1,6 +1,6 @@
 +++
 title = "Discussion Topics 2"
-date = "8 Jan 2019"
+date = "15 Jan 2019"
 course_inst = "Penn State"
 course_number = "Astro 528"
 course_name = "High-Performance Scientific Computing for Astrophysics"
@@ -82,17 +82,25 @@ Reading the "Best Practices for Scientific Computing" I noticed that I often mak
 
 What should you do with existing code that's already poorly written but you may need to use again in the future?
 - Rewrite it, or try to fix it?
-___
+
+---
+# Week 2, Day 2
+---
+
+Is it ok to follow different documentation conventions for different audiences?
+- advisor,
+- a group of collaborators
+- my future self
+
+I think so.
+
+---
+
 # Let the computer do the work
 
 Is there a logging package in Julia that can keep track of inputs, parameters, outputs, etc.?
 
----
-
----
-
----
-
+I'm not aware of one.
 
 ---
 
