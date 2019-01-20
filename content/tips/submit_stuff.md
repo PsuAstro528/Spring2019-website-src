@@ -1,6 +1,6 @@
 +++
 title = "Scripts for Submitting Lab"
-weight = 1001
+weight = 1002
 type="page"
 include_toc = true
 

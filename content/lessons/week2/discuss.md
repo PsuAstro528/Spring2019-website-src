@@ -1,6 +1,6 @@
 +++
-title = "Discussion Topics 2"
-date = "15 Jan 2019"
+title = "Discussion Topics Week 2"
+date = "13 Jan 2019"
 course_inst = "Penn State"
 course_number = "Astro 528"
 course_name = "High-Performance Scientific Computing for Astrophysics"
@@ -115,16 +115,13 @@ What should you do with existing code that's already poorly written but you may 
 - Rewrite it, or try to fix it?
 
 ---
-## Your Questions 
-
-Astro 528, Week 2, Day 2
----
 # Documentation
-
 ___
-Why did no one teach me about assertions?
+``Why did no one teach me about assertions?
 
-They're so useful!
+They're so useful!''
+
+They used to inflict a performance penalty.  Now, most `assert`'s have negligible performance impact.
 ___
 How do you make docstrings in Julia?
 
@@ -132,6 +129,11 @@ How do you make docstrings in Julia?
 ```julia
 "Compute the probability densitiy function for a standard normal"
 pdf_std_norm(x) = exp(-0.5*x*x)/sqrt(2pi)
+```
+
+Then run
+```julia
+? pdf_std_norm
 ```
 ___
 ```julia
@@ -162,7 +164,6 @@ Is there a logging package in Julia that can keep track of inputs, parameters, o
 - JLD2: Specialized version of HDF5 designed to store Julia data
 - BSON (Binary Store of Numbers): Can handle complex data types
 - Feather: Can read/write DataFrames from Julia, R, Python,...
-- Other recommendations?
 
 ___
 ```julia
@@ -180,7 +181,7 @@ using JLD2 # or BSON
 ...
 @save "example.jld2"            # convient, but less explicit
 ...
-@load "example.jld2" 
+@load "example.jld2"
 ```
 
 Let us know if you find other useful packages.
@@ -188,106 +189,13 @@ ___
 Is it best to always document my programs the same way?
 
 Or is it ok to follow different documentation conventions for different audiences?
-- my advisor, 
-- a group of collaborators, 
-- my future self? 
+- my advisor,
+- a group of collaborators,
+- my future self?
 
-It depends... 
+It depends...
 
 One code/package => one convenion
-___
-
----
-
-# Unit Tests
-___
-How does one write tests for scientific software when the expected answer is unknown?
-___
-
-## What would unit tests miss?
-___
-
-## What if units aren't being connected correctly?
-
-- Regression testing (comparing results of two methods)
-- End-to-end testing (e.g., analyzing simulated data)
-___
-## What if some code isn't being tested?
-
-- Coverage checking
-
----
-
-## Increasing chances of correctness
-
-- Modular code (functions)
-
-When modularizing code, how does one go about efficiently organizing functions, constants, etc?
-
-___
-
-## Increasing chances of correctness
-
-- Generic programming (design functions to take multiple types)
-- Reduce risk of interpretting inputs incorrectly
-  + Descriptive Names
-  + Assertions to document/enforce pre-conditions
-  + Specify types for function inputs
-  + Named parameters
-  + Passing composite types, rather than several values
-- Document your functions/modules
-
-___
-
-## Increasing chances of correctness
-
-- Setup automatic testing
-- Use version control
-- Make and comit small changes
-- Test frequently
-- Turn bugs into tests
-
-___
-
-## Continuous Integration
-
-- When is it important?
-- When is it optional?
-- Are there other places that continuous integration would be useful for your science?
-
----
-
-## Dangers of Documentation
-
-- Inaccurate
-- Out of date
-
-___
-Avoiding Out-of-date Documentation:
-
-- Write documentation in code
-- Provide examples as documentation
-- Documentation generators (e.g., Documenter.jl)
-
-___
-
-## What to Document?
-
-- Code can be a form of documentation!
-- Why add anything more?
-- Interfaces:  Inputs, outputs, pre/post-conditions
-- Reasons for design choices
-
----
-
-## Collaborate
-
-- Pair coding
-- Peer code reviews
-- Commit & test often
-- Test/Review prior to merging
-- Track issues
-
 ---
 
 ## Your experiences

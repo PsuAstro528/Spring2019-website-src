@@ -1,6 +1,6 @@
 +++
 title = "Week 2: Priorities"
-weight = 01101  #wwdpp
+weight = 02101  #wwdpp
 type="page"
 chapter= true
 

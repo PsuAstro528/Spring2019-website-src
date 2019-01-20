@@ -1,6 +1,6 @@
 +++
-title = "Discussion Topics 3"
-date = "22 Jan 2019"
+title = "Discussion Topics Week 3"
+date = "17 Jan 2019"
 course_inst = "Penn State"
 course_number = "Astro 528"
 course_name = "High-Performance Scientific Computing for Astrophysics"
@@ -19,6 +19,11 @@ High-Performance Scientific Computing for Astrophysics
 
 ---
 
+# Unit Tests
+___
+How does one write tests for scientific software when the expected answer is unknown?
+___
+
 ## What would unit tests miss?
 ___
 
@@ -36,6 +41,13 @@ ___
 ## Increasing chances of correctness
 
 - Modular code (functions)
+
+When modularizing code, how does one go about efficiently organizing functions, constants, etc?
+
+___
+
+## Increasing chances of correctness
+
 - Generic programming (design functions to take multiple types)
 - Reduce risk of interpretting inputs incorrectly
   + Descriptive Names
@@ -71,7 +83,7 @@ ___
 - Out of date
 
 ___
-Avoiding Out-of-date Documentation:
+## Avoiding Out-of-date Documentation
 
 - Write documentation in code
 - Provide examples as documentation
