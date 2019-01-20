@@ -1,5 +1,5 @@
 +++
-title = "Tools used"
+title = "Technology used"
 weight = 1050
 type = "page"
 include_toc = true
