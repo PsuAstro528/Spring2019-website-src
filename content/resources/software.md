@@ -16,6 +16,7 @@ lastmodifieremail = "ebf11@psu.edu"
 
 - [Julia Manual](http://docs.julialang.org/en/v1.0/)
 - [Think Julia: How to Think Like a Computer Scientist](https://benlauwens.github.io/ThinkJulia.jl/latest/book.html)
+- [Introcution to Applied Linear Algebra: Vectors, Matrices and Least Squares: Julia Language Companion](http://vmls-book.stanford.edu/vmls-julia-companion.pdf)
 - [The Fast Track to Julia 1.0](https://juliadocs.github.io/Julia-Cheat-Sheet/)
 - [Learn Julia in Y Minutes](https://learnxinyminutes.com/docs/julia/)
 - [Why Julia?](http://ucidatascienceinitiative.github.io/IntroToJulia/Html/WhyJulia)
