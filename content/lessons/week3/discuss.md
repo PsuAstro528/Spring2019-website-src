@@ -59,17 +59,23 @@ ___
 ---
 # Lab 2 Feedback
 ___
-## Garbage collection
+### Garbage collection
 - Why?
 - Impact on benchmarking
 ___
-## Scaling of Runtime vs Array-size
+### Scaling of Runtime vs Array-size
+![Figure showing Runtime vs Array-size](/images/week3/lab3_ex1_fig1b.png)
+- Noisy
+- Using `@elapsed`
+___
+### Scaling of Runtime vs Array-size
+![Figure showing Runtime vs Array-size](/images/week3/lab3_ex1_fig1.png)
+- Using `@belapsed`
 - Non-linear
-- Differences for arithmetic vs trig function as function of size
 - Conclusion? 
 
 ___
-## How long to integrate 10^8 orbits?
+### How long to integrate 10^8 orbits?
 
 - Some people tried to do it
 - Function exited in ~3 seconds
