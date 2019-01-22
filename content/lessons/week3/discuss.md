@@ -33,7 +33,9 @@ ___
 - logging in again
 ___
 ### Alternative workaround
-From http://portal.aci.isc.psu.edu, start an "Interactive Desktop"
+From Portal [http://portal.aci.isc.psu.edu], 
+
+start an "Interactive Desktop"
 ```shell
 module load python
 julia -e 'using IJulia; notebook()'
@@ -126,6 +128,31 @@ ___
 - Other packages people like?
 
 ---
+# Questions
+
+## Performance considerations
+___
+Is it actually practical to implement code review in Astronomy?
+
+Often teams are small and/or time is a limiting factor.
+___
+
+"Do we really need to worry about row-major vs. column-major order?"
+
+___
+
+"I’ve never heard of scratch space or had to explicitly worry about allocating memory...
+
+Do higher level languages just handle this for us?"
+
+---
+## Your experiences
+
+- Premature optimization
+- Documentation
+- Collaboration
+---
+
 ## Increasing chances of correctness
 
 - Setup automatic testing
@@ -151,12 +178,6 @@ ___
 - Test/Review prior to merging
 - Track issues
 
----
-## Your experiences
-
-- Premature optimization
-- Documentation
-- Collaboration
 
 ---
 ## Generic programming
