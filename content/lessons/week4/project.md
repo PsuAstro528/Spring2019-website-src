@@ -14,6 +14,7 @@ lastmodifierdisplayname = "Eric Ford"
 lastmodifieremail = "ebf11 at psu dot edu"
 +++
 
+Use the link provided via course announcement or Canvas to create your repository for the project proposal.
 
 ## Grading Rubric
 {{%excerpt%}}

@@ -1,6 +1,6 @@
 +++
 title = "Learning goals"
-weight = 03103  #wwdpp
+weight = 04103  #wwdpp
 type="page"
 chapter= false
 
@@ -14,14 +14,10 @@ lastmodifierdisplayname = "Eric Ford"
 lastmodifieremail = "ebf11 at psu dot edu"
 +++
 
-# Week 3
+# Week 4
 {{%excerpt%}}
-- Apply "Programming in the Large" to your class project
-- Recognize importance of choosing an efficient algorithm
-- Choose appropriate file format for a project
-- Use DataFrames efficiently via `join` and queries
-- Choose appropraite memory layout & data structures for a project
+- Design an Application Programming Interface (API) to ease refactoring of code
+- Document code to increase chances of useful feedback from peer code review
 {{%/excerpt%}}
 
 ## Lessons along the way
-+ Big-O notation

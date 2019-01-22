@@ -56,6 +56,25 @@ I don't want to spend time solving a problem that isn't even a problem.
 
 ---
 
+# Unit Tests
+___
+How does one write tests for scientific software when the expected answer is unknown?
+___
+
+## What would unit tests miss?
+___
+
+## What if units aren't being connected correctly?
+
+- Regression testing (comparing results of two methods)
+- End-to-end testing (e.g., analyzing simulated data)
+___
+## What if some code isn't being tested?
+
+- Coverage checking
+
+---
+
 Your Questions:
 # Git
 ___
