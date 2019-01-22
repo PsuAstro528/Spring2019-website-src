@@ -24,4 +24,6 @@ lastmodifieremail = "ebf11 at psu dot edu"
 {{%/excerpt%}}
 
 ## Lessons along the way
-+ Big-O notation
+- Big-O notation
+- Calling Python from Julia
+- File formats: CSV, FITS, HDF5, JLD2, Feather
