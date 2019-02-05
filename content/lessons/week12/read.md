@@ -20,5 +20,5 @@ lastmodifieremail = "ebf11 at psu dot edu"
 - Prior to Tuesday's class
    + TODO: Pick reading
 - Prior to Thursday's class
-   + Begin Lab 9
+   + Begin Lab 8
 {{%/excerpt%}}

@@ -28,9 +28,11 @@ ___
 
 - Good job
 - Questions
+___
+## Lab 4: 
+- Coming Thursday
 ---
 ## Projects
-
 ___
 ## Project Timeline
 - Project proposal (due Jan 31)
@@ -70,8 +72,12 @@ ___
 ___
 ## Project: Parallelization
 
-What dimension(s) will you parallelize over?
+What dimension(s) of your problem will you parallelize over?
 
+Implications for
+- Plaussibility of improveing performance
+- What architectures you target
+- How you setup your data structures
 ---
 
 # Reading Questions
@@ -113,10 +119,8 @@ ___
 
 What are some of the orders of popular algorithms used in astronomical research? 
 
-
-
 ---
-# Optimization
+# Optimizing Compilers
 ___
 ## Optimizing Compilers
 Julia
@@ -139,46 +143,99 @@ Julia
 Gcc
 - `-mtune=generic` vs `-mtune=native`
 - `-march=native`
+
+___
+## Other optimization flags
+
+Julia
+- `--check-bounds={yes|no}`
+- `--math-mode={ieee,fast}`
+
+Gcc
+- `-ffast-math`
+
+---
+# Optimization
+
+What are some examples of common (numerical) tasks in astronomy where people tend to make inefficient code? 
 ___
 ## "Vectorization"
 
 - Computing hardware
 - Programming pattern
 ___
-## Loops
+## Vectorization, hardware
 
+CPUs
+- SIMD
+- SSE, SSE2, AVX, AVX512
+
+GPUs
+- Streamming Multiprocessor (SM)
+
+___
+## Vectorization, the Programming Pattern
+
+Loops:  Efficient (in compiled languages), sometimes less convenient
 ```
-x = [1,2,3,4]
-y = [5,6,7,8]
+N = 10000
+x = randn(N)
+y = randn(N)
 r = similar(x)
 for i in 1:length(x)
   r[i] = x[i] * y[i]
 end
 ```
-
 ___
-## Vectorization: Programming Pattern
-Convenient, but inefficient
+## Vectorization, the Programming Pattern
+Sometimes more convenient
 ```
 x = [1,2,3,4]
 y = [5,6,7,8]
-r = sum(x * y) 
+r = x * y
+```
+___
+## Vectorization, the Programming Pattern
+
+Sometimes more convenient
+```
+x = [1,2,3,4]
+y = [5,6,7,8]
+r = x * y
+```
+In interpretted languages, this is often less inefficient than writing a loop
+
+___
+## Vectorization, the Programming Pattern
+Convenient, but increasingly inefficient
+In Python
+```
+x = [1,2,3,4]
+y = [5,6,7,8]
+r = sum(sqrt(x * y))
 ```
 ___
 ## Vectorization: Programming Pattern
 Convenient & Efficient
+In Julia
 ```
 x = [1,2,3,4]
 y = [5,6,7,8]
-r = sum(x .* y) 
+r = sum(sqrt.(x .* y))
 ```
+___
+## Loops
 
-
-It seems like where variables are stored (e.g. on the stack, in the memory heap, etc.) just depends on the language we are programming in. Is this something we actually need to think about when we are coding or when we are choosing a language to use? Does it really make that much of a difference?
-
-What are some examples of common (numerical) tasks in astronomy where people tend to make inefficient code? In other words, what are some typical astronomy applications where we can really make a difference by maximizing the performance of the CPU/memory architecture?
-
-
+Efficient (in compiled languages), sometimes more convenient
+```
+N = 10000
+x = randn(N)
+y = randn(N)
+s = zero(eltype(x))
+for i in 1:length(x)
+  s += sqrt(x[i] * y[i])
+end
+```
 
 ---
 
