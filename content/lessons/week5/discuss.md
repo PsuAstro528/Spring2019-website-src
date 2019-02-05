@@ -32,7 +32,7 @@ ___
 ## Lab 4: 
 - Coming Thursday
 ---
-## Projects
+# Projects
 ___
 ## Project Timeline
 - Project proposal (due Jan 31)
@@ -103,21 +103,17 @@ ___
 ## Cross-language issues
 - Passing by value vs passing by pointer/reference
 - What if need to convert types
----
+___
 ## Cross-language issues
 
 If we used PyCall in Julia to make an array in Python (which is row-major), would it end up being stored in column-major or row-major order?
-___
-
+---
 ## Conditionals inside a loop
 - Can they be avoided?  If not...
    - CPU will try to predict which branch to take
    - GPUs generally stall while running each case
 - Prefer smaller conditional code segments 
 - Make it easy to predict correctly (?)
-## What 
-
-What are some of the orders of popular algorithms used in astronomical research? 
 
 ---
 # Optimizing Compilers
@@ -153,6 +149,28 @@ Julia
 
 Gcc
 - `-ffast-math`
+
+---
+# Profiling
+___
+## Profiling
+```julia
+using Profile
+Profile.init(delay = 0.0001)
+Profile.clear()
+@profile result = your_function()
+Profile.print()
+```
+___
+## [ProfileView.jl](https://github.com/timholy/ProfileView.jl)
+```julia
+using ProfileView
+ProfileView.view()
+```
+___
+## Profiling
+
+How much memory does profiling use compared to running the program?
 
 ---
 # Optimization
@@ -238,7 +256,24 @@ end
 ```
 
 ---
+## Commonly missed optimizations
+- Choosing inefficient algorithms
+- Memory layout
+- Cache awareness
+- Storing easily derived data in memory (rather than recomputing)
+- Using well-optimized libraries (linear algebra, FFTs, etc.)
+- What else?
 
+---
+## Programming Interfaces
+
+Why bother?
+
+---
+## More questions
+
+What are some of the orders of popular algorithms used in astronomical research? 
+---
 # Questions?
 
 
