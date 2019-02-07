@@ -17,9 +17,7 @@ lastmodifieremail = "ebf11 at psu dot edu"
 
 {{%excerpt%}}
 <b>Profiling, Optimization</b> <br />
-[Lab 4 Git Repository](https://github.com/PsuAstro528/lab4-start) (due Feb 10)
+[Lab 4 Git Repository](https://github.com/PsuAstro528/lab4-start) (due Feb 10, extended to Feb 12)
 
-- Exercise 1:
-- Exercise 2:
-- Exercise 3:
+- Exercise 1: Optimization & Optimization
 {{%/excerpt%}}

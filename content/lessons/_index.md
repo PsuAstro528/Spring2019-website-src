@@ -84,7 +84,7 @@ Week 12
 - Second parallel version of code (distributed-memory/GPU/cloud) (due April 18)
 - Completed code & documentation (due April 18)
 - Class presentation ([April 9-25, individual schedule](https://github.com/PsuAstro528/PresentationsSchedule2019) )
-)
+
 
 ---
 
