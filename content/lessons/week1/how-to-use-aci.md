@@ -148,12 +148,19 @@ Each time in the future you want to start a Jupyter notebook session on ICS-ACI
 ```shell
 git clone REPO_URL  # where REPO_URL is what you'll paste from the clipboard
 ```
-- Change into the directory that was created for the repository (we'll call REPO_DIR) and setup all the packge dependancies required (as specified by the test/Project.toml file).  (For people who are particularly interested in Julia's package manager:  Normally, this would be in the root directory, but I found having one broken mybinder.org's ability to install Julia packages successfully.  So putting the Project.toml in the test directory is a work around for repositories that don't need to become a Julia package.)
+- Change into the directory that was created for the repository (we'll call REPO_DIR) and setup all the packge dependancies required (as specified by the Project.toml or test/Project.toml file).  (For people who are particularly interested in Julia's package manager:  Normally, this would be in the root directory, but I found having one broken mybinder.org's ability to install Julia packages successfully.  So putting the Project.toml in the test directory is a work around for repositories that don't need to become a Julia package.  That proved to create some problems with travis, so starting with Lab 4, I'm reverting to putting the Project.toml in the root directory.)
 
+Labs 1-3:
 ```shell
 cd REPO_DIR
 julia -e 'using Pkg; cd("test"); Pkg.activate("."); Pkg.instantiate(); '
 ```
+Labs >=4:
+```shell
+cd REPO_DIR
+julia -e 'using Pkg; Pkg.activate("."); Pkg.instantiate(); '
+```
+
 - Optional (can do later if needed):  In case the instructor makes changes to the template, it would be useful to be able to merge in those changes easily.  To prepare for that, let's set a remote upstream repository.  Here I assume that your REPO_URL was https://github.com/GITHUBID/example-GITHUBID.git.  Notice that we're replacing the first GITHUB id by the organization name "PsuAstro528" and remove the "-GITHUBID" at the end.
 ```shell
 git remote add upstream git@github.com:PsuAstro528/example.git
