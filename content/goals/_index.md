@@ -24,4 +24,10 @@ lastmodifieremail = "ebf11 at psu dot edu"
 {{%excerpt-include filename="lessons/week2/goals.md" /%}}
 
 ## Week 3
+{{%excerpt-include filename="lessons/week3/goals.md" /%}}
+
+## Week 4
+{{%excerpt-include filename="lessons/week4/goals.md" /%}}
+
+## Week 5
 TODO: Add goals for future weeks.

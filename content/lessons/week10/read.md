@@ -24,5 +24,5 @@ lastmodifieremail = "ebf11 at psu dot edu"
    + [Docker Orientation](https://docs.docker.com/get-started/) 
 - Prior to Thursday's class
   + [Best Practices for Scientiﬁc Computing](http://arxiv.org/pdf/1210.0530v4.pdf): Sec. 5-9 (5pg)
-  + Begin Lab 8
+  + Begin Lab 7
 {{%/excerpt%}}

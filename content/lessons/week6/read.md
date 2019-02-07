@@ -25,7 +25,7 @@ lastmodifieremail = "ebf11 at psu dot edu"
        - [_Introduction to High-Performance Computing_](https://bitbucket.org/VictorEijkhout/hpc-book-and-course/raw/56042d49a3375ba15d55e5958e67f87c1b87d37b/EijkhoutIntroToHPC.pdf) Ch 1.7: Programming strategies for high performance (16pg)
    + [Latency Numbers Every Programmer Should Know](https://people.eecs.berkeley.edu/~rcs/research/interactive_latency.html)
 - Prior to Thursday's class
-  + Begin Lab 6
+  + Begin Lab 5
 {{%/excerpt%}}
 
 ## Lessons / Resources

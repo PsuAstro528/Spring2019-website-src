@@ -16,8 +16,23 @@ lastmodifieremail = "ebf11 at psu dot edu"
 
 # Week 4
 {{%excerpt%}}
-- Design an Application Programming Interface (API) to ease refactoring of code
+- Describe steps a CPU performs surrounding actual arithmetic
+- Anticipate when performance will be affected by cache size
+- Plan data structures to optimize for memory access 
+- Profile code to identify code worth optimizing
 - Document code to increase chances of useful feedback from peer code review
 {{%/excerpt%}}
 
 ## Lessons along the way
+- Bus 
+- Registers
+- FPUs
+- Prefetch
+- Pipelining
+- Out of order execution
+- Cache: levels, lines, latency, associative
+- Code introspection
+- Type stability: `@code_warntype`
+- Strict typing, sub-types, union types
+- Performance impact of `global`'s
+

@@ -24,5 +24,5 @@ lastmodifieremail = "ebf11 at psu dot edu"
 - Prior to Thursday's class
   + [Distributed Processing with Julia](https://docs.julialang.org/en/v1/manual/parallel-computing/#Multi-Core-or-Distributed-Processing-1) (stop after Parralel Map and Loops)
   + [Shared Arrays](https://docs.julialang.org/en/v1/manual/parallel-computing/#man-shared-arrays-1) (stop before Cluster Managers) (optional)
-  + Begin Lab 7
+  + Begin Lab 6
 {{%/excerpt%}}

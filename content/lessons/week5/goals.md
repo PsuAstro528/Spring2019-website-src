@@ -1,6 +1,6 @@
 +++
-title = "Readings"
-weight = 12104  #wwdpp
+title = "Learning goals"
+weight = 05103  #wwdpp
 type="page"
 chapter= false
 
@@ -14,11 +14,12 @@ lastmodifierdisplayname = "Eric Ford"
 lastmodifieremail = "ebf11 at psu dot edu"
 +++
 
-
-# Week 12
+# Week 5
 {{%excerpt%}}
-- Prior to Tuesday's class
-   + TODO: Pick reading
-- Prior to Thursday's class
-   + Begin Lab 8
+- Optimize code for serial execution
+- Design an Application Programming Interface (API) to ease refactoring of code
 {{%/excerpt%}}
+
+## Lessons along the way
+
+
