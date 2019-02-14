@@ -23,7 +23,7 @@ lastmodifierdisplayname = "Eric Ford"
 
 {{%excerpt-include filename="lessons/week5/lab.md" /%}}
 
-{{%excerpt-include filename="lessons/week6/lab.md" /%}}
+{{%excerpt-include filename="lessons/week7/lab.md" /%}}
 
 {{%excerpt-include filename="lessons/week9/lab.md" /%}}
 

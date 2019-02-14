@@ -19,10 +19,10 @@ High-Performance Scientific Computing for Astrophysics
 ## Logistics
 ___
 ## Lab 4:
-- Will review a few items today
+Will review a few items today
 ___
 ## Lab 5:
-- Will push to next week
+Will push to next week
 ---
 # Projects
 ___
@@ -67,7 +67,7 @@ ___
 If large code, then
 - Move out of notebooks and into `.jl` files, as functions mature.
 - Organize functions into files `.jl` files in `src` directory
-- Use `tests`, `examples`, (maybe )`docs`?) directories
+- Use `test`, `examples`, `docs` directories
 ---
 
 # Reading Questions
@@ -77,7 +77,9 @@ ___
 - Does thinking about it make a difference?
 ___
 ## Memory Layout
-Are allocated blocks of memory always contiguous? If not, how does the computer "know" which blocks go together?
+Are allocated blocks of memory always contiguous?
+
+How does the computer "know" which blocks go together?
 ___
 ## Debuggers
 - gdb
@@ -122,9 +124,9 @@ x = 2
 apply(square,x)
 ```
 - How could this fail?
-____
+___
 ## Generic programming
-- How could this fail?
+### How could this fail?
 ```julia
 apply(f::Function, x) = f(x)
 square(x) = x*x
@@ -133,14 +135,14 @@ apply(square,x)
 ```
 ___
 ## Generic programming
-- Overload function
+### Overload function
 ```julia
 apply(f::Function, x::Number) = f(x)
 apply(f::Function, x::Array) = f.(x)
 ```
 ___
 ## Generic programming
-- Making it even more general
+### Making it even more general
 ```julia
 apply(f::Function, x::AbstractArray) = f.(x)
 
@@ -202,7 +204,9 @@ end
 ___
 ## Overloading Functions for each Type
 ```julia
+x(p::CartesianCoord) = p.x
 y(p::CartesianCoord) = p.y
+x(p::PolarCoord) = p.r*cos(p.theta)
 y(p::PolarCoord) = p.r*sin(p.theta)
 ```
 ___
