@@ -22,7 +22,7 @@ If you have time, it would be best to include the results of benchmarking and/or
 - Code performs proposed tasks (1 point)
 - Comprehensive set of unit tests, at least one integration or regression test (1 point)
 - Code passes tests (1 point)
-- Student code uses a version control system (1 point)
+- Student code uses a version control system effectively (1 point)
 - Repository includes many regular, small commits (1 point)
 - Documentation for functions' purpose and design (1 point)
 - Comprehensive set of assertions (1 point)

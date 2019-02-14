@@ -1,6 +1,6 @@
 +++
-title = "Exercises"
-weight = 06110  #wwdpp
+title = "Learning goals"
+weight = 07103  #wwdpp
 type="page"
 chapter= false
 
@@ -14,12 +14,11 @@ lastmodifierdisplayname = "Eric Ford"
 lastmodifieremail = "ebf11 at psu dot edu"
 +++
 
-
+# Week 6
 {{%excerpt%}}
-<b>Memory Access, Performance Comparisons</b><br />
-[Lab 5 Git Repository](https://github.com/PsuAstro528/lab5-start) (due Feb 17)
-
-- Exercise 1: TBD
-- Exercise 2: TBD
-- Exercise 3: TBD
+- Optimize a large model with Flux.jl
+- Parallelize `for` loop over shared memory system
+- Design an Application Programming Interface
 {{%/excerpt%}}
+
+## Lessons along the way
