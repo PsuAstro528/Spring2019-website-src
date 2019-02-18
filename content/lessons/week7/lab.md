@@ -18,7 +18,7 @@ lastmodifieremail = "ebf11 at psu dot edu"
 
 {{%excerpt%}}
 <b>Probabilistic Programming & Intro to Parallelization for Multi-core Workstations</b><br />
-[Lab 5 Git Repository](https://github.com/PsuAstro528/lab5-start) (due Feb 24)
+[Lab 5 Git Repository](https://github.com/PsuAstro528/lab5-start) (due March 3)
 
 - Exercise 1: Probabilistic Programming & Uncertainty Estimation
 - Exercise 2: Parallelization for Multi-core Workstations
