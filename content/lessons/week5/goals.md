@@ -16,12 +16,13 @@ lastmodifieremail = "ebf11 at psu dot edu"
 
 # Week 5
 {{%excerpt%}}
-- Fit a model to data
-- Identify type instability 
-- Write type stable functions
-- Profile code
-- Identify inefficiencies
-- Optimize code for serial execution
+- Exercises
+   - Fit a model to data
+   - Identify type instability 
+   - Write type stable functions
+   - Profile code
+   - Identify inefficiencies
+   - Optimize code for serial execution
 {{%/excerpt%}}
 
 ## Lessons along the way

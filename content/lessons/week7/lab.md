@@ -17,10 +17,9 @@ lastmodifieremail = "ebf11 at psu dot edu"
 
 
 {{%excerpt%}}
-<b>Optimizing Large Models, Intro to Parallelization, APIs</b><br />
+<b>Probabilistic Programming & Intro to Parallelization for Multi-core Workstations</b><br />
 [Lab 5 Git Repository](https://github.com/PsuAstro528/lab5-start) (due Feb 24)
 
-- Exercise 1: Optimizing a Large Model with Flux.jl
-- Exercise 2: Introduction to Parallelization (shared-memory)
-- Exercise 3: Programming Interfaces
+- Exercise 1: Probabilistic Programming & Uncertainty Estimation
+- Exercise 2: Parallelization for Multi-core Workstations
 {{%/excerpt%}}

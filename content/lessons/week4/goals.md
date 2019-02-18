@@ -18,9 +18,10 @@ lastmodifieremail = "ebf11 at psu dot edu"
 {{%excerpt%}}
 - Describe steps a CPU performs surrounding actual arithmetic
 - Anticipate when performance will be affected by cache size
-- Plan data structures to optimize for memory access 
-- Profile code to identify code worth optimizing
-- Document code to increase chances of useful feedback from peer code review
+- Project
+   - Plan data structures to optimize for memory access 
+   - Profile code to identify code worth optimizing
+   - Document code to increase chances of useful feedback from peer code review
 {{%/excerpt%}}
 
 ## Lessons along the way
