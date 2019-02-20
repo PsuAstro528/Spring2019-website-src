@@ -15,7 +15,7 @@ lastmodifieremail = "ebf11 at psu dot edu"
 +++
 
 {{% children depth="1" %}}
-- [Setting up Continuous Integration Testing](travis.md)
+- [Setting up Continuous Integration Testing](/tips/travis.md)
 
 
 {{%excerpt-include filename="project/code_reviews/prep.md" /%}}

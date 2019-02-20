@@ -33,5 +33,4 @@ If you have time, it would be best to include the results of benchmarking and/or
 
 {{%excerpt-include filename="project/code_reviews/prep.md" /%}}
 
-{{%excerpt-include filename="project/travis.md" /%}}
-
+{{%excerpt-include filename="tips/travis.md" /%}}

@@ -1,5 +1,5 @@
 +++
-title = "List of Lab Exercises"
+title = "Lab/Homework Exercises"
 weight = 300
 type="page"
 chapter= false

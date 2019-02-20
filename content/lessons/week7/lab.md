@@ -17,9 +17,9 @@ lastmodifieremail = "ebf11 at psu dot edu"
 
 
 {{%excerpt%}}
-<b>Probabilistic Programming & Intro to Parallelization for Multi-core Workstations</b><br />
+<b>Probabilistic Programming & Parallel Programming I: Shared-memory systems</b><br />
 [Lab 5 Git Repository](https://github.com/PsuAstro528/lab5-start) (due March 3)
 
 - Exercise 1: Probabilistic Programming & Uncertainty Estimation
-- Exercise 2: Parallelization for Multi-core Workstations
+- Exercise 2: Parallelization for Shared-memory Systems (e.g., Multi-core Workstations)
 {{%/excerpt%}}

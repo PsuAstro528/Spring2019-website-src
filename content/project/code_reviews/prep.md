@@ -29,7 +29,7 @@ To give your reviewer permission to access your repository, go to your repositor
 {{%/excerpt%}}
 
 
-{{%excerpt-include filename="project/travis.md" /%}}
+{{%excerpt-include filename="/tips/travis.md" /%}}
 
 
 

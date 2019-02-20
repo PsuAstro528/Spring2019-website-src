@@ -1,6 +1,6 @@
 +++
 title = "Exercises"
-weight = 12110  #wwdpp
+weight = 11110  #wwdpp
 type="page"
 chapter= false
 
@@ -14,13 +14,4 @@ lastmodifierdisplayname = "Eric Ford"
 lastmodifieremail = "ebf11 at psu dot edu"
 +++
 
-## Reproducibility: Packages, Environments & Containers
-
-{{%excerpt%}}
-<b> Reproducibility: Packages, Environments &amp; Containers</b><br />
-[Lab 8 Git Repository](https://github.com/PsuAstro528/lab8-start) (due April 7)
-
-- Exercise 1:
-- Exercise 2:
-- Exercise 3:
-{{%/excerpt%}}
+{{%excerpt-include filename="lessons/week10/lab.md" /%}}

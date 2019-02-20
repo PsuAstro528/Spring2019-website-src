@@ -16,12 +16,13 @@ lastmodifieremail = "ebf11 at psu dot edu"
 ## Class Project
 The class project consists of several parts, each of which has its own submission deadline.  It is particularly important that you provide code for peer review on time, so that your peer reviewer is able to provide thoughtful and helpful feedback in time for it to improve your code for the latter parts of the project.  The project grade will be based on:
 
-- Project Proposal (5 points)
-- Checkpoint 1: Serial version of code (10 points)
-- Checkpoint 2: Multi-core version of code (10 points)
-- Peer code reviews (5 points)
-- Checkpoint 3: Distributed/GPU/Cloud version of code (10 points)
-- Project Presentation (10 points)
+### Project Components
+- [Project Proposal](#project-proposal) (5 points)
+- Checkpoint 1: [Serial version of code](#serial-version-of-code) (10 points)
+- Checkpoint 2: [Multi-core version of code](#first-parallel-version-of-code) (10 points)
+- [Peer code reviews](#peer-code-reviews) (5 points)
+- Checkpoint 3: [Distributed-memory/GPU/Phi/Cloud version of code](#second-parallel-version-of-code) (10 points)
+- [Project Presentation](#project-presentation) (10 points)
 
 The grading rubric for each part of the proposal is provided below.
 
@@ -30,7 +31,7 @@ The grading rubric for each part of the proposal is provided below.
 
 {{%excerpt-include filename="lessons/week4/project.md" /%}}
 
-### Checkpoint 1: Serial version of code
+### Serial version of code
 
 {{%excerpt-include filename="lessons/week7/project.md" /%}}
 
@@ -38,11 +39,16 @@ The grading rubric for each part of the proposal is provided below.
 
 {{%excerpt-include filename="project/code_reviews/rubric.md" /%}}
 
-### Checkpoint 2: Submit first parallel version of code (multi-core)
+For more information, see [instructions for code review](/project/code_reviews).
+
+### First parallel version of code
+Typically, the first parallel version runs on multiple cores using a shared memory system.
 
 {{%excerpt-include filename="lessons/week11/project.md" /%}}
 
-### Completed Project: Submit second parallel version of code (Distributed-Memory/GPU/Phi/Cloud)
+## Completed Project: 
+### Submit second parallel version of code 
+Typically, the second parallel version of the code is parallelized using one of: 1) multiple cores with distributed-memory, GPU, Intel Phi, or a cloud provider.
 
 {{%excerpt-include filename="lessons/week14/project.md" /%}}
 

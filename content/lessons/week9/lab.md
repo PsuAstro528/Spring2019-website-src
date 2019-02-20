@@ -16,10 +16,9 @@ lastmodifieremail = "ebf11 at psu dot edu"
 
 
 {{%excerpt%}}
-<b>Parallel Programming I: Shared-memory, Multi-core</b><br />
+<b>Parallel Programming II: Batch Jobs & Distributed Memory</b><br />
 [Lab 6 Git Repository](https://github.com/PsuAstro528/lab6-start) (due March 17)
 
-- Exercise 1: TBD
-- Exercise 2: TBD
-- Exercise 3: TBD
+- Exercise 1: Submitting Batch Jobs to ACI
+- Exercise 2: Parallelization for Distributed-memory Systems (e.g., Clusters, Cloud)
 {{%/excerpt%}}

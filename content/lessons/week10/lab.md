@@ -16,10 +16,9 @@ lastmodifieremail = "ebf11 at psu dot edu"
 
 
 {{%excerpt%}}
-<b>Parallel Programming, Distributed Memory</b><br />
+<b>Parallel Programming III: Accelerators, GPUs </b><br />
 [Lab 7 Git Repository](https://github.com/PsuAstro528/lab7-start) (due March 24)
 
 - Exercise 1:
 - Exercise 2:
-- Exercise 3:
 {{%/excerpt%}}

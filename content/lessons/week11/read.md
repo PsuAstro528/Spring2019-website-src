@@ -14,7 +14,7 @@ lastmodifierdisplayname = "Eric Ford"
 lastmodifieremail = "ebf11 at psu dot edu"
 +++
 
-
+Accelerators & GPUs
 # Week 11
 {{%excerpt%}}
 - Prior to Tuesday's class
