@@ -1,6 +1,6 @@
 +++
-title = "Peer Code Review due"
-weight = 08120  #wwdpp
+title = "Incorporate Code Review due"
+weight = 09120  #wwdpp
 type="page"
 chapter= false
 
@@ -14,8 +14,5 @@ lastmodifierdisplayname = "Eric Ford"
 lastmodifieremail = "ebf11 at psu dot edu"
 +++
 
-## Conducting a Code Review
-{{%excerpt-include filename="project/code_reviews/how_to.md" /%}}
-
-## Grading Rubric for Assesing the Peer Code Review
-{{%excerpt-include filename="project/code_reviews/rubric.md" /%}}
+## Making use of your code review
+{{%excerpt-include filename="project/code_reviews/follow_up.md" /%}}

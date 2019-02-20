@@ -25,7 +25,7 @@ The regular homework exercises are designed to provide the scafolding to help st
 - Project Proposal
 - Serial Code that passes tests (serial)
 - First Peer Code Review (of serial code)
-- Code parallelized for multi-Pcore system
+- Code parallelized for multi-core system
 - Second Peer Code Review (of parallelized code)
 - Code parallelized for distributed-memory, accelerator or cloud
 - Benchmarking results showing how the performance of the code scales with increasing number of processors for multiple problem sizes

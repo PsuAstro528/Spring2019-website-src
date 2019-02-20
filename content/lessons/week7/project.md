@@ -30,3 +30,6 @@ If you have time, it would be best to include the results of benchmarking and/or
 - Useful & consistent code formatting & style (1 point)
 - Code is modular, rather than having chunks of same code copied and pasted (1 point)
 {{%/excerpt%}}
+
+
+{{%excerpt-include filename="project/code_reviews/prep.md" /%}}
