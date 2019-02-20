@@ -28,6 +28,7 @@ Pkg.add("WhateverPackagesYouNeed")
 ```julia
 using Pkg
 Pkg.activate(".")
+include("../src/file_with_my_project_code.jl")
 include("file_with_your_first_set_of_tests.jl")
 include("file_with_your_second_set_of_tests.jl")
 ```
@@ -36,9 +37,10 @@ If your code is in Jupyter notebooks, then make sure NBInclude is among the pack
 using Pkg
 Pkg.activate(".")
 using NBInclude
+@nbinclude("../src/notebook_with_your_project_code.ipynb")
 include("file_with_your_first_set_of_tests.jl")
-@nbinclude("../src/notebook_with_your_second_set_of_tests.ipynb")
 ```
+Make sure that the the code you're testing also gets loaded somewhere.  If you only have one file with tests, then it might be easiest for that file to load the code.  But if later you have multiple files with tests, then it might be better to have the main code included by runtests.jl, so that the main code is only included once.
 
 3.  _Make sure you have a `.travis.yml` file_ in your repository's root directory.  If you started your project repository after the template, that's probably all you need to do.  If you started your own repo clean, then you'll need to add a `.travis.yml` file to the root directory of your repository.  See the lab repositories for examples.  Whenever Travis-CI is triggered to try to build your repository, it will follow the instructions in the `.travis.yml` file.  If you copied the one from a recent lab, it probably does something like
 ```sh
@@ -51,6 +53,7 @@ The first line is just copying the Project.toml file into the test directory, so
 ```julia
 using Pkg
 Pkg.activate(".")
+include("../src/file_with_my_project_code.jl")
 include("file_with_your_first_set_of_tests.jl")
 include("file_with_your_second_set_of_tests.jl")
 ```
