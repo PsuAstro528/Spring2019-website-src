@@ -31,5 +31,7 @@ If you have time, it would be best to include the results of benchmarking and/or
 - Code is modular, rather than having chunks of same code copied and pasted (1 point)
 {{%/excerpt%}}
 
-
 {{%excerpt-include filename="project/code_reviews/prep.md" /%}}
+
+{{%excerpt-include filename="project/travis.md" /%}}
+

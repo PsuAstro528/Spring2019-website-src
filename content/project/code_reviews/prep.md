@@ -27,3 +27,10 @@ To give your reviewer permission to access your repository, go to your repositor
 
 [^2]:  Some times automated emails from github can be overlooked.  So if it might be nice if you also click "Copy invite link", click the little clipboard icon, and send them an email saying "here's the link to my repository for you to review".
 {{%/excerpt%}}
+
+
+{{%excerpt-include filename="project/travis.md" /%}}
+
+
+
+

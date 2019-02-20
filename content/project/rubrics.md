@@ -36,7 +36,7 @@ The grading rubric for each part of the proposal is provided below.
 
 ### Peer Code Reviews
 
-{{%excerpt-include filename="lessons/week8/project.md" /%}}
+{{%excerpt-include filename="project/code_reviews/rubric.md" /%}}
 
 ### Checkpoint 2: Submit first parallel version of code (multi-core)
 

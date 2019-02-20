@@ -14,6 +14,9 @@ lastmodifierdisplayname = "Eric Ford"
 lastmodifieremail = "ebf11 at psu dot edu"
 +++
 
+{{% children depth="1" %}}
+- [Setting up Continuous Integration Testing](travis.md)
+
 
 {{%excerpt-include filename="project/code_reviews/prep.md" /%}}
 
@@ -24,7 +27,6 @@ lastmodifieremail = "ebf11 at psu dot edu"
 
 ## Making use of your code review
 {{%excerpt-include filename="project/code_reviews/follow_up.md" /%}}
-
 
 
 ## Additional resources with various perspectives on how to conduct an effective code review
