@@ -4,7 +4,7 @@ date = "19 Feb 2019"
 course_inst = "Penn State"
 course_number = "Astro 528"
 course_name = "High-Performance Scientific Computing for Astrophysics"
-weight = 06150  # wwdpp
+weight = 07150  # wwdpp
 
 chapter= false
 hidden = false
@@ -142,6 +142,7 @@ for p in workers()
 end
 ```
 - [ParallelDataTransfer.jl](https://github.com/ChrisRackauckas/ParallelDataTransfer.jl)
+   - `@passobj 1 workers() data`
 
 Note:
 Shared loading of data via JuliaDB's `loadtable(files::AbstractVector; options)`
