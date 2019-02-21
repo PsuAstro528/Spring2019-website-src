@@ -52,6 +52,9 @@ ___
 ## Lab 5:
 - Remember to request multiple cores
 ---
+# Success stories
+"we stripped out the scipy dependency... and... we achieved a factor of ~250 speedup"
+---
 # Reading Questions
 ___
 ## Do compilers parallelize automatically?
