@@ -4,9 +4,27 @@ date = "5 Feb 2019"
 course_inst = "Penn State"
 course_number = "Astro 528"
 course_name = "High-Performance Scientific Computing for Astrophysics"
-type = "page"
-hidden = false
 weight = 05150  # wwdpp
+
+chapter= false
+hidden = false
+
+creatordisplayname = "Eric Ford"
+creatoremail = "ebf11 at psu dot edu"
+lastmodifierdisplayname = "Eric Ford"
+lastmodifieremail = "ebf11 at psu dot edu"
+
+type = "page"
+theme = "psu"
+[revealOptions]
+transition= 'slide' # 'none','fade','concave','convex','zoom'
+controls= true
+progress= true
+history= false
+center= true
+loop= false
+pdfSeparateFragments= false
+showNotes= true
 +++
 
 
@@ -29,7 +47,7 @@ ___
 - Good job
 - Questions
 ___
-## Lab 4: 
+## Lab 4:
 - Coming Thursday
 ---
 # Projects
@@ -49,7 +67,7 @@ Serial version of code (due Feb 21)
 
 - Some projects may need to be less ambitious
 - Focus energy on writing the performance critical parts of your code well
-- May save time by glossing over real world details 
+- May save time by glossing over real world details
 ___
 ## Project: Tests
 
@@ -84,7 +102,7 @@ Implications for
 ___
 ## Registers vs Cache vs Stack vs Heap
 - Affects all programming languages
-- Does thinking about it make a difference? 
+- Does thinking about it make a difference?
 ___
 ## [Compare Latencies](https://people.eecs.berkeley.edu/~rcs/research/interactive_latency.html)
 ___
@@ -92,12 +110,12 @@ ___
 
 If I want to fetch a value that's in the L2 cache, is it put in the L1 cache and then fetched from L1 to the register, or does it get put into the register directly from L2?
 ___
-## Memory layout:  
-- Column-major vs Row-major 
+## Memory layout:
+- Column-major vs Row-major
 - Where else?
 ___
-## Memory layout:  
-- Column-major vs Row-major 
+## Memory layout:
+- Column-major vs Row-major
 - Array of structures vs Struct of array's
 ___
 ## Cross-language issues
@@ -112,7 +130,7 @@ If we used PyCall in Julia to make an array in Python (which is row-major), woul
 - Can they be avoided?  If not...
    - CPU will try to predict which branch to take
    - GPUs generally stall while running each case
-- Prefer smaller conditional code segments 
+- Prefer smaller conditional code segments
 - Make it easy to predict correctly (?)
 
 ---
@@ -120,9 +138,9 @@ If we used PyCall in Julia to make an array in Python (which is row-major), woul
 ___
 ## Optimizing Compilers
 Julia
-- Specify level of compiler optimizations: 
+- Specify level of compiler optimizations:
  `julia -O` or `julia --optimize={0,1,2,3}`
--  default level is 2 if unspecified 
+-  default level is 2 if unspecified
 -  default level is 3 if used without a level
 
 Gcc
@@ -175,7 +193,7 @@ How much memory does profiling use compared to running the program?
 ---
 # Optimization
 
-What are some examples of common (numerical) tasks in astronomy where people tend to make inefficient code? 
+What are some examples of common (numerical) tasks in astronomy where people tend to make inefficient code?
 ___
 ## "Vectorization"
 
@@ -272,7 +290,7 @@ Why bother?
 ---
 ## More questions
 
-What are some of the orders of popular algorithms used in astronomical research? 
+What are some of the orders of popular algorithms used in astronomical research?
 ---
 # Questions?
 

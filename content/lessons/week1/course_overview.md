@@ -4,9 +4,27 @@ date = "8 Jan 2019"
 course_inst = "Penn State"
 course_number = "Astro 528"
 course_name = "High-Performance Scientific Computing for Astrophysics"
-type = "page"
-hidden = false
 weight = 01103  # wwdpp
+
+chapter= false
+hidden = false
+
+creatordisplayname = "Eric Ford"
+creatoremail = "ebf11 at psu dot edu"
+lastmodifierdisplayname = "Eric Ford"
+lastmodifieremail = "ebf11 at psu dot edu"
+
+type = "page"
+theme = "psu"
+[revealOptions]
+transition= 'slide' # 'none','fade','concave','convex','zoom'
+controls= true
+progress= true
+history= false
+center= true
+loop= false
+pdfSeparateFragments= false
+showNotes= true
 +++
 
 
@@ -160,7 +178,7 @@ ___
   + Before signing off for the session, "push" your commits to GitHub
 - When done with lab, create a _pull request_ to merge your work into the _branch_ named "original".
 
-- See [more detailed instructions](lessons/week1/how-to-use-aci/#commit-push) & 
+- See [more detailed instructions](lessons/week1/how-to-use-aci/#commit-push) &
   ask questions as you go
 ___
 </section>
@@ -169,4 +187,3 @@ ___
 [Jump to start](#/0/0")
 
 {{</revealjs>}}
-

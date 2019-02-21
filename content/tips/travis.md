@@ -1,15 +1,10 @@
 +++
 title = "Automated Testing via Travis-CI.com"
 weight = 1100
-type="page"
 
-# Creator's Display name
 creatordisplayname = "Eric Ford"
-# Creator's Email
 creatoremail = "ebf11 at psu dot edu"
-# LastModifier's Display name
 lastmodifierdisplayname = "Eric Ford"
-# LastModifier's Email
 lastmodifieremail = "ebf11 at psu dot edu"
 +++
 
@@ -58,12 +53,9 @@ include("../src/file_with_my_project_code.jl")
 include("file_with_your_first_set_of_tests.jl")
 include("file_with_your_second_set_of_tests.jl")
 ```
-If you are using a language other than julia, then you'd need to edit the earlier lines of the `.travis.yml` to tell travis what languages (and what versions of those languages) should be installed on the virutal machine that will be used to test your code.  
+If you are using a language other than julia, then you'd need to edit the earlier lines of the `.travis.yml` to tell travis what languages (and what versions of those languages) should be installed on the virutal machine that will be used to test your code.
 
-4. _Commit, push, and check on the status of your build_ via [Travis-CI.com](https://travis-ci.com/).  Yes, it can be a bit of a pain to setup continuous testing.  But once it is working, it's nice to know as soon as someone (whether you or a collaborator) push a commit that breaks a test.  Good luck.  
+4. _Commit, push, and check on the status of your build_ via [Travis-CI.com](https://travis-ci.com/).  Yes, it can be a bit of a pain to setup continuous testing.  But once it is working, it's nice to know as soon as someone (whether you or a collaborator) push a commit that breaks a test.  Good luck.
 
 
 {{%/excerpt%}}
-
-
-

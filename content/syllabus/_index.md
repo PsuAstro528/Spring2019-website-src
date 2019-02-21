@@ -1,26 +1,15 @@
 +++
 title = "Syllabus"
+course_inst = "Penn State"
+course_number = "Astro 528"
+course_name = "High-Performance Scientific Computing for Astrophysics"
 weight = 100
-type="page"
 chapter = true
-#type="slide"
-#theme = "moon"
 
-[revealOptions]
-transition= 'concave'
-controls= true
-progress= true
-history= false
-center= true
-
-# Creator's Display name
 creatordisplayname = "Eric Ford"
-# Creator's Email
-creatoremail = "ebf11@psu.edu"
-# LastModifier's Display name
+creatoremail = "ebf11 at psu dot edu"
 lastmodifierdisplayname = "Eric Ford"
-# LastModifier's Email
-lastmodifieremail = "ebf11@psu.edu"
+lastmodifieremail = "ebf11 at psu dot edu"
 +++
 
 # High-Performance Scientific Computing for Astrophysics

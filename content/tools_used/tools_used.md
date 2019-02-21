@@ -1,7 +1,9 @@
 +++
 title = "Technology used"
+course_inst = "Penn State"
+course_number = "Astro 528"
+course_name = "High-Performance Scientific Computing for Astrophysics"
 weight = 1050
-type = "page"
 include_toc = true
 
 creatordisplayname = "Eric Ford"
@@ -62,4 +64,3 @@ lastmodifieremail = "ebf11@psu.edu"
 
 ### Improve this page
 You can add your suggestions by submitting a pull request for editing [this file's source](https://github.com/PsuAstro528/Spring2019-website-src/blob/master/content/tools_used/tools_used.md).  Thanks!
-

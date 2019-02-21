@@ -1,16 +1,16 @@
 +++
 title = "Accomodations"
+course_inst = "Penn State"
+course_number = "Astro 528"
+course_name = "High-Performance Scientific Computing for Astrophysics"
 weight = 110
+
 type="page"
 
-# Creator's Display name
 creatordisplayname = "Eric Ford"
-# Creator's Email
-creatoremail = "ebf11@psu.edu"
-# LastModifier's Display name
+creatoremail = "ebf11 at psu dot edu"
 lastmodifierdisplayname = "Eric Ford"
-# LastModifier's Email
-lastmodifieremail = "ebf11@psu.edu"
+lastmodifieremail = "ebf11 at psu dot edu"
 +++
 
 Penn State welcomes students with disabilities into the University's educational programs. If you have a disability-related need for reasonable academic adjustments in this course, contact the Office for Disability Services (ODS) at 814-863-1807 (V/TTY). For further information regarding ODS, please visit the Office for Disability Services Web site at http://equity.psu.edu/ods/.
@@ -23,4 +23,3 @@ Academic Success, Learning Assistance, & Student Resources
 
 The Eberly College of Science is committed to the academic success of students enrolled in the College's courses and undergraduate programs. When in need of help, students can utilize various College and University wide resources for learning assistance.
 For more information see: http://www.science.psu.edu/advising/success/.
-

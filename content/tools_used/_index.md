@@ -1,8 +1,9 @@
 +++
 title = "The Making of Astro528"
+course_inst = "Penn State"
+course_number = "Astro 528"
+course_name = "High-Performance Scientific Computing for Astrophysics"
 weight = 1000
-type = "page"
-hidden = false
 include_toc = true
 
 creatordisplayname = "Eric Ford"
@@ -13,9 +14,9 @@ lastmodifieremail = "ebf11@psu.edu"
 
 # Tools & Workflows for Creating & Running Astro 528
 
-The following notes are primarily to serve as checklists, so the instructor can efficiently and reliably get stuff done for the course.  
+The following notes are primarily to serve as checklists, so the instructor can efficiently and reliably get stuff done for the course.
 
-I'd be happy to learn if they are useful to others.  
+I'd be happy to learn if they are useful to others.
 Feel free to create issues with suggestions and/or to submit pull requests with improvements via the [github repo for the course website source](https://github.com/PsuAstro528/Spring2019-website-src).
 
 ## Workflows:
@@ -28,4 +29,3 @@ Feel free to create issues with suggestions and/or to submit pull requests with 
 
 
 ## [Acknowledgments](ackl)
-

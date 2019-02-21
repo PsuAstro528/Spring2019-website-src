@@ -1,28 +1,22 @@
 +++
 title = "Present Project to Class"
+course_inst = "Penn State"
+course_number = "Astro 528"
+course_name = "High-Performance Scientific Computing for Astrophysics"
 weight = 14120  #wwdpp
-type="page"
+
 chapter= false
 
-# Creator's Display name
 creatordisplayname = "Eric Ford"
-# Creator's Email
 creatoremail = "ebf11 at psu dot edu"
-# LastModifier's Display name
 lastmodifierdisplayname = "Eric Ford"
-# LastModifier's Email
 lastmodifieremail = "ebf11 at psu dot edu"
 +++
 
-## Schedule of Presentations 
-- April  9:
-- April 11:
-- April 16: 
-- April 18:
-- April 23:
-- April 25:
+## [Schedule of Presentations (April  9-25)](https://github.com/PsuAstro528/PresentationsSchedule2019/blob/master/README.md)
 
-## Grading Rubric for Project Presentation 
+
+## Grading Rubric for Project Presentation
 {{%excerpt%}}
 - Motivation/Introduction/Overview, so class can understand broader goals (1 point)
 - Explanation of specific calculation being performed, so class can understand what follows (1 point)

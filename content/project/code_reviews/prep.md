@@ -1,16 +1,15 @@
 +++
 title = "Preparing your Code for Review"
+course_inst = "Penn State"
+course_number = "Astro 528"
+course_name = "High-Performance Scientific Computing for Astrophysics"
 weight = 152
-type="page"
+
 hidden = false
 
-# Creator's Display name
 creatordisplayname = "Eric Ford"
-# Creator's Email
 creatoremail = "ebf11 at psu dot edu"
-# LastModifier's Display name
 lastmodifierdisplayname = "Eric Ford"
-# LastModifier's Email
 lastmodifieremail = "ebf11 at psu dot edu"
 +++
 
@@ -30,7 +29,3 @@ To give your reviewer permission to access your repository, go to your repositor
 
 
 {{%excerpt-include filename="/tips/travis.md" /%}}
-
-
-
-

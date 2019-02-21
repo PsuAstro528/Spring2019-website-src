@@ -1,17 +1,16 @@
 +++
 title = "Schedule"
+course_inst = "Penn State"
+course_number = "Astro 528"
+course_name = "High-Performance Scientific Computing for Astrophysics"
 weight = 200
-type="page"
-alwaysopen = true
-chapter= true
 
-# Creator's Display name
+chapter= true
+alwaysopen = true
+
 creatordisplayname = "Eric Ford"
-# Creator's Email
 creatoremail = "ebf11 at psu dot edu"
-# LastModifier's Display name
 lastmodifierdisplayname = "Eric Ford"
-# LastModifier's Email
 lastmodifieremail = "ebf11 at psu dot edu"
 +++
 

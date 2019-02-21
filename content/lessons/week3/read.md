@@ -1,16 +1,15 @@
 +++
 title = "Readings"
+course_inst = "Penn State"
+course_number = "Astro 528"
+course_name = "High-Performance Scientific Computing for Astrophysics"
 weight = 03104  #wwdpp
-type="page"
+
 chapter= false
 
-# Creator's Display name
 creatordisplayname = "Eric Ford"
-# Creator's Email
 creatoremail = "ebf11 at psu dot edu"
-# LastModifier's Display name
 lastmodifierdisplayname = "Eric Ford"
-# LastModifier's Email
 lastmodifieremail = "ebf11 at psu dot edu"
 +++
 

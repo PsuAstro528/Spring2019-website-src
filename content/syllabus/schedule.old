@@ -3,14 +3,10 @@ title = "Course Schedule"
 weight = 110
 type="page"
 
-# Creator's Display name
 creatordisplayname = "Eric Ford"
-# Creator's Email
-creatoremail = "ebf11@psu.edu"
-# LastModifier's Display name
+creatoremail = "ebf11 at psu dot edu"
 lastmodifierdisplayname = "Eric Ford"
-# LastModifier's Email
-lastmodifieremail = "ebf11@psu.edu"
+lastmodifieremail = "ebf11 at psu dot edu"
 
 # menu = "main"
 
@@ -43,25 +39,25 @@ lastmodifieremail = "ebf11@psu.edu"
     + Tues, Oct 6: Read IHPC4SE Ch 4 Parallel Computers (20pg); Read IHPC4SE Ch 5 Basics of Parallelization (22pg)
     + Fri, Oct 9: Serial Project Code due (solves problem, passes test, serial, not necessarily optimized)
 - Week 8:  Shared-Memory Parallel Programming & Lab 6
-    + Tues, Oct 13:  Read IHPC4SE Ch 6 Shared-memory Parallel Programming w/ OpenMP (22 pg) & 
+    + Tues, Oct 13:  Read IHPC4SE Ch 6 Shared-memory Parallel Programming w/ OpenMP (22 pg) &
 		IHPC4SE Ch 7.2 Efficient OpenMP Programming: Performance Pitfalls (15 pg)
-    + Fri, Oct 16:      Code Review Due (see  [Code Review Checklist](https://courses.cs.washington.edu/courses/cse403/12wi/sections/12wi_code_review_checklist.pdf)) 
+    + Fri, Oct 16:      Code Review Due (see  [Code Review Checklist](https://courses.cs.washington.edu/courses/cse403/12wi/sections/12wi_code_review_checklist.pdf))
 - Week 9:  Distributed Memory Parallel Programming & Parallelizing Project Code
-    + Tues, Oct 20: Read IHPC4SE Ch 9 (excl. 9.2.5) Distributed Memory Parallel programming w/ MPI (29 pg);  
-	Optional: IHPC4SE Ch 10 Efficient MPI Programming & Ch 11.-11.1.2 Hybrid Parallelization w/ MPI & OpenMP 
+    + Tues, Oct 20: Read IHPC4SE Ch 9 (excl. 9.2.5) Distributed Memory Parallel programming w/ MPI (29 pg);
+	Optional: IHPC4SE Ch 10 Efficient MPI Programming & Ch 11.-11.1.2 Hybrid Parallelization w/ MPI & OpenMP
     + Fri, Oct 23: HW #6 (Parallel Programming for a Multi-Core System) Due
 - Week 10: Workflows & Reproducible Results & Lab 7
-    + Tues, Oct 27: Read WSS Ch 17.0-17.1 Make (4pg); [Julia Package Development](https://docs.julialang.org/en/v1.0/stdlib/Pkg/); BPSC 2; 
-    + Fri, Oct 30:   HW #7 (Parallel Programming for Clusters) Due 
+    + Tues, Oct 27: Read WSS Ch 17.0-17.1 Make (4pg); [Julia Package Development](https://docs.julialang.org/en/v1.0/stdlib/Pkg/); BPSC 2;
+    + Fri, Oct 30:   HW #7 (Parallel Programming for Clusters) Due
 - Week 11:  Accelerators, GPU Computing & Lab 8
     + Tues, Nov 3: Read [Introduction to CUDA](http://mc.stanford.edu/cgi-bin/images/f/f7/Darve_cme343_cuda_1.pdf); TODO Add reading about relevant package
-    + Fri, Nov 6:  Work on HW #8 or Parallel Project Code 
+    + Fri, Nov 6:  Work on HW #8 or Parallel Project Code
 - Week 12:  Cloud Computing & Lab 9
     + Tues, Nov 10:  Watch: [AWS: What is Cloud Computing?](https://www.youtube.com/watch?v=j8wRkZLbkzw&feature=youtu.be) (first 15 min)
     + Fri, Nov 13: First Set of Parallel Project Code Due (passes tests, optimized for multi-core shared-memory system)
-- Week 13:  Work on Projects 
+- Week 13:  Work on Projects
     + Tues, Nov 17:  Work on Projects
-    + Fri, Nov 20:  Due HW #8 (GPU Computing)  &  Parallel Project Code Review Due 
+    + Fri, Nov 20:  Due HW #8 (GPU Computing)  &  Parallel Project Code Review Due
 - Week 14:  Thanksgiving Break
 - Week 15:  Work on Projects
     + Tues, Dec 1:  Work on Projects (No class)
@@ -69,7 +65,5 @@ lastmodifieremail = "ebf11@psu.edu"
 	(This time, submitting by the end of day ok, rather than before class.)
 - Weeks 16: Student Presentations
    + Tues, Dec 8: Student Presentations
-   + Fri, Dec 11:   Student Presentations, continued;  All Class Projects Final Code & Supporting Documentation Due & 
-		Optional HW #9 (Cloud Computing) 
-
-
+   + Fri, Dec 11:   Student Presentations, continued;  All Class Projects Final Code & Supporting Documentation Due &
+		Optional HW #9 (Cloud Computing)

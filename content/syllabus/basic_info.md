@@ -1,16 +1,14 @@
 +++
 title = "Basic Course Information"
+course_inst = "Penn State"
+course_number = "Astro 528"
+course_name = "High-Performance Scientific Computing for Astrophysics"
 weight = 10
-type="page"
 
-# Creator's Display name
 creatordisplayname = "Eric Ford"
-# Creator's Email
-creatoremail = "ebf11@psu.edu"
-# LastModifier's Display name
+creatoremail = "ebf11 at psu dot edu"
 lastmodifierdisplayname = "Eric Ford"
-# LastModifier's Email
-lastmodifieremail = "ebf11@psu.edu"
+lastmodifieremail = "ebf11 at psu dot edu"
 +++
 
 - Course: Astro 528: High-Performance Scientific Computing for Astrophysics (Spring 2018)
@@ -20,5 +18,3 @@ lastmodifieremail = "ebf11@psu.edu"
 - Phone: x3-5558
 - Office Hours: Thursdays 11:50am-12:50pm or by appointment
 - Website: https://psuastro528.github.io/
-
-

@@ -1,15 +1,13 @@
 +++
 title = "Grading Rubric"
+course_inst = "Penn State"
+course_number = "Astro 528"
+course_name = "High-Performance Scientific Computing for Astrophysics"
 weight = 130
-type="page"
 
-# Creator's Display name
 creatordisplayname = "Eric Ford"
-# Creator's Email
 creatoremail = "ebf11 at psu dot edu"
-# LastModifier's Display name
 lastmodifierdisplayname = "Eric Ford"
-# LastModifier's Email
 lastmodifieremail = "ebf11 at psu dot edu"
 +++
 
@@ -46,8 +44,8 @@ Typically, the first parallel version runs on multiple cores using a shared memo
 
 {{%excerpt-include filename="lessons/week11/project.md" /%}}
 
-## Completed Project: 
-### Submit second parallel version of code 
+## Completed Project:
+### Submit second parallel version of code
 Typically, the second parallel version of the code is parallelized using one of: 1) multiple cores with distributed-memory, GPU, Intel Phi, or a cloud provider.
 
 {{%excerpt-include filename="lessons/week14/project.md" /%}}

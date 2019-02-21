@@ -1,16 +1,16 @@
 +++
 title = "Learning goals"
+course_inst = "Penn State"
+course_number = "Astro 528"
+course_name = "High-Performance Scientific Computing for Astrophysics"
 weight = 02103  #wwdpp
-type="page"
-chapter= false
 
-# Creator's Display name
+chapter= false
+hidden = false
+
 creatordisplayname = "Eric Ford"
-# Creator's Email
 creatoremail = "ebf11 at psu dot edu"
-# LastModifier's Display name
 lastmodifierdisplayname = "Eric Ford"
-# LastModifier's Email
 lastmodifieremail = "ebf11 at psu dot edu"
 +++
 
@@ -28,7 +28,7 @@ lastmodifieremail = "ebf11 at psu dot edu"
    + Appreciate importance of numerical stability
 - Exercise 3: Model for Radial Velocity of a Star
    + Practice _documenting_ your functions effectively
-   + Write effective tests for floating point calculations 
+   + Write effective tests for floating point calculations
    + Reduce bugs via _composite types_ and _named function parameters_
    + Reduce bugs via _assertions_
    + Identify bugs promptly via _unit testing_
@@ -48,4 +48,3 @@ lastmodifieremail = "ebf11 at psu dot edu"
 + Integration Algorithms
   - [leapfrog](https://en.wikipedia.org/wiki/Leapfrog_integration)
   - [symplectic](https://en.wikipedia.org/wiki/Symplectic_integrator)
-

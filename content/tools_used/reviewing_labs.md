@@ -1,8 +1,9 @@
 +++
 title = "Reviewing lab assignments"
+course_inst = "Penn State"
+course_number = "Astro 528"
+course_name = "High-Performance Scientific Computing for Astrophysics"
 weight = 1110
-type="page"
-hidden=false
 include_toc = true
 
 creatordisplayname = "Eric Ford"
@@ -15,11 +16,11 @@ lastmodifieremail = "ebf11@psu.edu"
 
 1. Go to [GitHub Classroom](https://classroom.github.com/classrooms)
    - Click class
-   - Click Assignment 
+   - Click Assignment
 
 2. To review a student's work:
    - Click "View repository" next to student's github id
-   - Look if "Pull requests" has a number >=1 after it. 
+   - Look if "Pull requests" has a number >=1 after it.
    - If so:
        + Click "Pull requests", click pull request name
        + Click "Checks" and see that Travis returns "Succes"
@@ -37,7 +38,6 @@ lastmodifieremail = "ebf11@psu.edu"
 
 3. To review progress of many students:
    - Go to [Travis-CI.com](https://travis-ci.com/PsuAstro528)
-   - To investigate any students in red with last build # >1: 
+   - To investigate any students in red with last build # >1:
        + Click their repo name
        + Scroll down to the bottom to see which tests failed and why
-

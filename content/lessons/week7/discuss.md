@@ -1,6 +1,6 @@
 +++
-title = "Discussion Topics Week 6"
-date = "12 Feb 2019"
+title = "Discussion Topics Week 7"
+date = "19 Feb 2019"
 course_inst = "Penn State"
 course_number = "Astro 528"
 course_name = "High-Performance Scientific Computing for Astrophysics"
@@ -14,7 +14,7 @@ creatoremail = "ebf11 at psu dot edu"
 lastmodifierdisplayname = "Eric Ford"
 lastmodifieremail = "ebf11 at psu dot edu"
 
-type = "page"
+type = "slide"
 theme = "psu"
 [revealOptions]
 transition= 'slide' # 'none','fade','concave','convex','zoom'

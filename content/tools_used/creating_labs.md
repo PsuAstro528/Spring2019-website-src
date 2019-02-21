@@ -1,8 +1,9 @@
 +++
 title = "Creating lab assignments"
+course_inst = "Penn State"
+course_number = "Astro 528"
+course_name = "High-Performance Scientific Computing for Astrophysics"
 weight = 1100
-type="page"
-hidden=false
 include_toc = true
 
 creatordisplayname = "Eric Ford"
@@ -49,7 +50,7 @@ git checkout -b solution
 
 ```shell
 git add ex?.ipynb test/test?.jl
-git commit -m "new exercise" 
+git commit -m "new exercise"
 ```
    - Test each exercise as you go `julia -e 'include("test/test1.jl")'`
    - Test as a group `julia -e 'include("test/runtests.jl")'`
@@ -75,7 +76,7 @@ git push -u origin solution`
 
 ### Check solution passes CI testing
 
-Check status of test at https://travis-ci.com/PsuAstro528/labN-dev/ .  
+Check status of test at https://travis-ci.com/PsuAstro528/labN-dev/ .
 
 
 ### Make Julia Markdown version of solutions
@@ -95,9 +96,9 @@ git add ex?.jmd; git commit -m "convert from ipynb"
 ```
 
 - Checkout master branch and add jmd files from solution branch
-```shell 
+```shell
 git checkout master
-git checkout solution exN.jmd 
+git checkout solution exN.jmd
 git checkout solution test/testN.jl
 ```
 
@@ -141,7 +142,7 @@ Create starter repostiory on GitHub.com from development repository
 
 ```shell
 git add *
-git add .gitignore .travis.yml 
+git add .gitignore .travis.yml
 git commit -m "init"
 git push --set-upstream origin master
 ```
@@ -169,4 +170,3 @@ Go to https://classroom.github.com/classrooms
       - Deadline: Sunday 23:59pm
       - Create Assignment
    -  Copy Invitation Link and send it to students in a Canvas announcement
-

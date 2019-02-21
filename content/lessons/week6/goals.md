@@ -1,16 +1,16 @@
 +++
 title = "Learning goals"
+course_inst = "Penn State"
+course_number = "Astro 528"
+course_name = "High-Performance Scientific Computing for Astrophysics"
 weight = 06103  #wwdpp
-type="page"
-chapter= false
 
-# Creator's Display name
+chapter= false
+hidden = false
+
 creatordisplayname = "Eric Ford"
-# Creator's Email
 creatoremail = "ebf11 at psu dot edu"
-# LastModifier's Display name
 lastmodifierdisplayname = "Eric Ford"
-# LastModifier's Email
 lastmodifieremail = "ebf11 at psu dot edu"
 +++
 
@@ -19,7 +19,7 @@ lastmodifieremail = "ebf11 at psu dot edu"
 - Describe what an optimizing compiler can optimize for you
 - Describe what an optimizing compiler can't optimize for you
 - Understand how linear algebra libraries acheive peak performance through memory access pattern
-- Describe interaction between global variables and type unstable functions 
+- Describe interaction between global variables and type unstable functions
 {{%/excerpt%}}
 
 ## Lessons along the way

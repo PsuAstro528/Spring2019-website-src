@@ -1,16 +1,14 @@
 +++
 title = "Learning goals"
+course_inst = "Penn State"
+course_number = "Astro 528"
+course_name = "High-Performance Scientific Computing for Astrophysics"
 weight = 04103  #wwdpp
-type="page"
-chapter= false
 
-# Creator's Display name
+
 creatordisplayname = "Eric Ford"
-# Creator's Email
 creatoremail = "ebf11 at psu dot edu"
-# LastModifier's Display name
 lastmodifierdisplayname = "Eric Ford"
-# LastModifier's Email
 lastmodifieremail = "ebf11 at psu dot edu"
 +++
 
@@ -19,13 +17,13 @@ lastmodifieremail = "ebf11 at psu dot edu"
 - Describe steps a CPU performs surrounding actual arithmetic
 - Anticipate when performance will be affected by cache size
 - Project
-   - Plan data structures to optimize for memory access 
+   - Plan data structures to optimize for memory access
    - Profile code to identify code worth optimizing
    - Document code to increase chances of useful feedback from peer code review
 {{%/excerpt%}}
 
 ## Lessons along the way
-- Bus 
+- Bus
 - Registers
 - FPUs
 - Prefetch
@@ -36,4 +34,3 @@ lastmodifieremail = "ebf11 at psu dot edu"
 - Type stability: `@code_warntype`
 - Strict typing, sub-types, union types
 - Performance impact of `global`'s
-

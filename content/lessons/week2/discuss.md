@@ -1,12 +1,30 @@
 +++
 title = "Discussion Topics Week 2"
-date = "13 Jan 2019"
+date = "15 Jan 2019"
 course_inst = "Penn State"
 course_number = "Astro 528"
 course_name = "High-Performance Scientific Computing for Astrophysics"
-type = "page"
-hidden = false
 weight = 02150  # wwdpp
+
+chapter= false
+hidden = false
+
+creatordisplayname = "Eric Ford"
+creatoremail = "ebf11 at psu dot edu"
+lastmodifierdisplayname = "Eric Ford"
+lastmodifieremail = "ebf11 at psu dot edu"
+
+type = "page"
+theme = "psu"
+[revealOptions]
+transition= 'slide' # 'none','fade','concave','convex','zoom'
+controls= true
+progress= true
+history= false
+center= true
+loop= false
+pdfSeparateFragments= false
+showNotes= true
 +++
 
 

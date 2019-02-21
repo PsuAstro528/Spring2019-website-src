@@ -1,16 +1,14 @@
 +++
 title = "Readings"
+course_inst = "Penn State"
+course_number = "Astro 528"
+course_name = "High-Performance Scientific Computing for Astrophysics"
 weight = 30
-type="page"
 
-# Creator's Display name
 creatordisplayname = "Eric Ford"
-# Creator's Email
-creatoremail = "ebf11@psu.edu"
-# LastModifier's Display name
+creatoremail = "ebf11 at psu dot edu"
 lastmodifierdisplayname = "Eric Ford"
-# LastModifier's Email
-lastmodifieremail = "ebf11@psu.edu"
+lastmodifieremail = "ebf11 at psu dot edu"
 +++
 
 ## Textbooks
@@ -18,7 +16,7 @@ The textbooks for this course are:
 
 - _Writing Scientific Software: A Guide to Good Style_ by Suely Oliveira, Cambridge University Press, 1st edition, September 18, 2006,  ISBN-10: 0521858968.
 - _[ThinkJulia: How to Think like a Computer Scientist](https://benlauwens.github.io/ThinkJulia.jl/latest/book.html)_ by Ben Lauwens and Allen Downey (online)
-- Optionally: _Introduction to High Performance Computing for Scientists and Engineers_ by Georg Hager &amp; Gerhard Wellein, CRC Press, 1st edition, July 2, 2010,  ISBN-10: 143981192X 
+- Optionally: _Introduction to High Performance Computing for Scientists and Engineers_ by Georg Hager &amp; Gerhard Wellein, CRC Press, 1st edition, July 2, 2010,  ISBN-10: 143981192X
 
 Whenver readings from _Introduction to High Performance Computing for Scientists and Engineers_ are suggested, there will be alternative online reading assignments for students who prefer not to purchase another textbook.  Hopefully, different students reading from different sources will help stimulate interesting discussion about commonalities and differences across sources.
 
@@ -37,5 +35,3 @@ We will also make use of a variety of web resources, including:
 - [OpenACC slides from NVIDIA](https://hpc.llnl.gov/sites/default/files/2014.09.15-16.NVIDIA-OpenACC_0.pdf)
 - [Introduction to Parallel Programming with GPUs & CUDA](https://www.udacity.com/course/cs344) at Udacity
 - [Docker Orientation](https://docs.docker.com/get-started/)
-
-

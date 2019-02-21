@@ -4,9 +4,27 @@ date = "22 Jan 2019"
 course_inst = "Penn State"
 course_number = "Astro 528"
 course_name = "High-Performance Scientific Computing for Astrophysics"
-type = "page"
-hidden = false
 weight = 03150  # wwdpp
+
+chapter= false
+hidden = false
+
+creatordisplayname = "Eric Ford"
+creatoremail = "ebf11 at psu dot edu"
+lastmodifierdisplayname = "Eric Ford"
+lastmodifieremail = "ebf11 at psu dot edu"
+
+type = "page"
+theme = "psu"
+[revealOptions]
+transition= 'slide' # 'none','fade','concave','convex','zoom'
+controls= true
+progress= true
+history= false
+center= true
+loop= false
+pdfSeparateFragments= false
+showNotes= true
 +++
 
 
@@ -21,7 +39,7 @@ High-Performance Scientific Computing for Astrophysics
 
 ## Logistics
 ___
-## Homework  
+## Homework
 
 - Good job!
 - I'll aim for a little shorter
@@ -33,7 +51,7 @@ ___
 - logging in again
 ___
 ### Alternative workaround
-From Portal [http://portal.aci.isc.psu.edu], 
+From Portal [http://portal.aci.isc.psu.edu],
 
 start an "Interactive Desktop"
 ```shell
@@ -72,7 +90,7 @@ ___
 ![Figure showing Runtime vs Array-size](/images/week3/lab3_ex1_fig1.png)
 - Using `@belapsed`
 - Non-linear
-- Conclusion? 
+- Conclusion?
 
 ___
 ### How long to integrate 10^8 orbits?
@@ -179,7 +197,7 @@ ___
 ___
 "If your code runs slowly to begin with...
 
-How much optimization is too much?" 
+How much optimization is too much?"
 ___
 
 "Do we really need to worry about row-major vs. column-major order?"

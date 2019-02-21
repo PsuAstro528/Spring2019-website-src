@@ -1,23 +1,17 @@
 +++
 title = "Getting Started with Julia on ACI"
-date = "8 Jan 2019"
 course_inst = "Penn State"
 course_number = "Astro 528"
 course_name = "High-Performance Scientific Computing for Astrophysics"
-type = "page"
-hidden = false
 weight = 01104
 
-theme = "psu" # "league"
-[revealOptions]
-transition= 'slide' # 'none','fade','concave','convex','zoom'
-controls= true
-progress= true
-history= false
-center= true
-loop= false
-pdfSeparateFragments= false
-showNotes= true
+chapter= false
+hidden = false
+
+creatordisplayname = "Eric Ford"
+creatoremail = "ebf11 at psu dot edu"
+lastmodifierdisplayname = "Eric Ford"
+lastmodifieremail = "ebf11 at psu dot edu"
 +++
 
 ## Instructions for Completing Labs via ICS ACI Portal
@@ -64,7 +58,7 @@ cd julia-1.0.2
 
 # Setup paths so Julia can be found
 # If you've not used ICS-ACI before (or have used it without changing the
-# default settings), then the follow lines should work.  
+# default settings), then the follow lines should work.
 export PATH=$PWD/bin:$PATH
 export LD_LIBRARY_PATH=$PWD/lib:$LD_LIBRARY_PATH
 export LD_LIBRARY_PATH=$PWD/lib/julia:$LD_LIBRARY_PATH
@@ -72,12 +66,12 @@ echo "export PATH=$PWD/bin:$PATH" >> ~/.bashrc
 echo "export LD_LIBRARY_PATH=$PWD/lib:$LD_LIBRARY_PATH" >> ~/.bashrc
 echo "export LD_LIBRARY_PATH=$PWD/lib/julia:$LD_LIBRARY_PATH" >> ~/.bashrc
 # But if you have already been using ICS-ACI, then you may have adjusted
-# your default paths in a way that prevents the ICS-ACI portal from starting 
-# properly.  (Or a program may have done it for you.  In that case, I 
-# suggest commenting out the lines of your .bashrc, .bash_profile, 
-# .bash_login or .profile that set your PATH variable.  
-# Then logout of aci-i and log back in, so that you're back to the "default" 
-# PATH.  Then try following command (not commented out) 
+# your default paths in a way that prevents the ICS-ACI portal from starting
+# properly.  (Or a program may have done it for you.  In that case, I
+# suggest commenting out the lines of your .bashrc, .bash_profile,
+# .bash_login or .profile that set your PATH variable.
+# Then logout of aci-i and log back in, so that you're back to the "default"
+# PATH.  Then try following command (not commented out)
 # export PATH=${PATH}:/storage/home/ebf11/work/julia_install/julia-1.0.2/bin:/opt/aci/sw/python/3.6.3_anaconda-5.0.1/scripts:/usr/lib64/qt-3.3/bin
 # to update your path default to including julia and python.
 
@@ -134,7 +128,7 @@ Each time in the future you want to start a Jupyter notebook session on ICS-ACI
 
 - Request a Jupyter notebook session on ACI (see [above](#start-jupyter))
 - While waiting for it to start, let's get the url for the repo to be cloned.
-    + If you haven't followed the link to create your repo for this week's assignment, do that now.  Following that link should trigger GitHub to create a private git repository named labN-GITHUBID (where N is the week number and GITHUBID is the GitHub username that you're logged in as at the time you follow the link).  
+    + If you haven't followed the link to create your repo for this week's assignment, do that now.  Following that link should trigger GitHub to create a private git repository named labN-GITHUBID (where N is the week number and GITHUBID is the GitHub username that you're logged in as at the time you follow the link).
     + Navigate to the github repository you'll be using in your browser.
     + Click _Clone or download_.
     + If it says "Clone with https", click "Use ssh".
@@ -227,4 +221,3 @@ git push                                        # Uploads your progress to githu
 - In the conversations tab (default), you and the instructor can discuss the pull request using the text box at the bottom of the page.
 - In the "Files changed" tab, the instructor can provide comments on specific lines of your submission.
 - You can view the comments, reply, close the pull request, make more changes, create a new pull request, etc.
-
