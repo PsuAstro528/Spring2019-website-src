@@ -14,7 +14,7 @@ creatoremail = "ebf11 at psu dot edu"
 lastmodifierdisplayname = "Eric Ford"
 lastmodifieremail = "ebf11 at psu dot edu"
 
-type = "slide"
+type = "page"
 theme = "psu"
 [revealOptions]
 transition= 'slide' # 'none','fade','concave','convex','zoom'
@@ -28,7 +28,7 @@ showNotes= true
 pdfMaxPagesPerSlide=1
 +++
 
-<revealjs theme="psu" transition="slide" controls="true" progress="true" history="false" center="false" loop="false" pdfSeparateFragments="false" showNotes="true" pdfMaxPagesPerSlide="1" >
+{{<revealjs theme="psu" transition="slide" controls="true" progress="true" history="false" center="false" loop="false" pdfSeparateFragments="false" showNotes="true" pdfMaxPagesPerSlide="1" >}}
 # Astro 528, Week 7
 
 High-Performance Scientific Computing for Astrophysics
@@ -68,9 +68,106 @@ ___
 ## What can't compilers parallelize without you?
 <p class="fragment">- When does order not matter?</p>
 ---
+## Parallel Programming 1:
+### Shared-Memory
+___
+## Examples of Shared-Memory Systems
+<p class="fragment">
+- Laptop (~2-6 cores)
+- Workstation/Compute Node (~4-24 cores)
+- Server (~8-128 cores)
+- Old school supercomputers (e.g., Cray Y-MP)
+</p>
+___
+## Examples of Non-Shared-Memory Systems
+<p class="fragment">
+- Computer Cluster
+- Cloud computing
+</p>
+___
+## Advantages of Shared-Memory Systems
+- Ease of programming
+- Good for tightly coupled problems
+___
+## Disadvantages of Shared-Memory Systems
+- Sharing memory creates costs
+- Locking
+---
+## OpenMP
+```c
+#pragma omp parallel for
+for(i=0;i< num_steps; i++)
+    {
+    output[i] = f(input[i])
+    }
+```
+___
+### Compiling & Running OpenMP code
+```sh
+gcc -lm -Ofast -fopenmp -o execitable source.c
+export OMP_NUM_THREADS=4
+./executable
+```
+---
+## Parallelizing for Shared-Memory System with Julia
+___
+### Spinning up multiple cores
+- Request multiple cores (either portal or via PBS)
+- Command line: `julia -p 4`
+- After julia has started:
+```julia
+using Distributed
+addprocs(4)
+```
+___
+### Loading code on each worker
+- `@everywhere using SharedArrays`
+- `@everywhere include("my_code.jl")`
+- `@everywhere square(x) = x*x`
+___
+### Getting data from worker
+```julia
+x = 17
+ref = @spawn f(x)
+y = fetch(ref)
+```
+___
+### Moving data to workers
+- As function argument (e.g., `@spawn f(x)`)
+- Explictly
+```julia
+data = CSV.read("input.csv")
+for p in workers()
+    remotecall_fetch(()->data, p)
+end
+```
+- [ParallelDataTransfer.jl](https://github.com/ChrisRackauckas/ParallelDataTransfer.jl)
 
-
+Note:
+Shared loading of data via JuliaDB's `loadtable(files::AbstractVector; options)`
+___
+### Options for Parallelizing
+- `Array` to `SharedArray`
+- `map` to `pmap`
+- `@distributed for`
+___
+### Parallelizing with `@distributed`
+```julia
+out = SharedArray{eltype(x)}(length(x))
+@sync @distributed for i in 1:length(x)
+    out[i] = conv_spectrum(x[i])
+end
+```
+___
+### Parallelizing with `Threads` (experimental)
+```julia
+out = zeros(length(x))
+Threads.@threads for i in 1:length(x)
+   out[i] = conv_spectrum(x[i])
+end
+```
+---
 
 ---
 # Questions?
-</revealjs>
+{{</revealjs>}}
