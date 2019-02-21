@@ -9,8 +9,6 @@ lastmodifieremail = "ebf11 at psu dot edu"
 +++
 
 {{%excerpt%}}
-## Setting up continuous integration testing
-
 Some students asked about how to make the continuous integration testing with Travis-CI work. Below I summarize the steps
 
 1.  _Make sure your `Project.toml` file contains all the packages that you explicitly use._  You can do this by running

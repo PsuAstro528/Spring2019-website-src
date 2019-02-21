@@ -15,17 +15,6 @@ lastmodifieremail = "ebf11 at psu dot edu"
 - [Setting up Continuous Integration Testing](/tips/travis.md)
 
 
-{{%excerpt-include filename="project/code_reviews/prep.md" /%}}
-
-<hr>
-
-## Conducting a Code Review
-{{%excerpt-include filename="project/code_reviews/how_to.md" /%}}
-
-## Making use of your code review
-{{%excerpt-include filename="project/code_reviews/follow_up.md" /%}}
-
-
 ## Additional resources with various perspectives on how to conduct an effective code review
 
 - [Things Everyone Should Do: Code Review](http://goodmath.scientopia.org/2011/07/06/things-everyone-should-do-code-review/)

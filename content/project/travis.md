@@ -13,4 +13,5 @@ lastmodifierdisplayname = "Eric Ford"
 lastmodifieremail = "ebf11 at psu dot edu"
 +++
 
+## Setting up continuous integration testing
 {{%excerpt-include filename="tips/travis.md" /%}}

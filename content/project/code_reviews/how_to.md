@@ -18,7 +18,7 @@ Once you've been granted permission to a repository to review, browse to the rep
 
 Next, browse the source files on GitHub by clicking on the file to review.  Try to provide specific feedback on potential opporunities for improvement in each of the categories listed below.  In most cases, I think it will generally be easiest to create a new issue for each suggestion linked to the line(s) of codes that you're commenting on (see below for step-by-step instructions).  In cases, where it would be more useful to describe a repeated issue once (e.g., "Your function docstrings did not explain what the inputs should be."), then you can create one (or a few issues) and then in the comment section mention that "This issue appears repeatedly in this function (or file)".
 
-### Logistics of providing comments via GitHub Issues
+### Logistics of providing comments via [GitHub Issues](https://guides.github.com/features/issues/)
 
 When you see a specific line of code that you'd like to comment on, click the line number to the left of the code.  A box containing "..." will appear just to the left of the line number.  If you click there, you'll get a drop-down menu.  Choose "Reference in new issue".  At that point you'll be brought to a new screen where you can describe the issue you've identified.
 If you want to comment on a chunk of code (rather than one line), then first click on the line number of the beginning of the block you want to comment on.  Then hold down "Shift" and click on the line number at the end of the block you want to comment on.  Then click the box containing "...", and choose "Reference in a new issue"g
