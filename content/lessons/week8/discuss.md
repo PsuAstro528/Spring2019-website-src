@@ -4,7 +4,7 @@ date = "26 Feb 2019"
 course_inst = "Penn State"
 course_number = "Astro 528"
 course_name = "High-Performance Scientific Computing for Astrophysics"
-weight = 07150  # wwdpp
+weight = 08150  # wwdpp
 
 chapter= false
 hidden = false
