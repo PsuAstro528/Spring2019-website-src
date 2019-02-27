@@ -19,7 +19,12 @@ lastmodifieremail = "ebf11 at psu dot edu"
 - Describe what an optimizing compiler can optimize for you
 - Describe what an optimizing compiler can't optimize for you
 - Understand how linear algebra libraries acheive peak performance through memory access pattern
-- Describe interaction between global variables and type unstable functions
+- Describe interaction between global variables and type stability of functions
+- Explain why parallelism in increasingly important
+- Describe function overloading & multiple dispatch
+- Describe benefits of use abstract types and containers of abstract types
+- Describe benefits of an Application Programming Interface
 {{%/excerpt%}}
+
 
 ## Lessons along the way

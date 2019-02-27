@@ -61,15 +61,20 @@ ___
 <p class="fragment">How good of a parallelization job can they do?</p>
 ___
 ## What do compilers parallelize automatically?
+<p class="fragment">- calculations *that compiler knows* are indepdent </p>
 <p class="fragment">- SIMD instructions</p>
 <p class="fragment">- Needs `@inbounds`</p>
 ___
 ## What can compilers parallelize with some help?
 <p class="fragment">- Parallel languages (e.g., Fortran >=90)</p>
 <p class="fragment">- Language extensions (e.g., OpenMP)</p>
+<p class="fragment">- Declarative languages (potentially)</p>
 ___
-## What can't compilers parallelize without you?
-<p class="fragment">- When does order not matter?</p>
+## What can't compilers parallelize
+<p class="fragment">- When it doesn't know changing order is safe</p>
+<p class="fragment">- Most of the time with imperative langauges</p>
+___
+When in our career should we decide to invest our time in learning how to implement parallel computation?
 ---
 ## Parallel Programming 1:
 ### Shared-Memory
@@ -171,6 +176,82 @@ Threads.@threads for i in 1:length(x)
 end
 ```
 ---
+# Reading Questions
+___
+## Parallel Computing w/ Julia
+Is there any Julia structure that automatically takes advantage of shared memory when possible but otherwise uses slower communication methods?
+- Data-parallelism
+___
+## Writing code to grow into parallelism
+
+```julia
+in_local = randn(N)
+out_local = zeros(N)
+
+function apply_loop!(out::AbstractArray,  f::Function, in::AbstractArray)
+   @assert size(out) == size(in)
+   @sync @distributed for i in 1:length(x)
+      out[i] = f(in[i])
+   end
+   return out
+end
+```
+___
+## Growing into parallelism
+```julia
+in_local = randn(N)
+out_local = zeros(N)
+in_sh = SharedArray(in_local)
+out_sh = SharedArray{eltype(in_sh)}(N)
+
+function apply_loop!(out::AbstractArray,  f::Function, in::AbstractArray)
+    @assert size(out) == size(in)
+   @sync @distributed for i in 1:length(x)
+      out[i] = f(in[i])
+   end
+   return out
+end
+apply_loop!(out_sh,f,in_sh)
+```
+___
+## Growing into parallelism
+```julia
+in_local = randn(N)
+out_local = zeros(N)
+in_dist = distribute(in_local)
+out_dist = dzeros(N)
+
+function apply_loop!(out::AbstractArray,  f::Function, in::AbstractArray)
+   @assert size(out) == size(in)
+   @sync @distributed for i in 1:length(x)
+      out[i] = f(in[i])
+   end
+   return out
+end
+apply_loop!(out_dist,f,in_dist)
+```
+___
+## Broadcasting for Data-parallelism
+```julia
+x_local = randn(10,10) # Array{Float64,2}
+x_dist = distribute(x_local) # DArray{Float64,2,Array{Float64,2}}
+x_cu = cu(x_local)
+f(x) = x*x
+f.(x_local) # Array{Float64,2}
+f.(x_dist)  # DArray{Float64,2,...}
+f.(x_cu)    # CuArray{Float64,2}
+```
+___
+## Map for Data-parallelism
+```julia
+x_local = randn(10,10) # Array{Float64,2}
+x_dist = distribute(x_local) # DArray{Float64,2,Array{Float64,2}}
+x_cu = cu(x_local)
+f(x) = x*x
+map(f,x_local) # Array{Float64,2}
+map(f,x_dist)  # DArray{Float64,2,...}
+map(f,x_cu)    # CuArray{Float64,2}
+```
 
 ---
 # Questions?
