@@ -18,6 +18,7 @@ lastmodifieremail = "ebf11 at psu dot edu"
 <b>Parallel Programming II: Batch Jobs & Distributed Memory</b><br />
 [Lab 6 Git Repository](https://github.com/PsuAstro528/lab6-start) (due March 17)
 
-- Exercise 1: Submitting Batch Jobs to ACI
+- Exercise 1: Submitting Batch Jobs to ICS-ACI Cluster
 - Exercise 2: Parallelization for Distributed-memory Systems (e.g., Clusters, Cloud)
+- Exercise 3: Run your project code as a batch job on ICS-ACI
 {{%/excerpt%}}

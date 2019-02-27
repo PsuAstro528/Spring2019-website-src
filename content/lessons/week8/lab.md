@@ -13,6 +13,5 @@ lastmodifierdisplayname = "Eric Ford"
 lastmodifieremail = "ebf11 at psu dot edu"
 +++
 
-
-
+Continue working on:
 {{%excerpt-include filename="lessons/week7/lab.md" /%}}
