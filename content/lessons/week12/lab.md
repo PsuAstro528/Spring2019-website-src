@@ -21,5 +21,4 @@ lastmodifieremail = "ebf11 at psu dot edu"
 
 - Exercise 1:
 - Exercise 2:
-- Exercise 3:
 {{%/excerpt%}}
