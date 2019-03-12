@@ -77,6 +77,26 @@ b.x =  cos(theta)*a.x+sin(theta)*a.y
 b.y = -sin(theta)*a.x+cos(theta)*a.y
 ```
 ___
+### Avoiding Duplicated calculations
+```julia
+function f(A, x; g_of_A_x = g(A,x) )
+   ...
+end
+```
+___
+### Avoiding Duplicated calculations
+```julia
+function f_low_level(A, x, g_of_A_x; eps=default_eps, tol=default_eps )
+   ...
+end
+
+function f_hi_level(A, x)
+   g_of_A_x = g(A,x)
+   f_low_level(A,x, g_of_A_x, eps=default_eps, eps=default_tol )
+   ...
+end
+```
+___
 ### Unnecessary Memory Allocation
 - Explicit temporary arrays
 - Implicit temporary arrays
