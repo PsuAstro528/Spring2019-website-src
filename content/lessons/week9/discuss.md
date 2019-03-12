@@ -97,6 +97,21 @@ function f_hi_level(A, x)
 end
 ```
 ___
+### [Memoize.jl](https://github.com/JuliaCollections/Memoize.jl)
+```
+using Memoize
+@memoize function x(a)
+	println("Running")
+	a
+end
+julia> x(1)
+Running
+1
+
+julia> x(1)
+1
+```
+___
 ### Unnecessary Memory Allocation
 - Explicit temporary arrays
 - Implicit temporary arrays
@@ -203,10 +218,6 @@ ___
 #PBS -l nodes=1:ppn=1:gpus=1
 ...
 ```
----
-# Reading Questions
-___
-
 ---
 # Questions?
 {{</revealjs>}}
