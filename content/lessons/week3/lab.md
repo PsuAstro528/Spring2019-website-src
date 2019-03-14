@@ -18,9 +18,9 @@ lastmodifieremail = "ebf11 at psu dot edu"
 <b>Memory Access, Disk I/O, DataFrames</b><br />
 [Lab 3 Git Repository](https://github.com/PsuAstro528/lab3-start) (due Jan 27)
 
-- Exercise 1: Benchmarking File I/O
-- Exercise 2: DataFrames, Join, Query
-- Exercise 3: Dense Matrix-Vector Multiply
+- [Exercise 1: Benchmarking File I/O & Calling Python Packages](https://nbviewer.jupyter.org/github/PsuAstro528/lab3-start/blob/master/ex1.ipynb)
+- [Exercise 2: DataFrames, Join, Query](https://nbviewer.jupyter.org/github/PsuAstro528/lab3-start/blob/master/ex2.ipynb)
+- [Exercise 3: Dense Matrix-Vector Multiply](https://nbviewer.jupyter.org/github/PsuAstro528/lab3-start/blob/master/ex1.ipynb)
 {{%/excerpt%}}
 
 ## Lessons / Resources

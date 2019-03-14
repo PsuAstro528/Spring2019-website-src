@@ -18,5 +18,5 @@ lastmodifieremail = "ebf11 at psu dot edu"
 <b>Profiling, Optimization</b> <br />
 [Lab 4 Git Repository](https://github.com/PsuAstro528/lab4-start) (due Feb 10, extended to Feb 12)
 
-- Exercise 1: Optimization & Optimization
+- [Exercise 1: Optimization Problems & Optimizing Serial Code](https://nbviewer.jupyter.org/github/PsuAstro528/lab3-start/blob/master/ex1.ipynb)
 {{%/excerpt%}}

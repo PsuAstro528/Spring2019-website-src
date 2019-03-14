@@ -19,13 +19,13 @@ lastmodifieremail = "ebf11 at psu dot edu"
 <b>Tools, Floating Point Arithmetic, Functions, Tests</b><br />
 [Lab 1 Git Repository](https://github.com/PsuAstro528/lab1-start)  (Due Jan 13)
 
-- Exercise 1: Core development tools
+- [Exercise 1: Core development tools](https://nbviewer.jupyter.org/github/PsuAstro528/lab1-start/blob/master/ex1.ipynb)
     + [ICS-ACI portal](http://portal.aci.ics.psu.edu/) or [JuliaBox](https://www.juliabox.com)
     + [git](https://try.github.io/)
     + [GitHub.com](https://github.com)
     + [Jupyter Notebooks](jupyter.org)
     + [Julia](https://julialang.org/)
-- Exercise 2: Floating Point Arithmetic, Functions, Tests
+- [Exercise 2: Floating Point Arithmetic, Functions, Tests](https://nbviewer.jupyter.org/github/PsuAstro528/lab1-start/blob/master/ex2.ipynb)
 - Exercise 3: Personal Goals
 {{%/excerpt%}}
 
