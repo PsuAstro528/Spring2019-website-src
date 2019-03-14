@@ -41,7 +41,7 @@ ___
 - Completed code, documentation, benchmarks, conclusions (due April 18)
 - Presentations (April 9-25)
 ___
-### Rubric for Parallel Code 
+### Rubric for Parallel Code
 - Choice of portion of code to parallelize
 - Choice of approach for parallelizing code
 - Code performs proposed tasks
@@ -52,7 +52,7 @@ ___
 - Significant performance improvement
 ---
 # Reproducibility
-- 
+- What does that mean to you?
 
 ___
 ## Distributing Software
@@ -79,7 +79,7 @@ Modern
 - Distribute package
    - url
    - Registry of packages
-- ``Publish'' software
+- "Publish" software
 ___
 ## Using Packaged Software
 - Install packages via a package manager

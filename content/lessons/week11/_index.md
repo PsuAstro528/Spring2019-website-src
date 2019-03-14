@@ -1,5 +1,5 @@
 +++
-title = "Week 11: Accelerators & GPUs"
+title = "Week 11: Packaging & Reproducility"
 course_inst = "Penn State"
 course_number = "Astro 528"
 course_name = "High-Performance Scientific Computing for Astrophysics"

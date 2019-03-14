@@ -13,5 +13,5 @@ lastmodifierdisplayname = "Eric Ford"
 lastmodifieremail = "ebf11 at psu dot edu"
 +++
 
-Continue working on:
-{{%excerpt-include filename="lessons/week10/lab.md" /%}}
+This week will focus on making progrress on the class projects.
+Students are encouraged to review lessons and programming patterns from any labs that would be helpful for their projects.

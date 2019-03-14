@@ -17,11 +17,12 @@ lastmodifieremail = "ebf11 at psu dot edu"
 # Week 10
 {{%excerpt%}}
 - Prior to Tuesday's class
-  + _Writing Scientific Software_ Ch 10: Make (4pg)
-  + [Best Practices for Scientiﬁc Computing](http://arxiv.org/pdf/1210.0530v4.pdf): Sec. 2
-  + [Julia Package Development](https://julialang.github.io/Pkg.jl/v1/): Sec. 1-5
-  + [Docker Orientation](https://docs.docker.com/get-started/)
+   + [Effectively using GPUs with Julia](https://docs.google.com/presentation/d/1l-BuAtyKgoVYakJSijaSqaTL3friESDyTOnU2OLqGoA/edit#slide=id.p)
+   + [Introduction to CUDA](http://mc.stanford.edu/cgi-bin/images/f/f7/Darve_cme343_cuda_1.pdf)
+   + [Introduction to GPU Programming in Julia](https://nextjournal.com/sdanisch/julia-gpu-programming)
 - Prior to Thursday's class
-  + [Best Practices for Scientiﬁc Computing](http://arxiv.org/pdf/1210.0530v4.pdf): Sec. 5-9 (5pg)
-  + Begin Lab 7
+   + Begin Lab 7
 {{%/excerpt%}}
+
+## Lessons / Resources
+- [CuArrays.jl Tutorial](https://juliagpu.gitlab.io/CuArrays.jl/tutorials/generated/intro/)

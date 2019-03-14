@@ -17,7 +17,8 @@ lastmodifieremail = "ebf11 at psu dot edu"
 # Week 12
 {{%excerpt%}}
 - Prior to Tuesday's class
-   + TODO: Pick reading
+   + TODO: Find Cloud reading
+   + [Best Practices for Scientiﬁc Computing](http://arxiv.org/pdf/1210.0530v4.pdf): Reference list on last page
 - Prior to Thursday's class
    + Begin Lab 8
 {{%/excerpt%}}

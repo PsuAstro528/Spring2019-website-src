@@ -14,28 +14,20 @@ lastmodifierdisplayname = "Eric Ford"
 lastmodifieremail = "ebf11 at psu dot edu"
 +++
 
-# Week 9
+# Week 11
 
 {{%excerpt%}}
-- Lab 7, Exercise 1
-   - Run GPU code on ICS-ACI
-   - Accelerate linear algebra computations with GPU
-   - Recognize what problem sizes and likely to result in acceleration with a GPU for linear algebra
-- Lab 7, Exercise 2:
-   - Perform custom scientific computations using high-level GPU interface
-   - Improve performance by reducing kernel launches via broadcasting and GPU kernel fusion
-   - Improve performance by reducing memory transfers via GPU reductions
-   - Recognize what types of problems and problem sizes are likely to result in acceleration with a GPU  when using a high-level programming interface
-- Lab 7, Exercise 3:
-   - Write a GPU kernel
-   - Improve performance through reduced memory usage
-   - Recognize when a custom kernel is likely improve GPU performance
+- Readings / Discussions
+   - Identify common challenges for providing reproducible software & workflow
+   - Describe how Julia's package manager facilitate reproducible research
+   - Describe other common tools & strategies for facilitating reproducible research
 - Project
    - Parallelize real world code
    - Acheive significant performance benefit via parallelization
-- Readings / Discussions
-   - Describe how GPU differs from CPU
-   - Assess the prospects for a given algorithm to acheive a significant speed-up using a GPU
 {{%/excerpt%}}
 
 ## Lessons along the way
+- Virtual machines
+- Projects & environments
+- Containers & images
+- Docker & Singularity
