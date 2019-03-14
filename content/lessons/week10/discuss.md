@@ -102,3 +102,5 @@ ___
 ---
 # Questions?
 {{</revealjs>}}
+<br>
+{{%attachments title="Programming GPUs (slides from UC Berkeley's CS 267)" pattern=".*pdf"/%}}
