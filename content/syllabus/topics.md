@@ -23,14 +23,17 @@ lastmodifieremail = "ebf11 at psu dot edu"
     + Debugging
     + Benchmarking & Profiling
     + Reproducible Results & Workflows
-    + Containers, Images, Environments
+    + Packages, Environments, Containers & Images 
     + Efficient Workflows
 - Optimizing Code Performance
     + Modern Processors, Memory & Networking Architectures
     + Choosing Algorithms
     + Serial Codes
-    + Parraleling for Shared Memory (with in one node)
-    + Distrbiuted Memory (across multiple nodes)
+    + Shared Memory Systems (i.e., muli-core within one node)
+    + Distrbiuted Memory Systems (across multiple nodes)
     + Hardware Accelerators (e.g., GPUs, Intel Phi)
     + Cloud Computing
-- Experience Apply Best Practices to a Real Science Project
+    + Strong & Weak Scaling
+- Experience 
+    + Practice good programming habits on series of exercises
+    + Apply best practices to a real science project
