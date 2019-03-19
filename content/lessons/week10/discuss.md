@@ -51,6 +51,57 @@ ___
 - Implementation/optimization of multi-core parallelization
 - Significant performance improvement
 ---
+# GPU Computing
+___
+### How is graphics different from running a parallel code on a GPU?
+___
+### Are there any disadvantages to using a GPU?
+___
+### Are there any disadvantages to using a GPU?
+- Slower than CPU
+- Optimized for highly multi-threaded calculations
+- Less memory/cache than CPU
+- Lacks branch predictions
+- Kernel launch cost
+___
+### What are some sorts of problems where GPUs provide a major performance increase?
+___
+### What are some sorts of problems where GPUs provide a major performance increase?
+- Highly parallel
+- High compute density
+- Favorable memory-access pattern
+___
+### What are some sorts of problems where GPUs provide a major performance increase?
+- Image processing
+- Video rendering/decoding
+- Deep learning
+- Brute-force search of simple mathematical problems
+___
+### What are some sorts of problems where GPUs provide a worthwhile performance increase?
+- Large linear algebra
+- Signal processing (e.g., FFTs)
+- Large n-body problems (e.g., materials, globular clusters)
+___
+### Is there a good way to determine some threshold at which it's smart to switch to using a GPU without actually benchmarking the performance?
+___
+## Switch to PDF
+___
+### Does using the dot broadcasting notation make running on a GPU in Julia faster than using CUDA (or OpenCL)?
+___
+### Does using the dot broadcasting notation make running on a GPU in Julia faster than using CUDA (or OpenCL)?
+- Not if comparing to well-implemented CUDA code
+- Potentially if comparing to quickly-implemented CUDA code
+___
+### What if you have multiple GPUs that you want to use in parallel rather than just one?
+___
+### What if you have multiple GPUs that you want to use in parallel rather than just one?
+- ```julia
+DArray{CuArray{Float64,1}}
+```
+- Naive CUDA supports faster GPU-to-GPU transfers
+___
+### Questions
+---
 # Reproducibility
 - What does that mean to you?
 
