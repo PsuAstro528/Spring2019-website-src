@@ -100,6 +100,9 @@ DArray{CuArray{Float64,1}}
 ```
 - Naive CUDA supports faster GPU-to-GPU transfers
 ___
+
+###Can we "just" move a whole block of memory to the GPU?
+___
 ### Questions
 ---
 # Reproducibility
