@@ -18,7 +18,7 @@ lastmodifieremail = "ebf11 at psu dot edu"
 {{%excerpt%}}
 - Prior to Tuesday's class
    + [Best Practices for Scientiﬁc Computing](http://arxiv.org/pdf/1210.0530v4.pdf): (Sec 2)
-   + _Writing Scientific Software_ Ch 10: Make (4pg)
+   + _Writing Scientific Software_ Ch 17.1: Make (4pg)
    + [Julia Package Development](https://julialang.github.io/Pkg.jl/v1/): Sec. 1-5
    + [Docker Orientation](https://docs.docker.com/get-started/)
 - Prior to Thursday's class
