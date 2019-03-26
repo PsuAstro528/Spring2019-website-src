@@ -306,15 +306,6 @@ dependencies:
 ___
 ## [Binder example](https://nbviewer.jupyter.org/github/PsuAstro528/lab2-start/blob/master/ex1.ipynb)
 ---
-# Reading Questions
-___
-How to package code to work with different operating systems?
-- individual tarballs?
-- generic source + make?
-- Packages?
-- Binder
-- Docker?
----
 ## Virtual Machines
 - VMWare
 - VirtualBox
@@ -557,7 +548,17 @@ docker-compose.yml specifies:
  -B /storage/work/abf123:/mnt -B /storage/home:/home \
  -H /home/abf123 divetea-debian-master-latest.simg /bin/bash
 ```
-
+- Can also pull docker image and it will be converted to singularity 
+- Still some issues with some images due to ACI running older linux kernel
+---
+# Reading Questions
+___
+How to package code to work with different operating systems?
+- individual tarballs?
+- generic source + make?
+- Packages?
+- Binder
+- Docker?
 ---
 # Questions?
 {{</revealjs>}}
