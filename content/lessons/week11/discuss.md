@@ -51,6 +51,24 @@ ___
 - Implementation/optimization of multi-core parallelization
 - Significant performance improvement
 ---
+## git-lfs on ACI
+```shell
+export PATH=/gpfs/group/dml129/default/sw/git-lfs:$PATH
+module load git
+git lfs install
+```
+___
+## Tracking large files with git-lfs
+```shell
+git lfs track "data/big.fits"
+git lfs track "*.jld2"
+git lfs track "data/*"
+```
+___
+## Rewriting git history
+- [BFG Repo Cleaner](https://rtyley.github.io/bfg-repo-cleaner/)
+- [More detailed explanation](https://help.github.com/en/articles/removing-sensitive-data-from-a-repository)
+---
 # Reproducibility
 - What does that mean to you?
 ___
@@ -389,7 +407,7 @@ docker-compose.yml specifies:
 - image avaliable from cloud.docker.com
 - which storage location will appear as persistent storage in the work directory
 - which port the server will be accessible through
-___
+---
 ### Singularity on ACI
 ```shell
 > singularity pull shub://divetea/debian:latest
@@ -397,6 +415,7 @@ ___
  -B /storage/work/abf123:/mnt -B /storage/home:/home \
  -H /home/abf123 divetea-debian-master-latest.simg /bin/bash
 ```
+
 ---
 # Questions?
 {{</revealjs>}}
