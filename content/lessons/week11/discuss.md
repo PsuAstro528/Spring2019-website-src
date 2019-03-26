@@ -67,7 +67,7 @@ git lfs track "data/*"
 Add/commit/push as ususal
 ___
 ## Rewriting git history
-- [BFG Repo Cleaner](https://rtyley.github.io/bfg-repo-cleaner/
+- [BFG Repo Cleaner](https://rtyley.github.io/bfg-repo-cleaner/)
 - [More detailed explanation](https://help.github.com/en/articles/removing-sensitive-data-from-a-repository)
 
 Usage:
@@ -180,7 +180,7 @@ files.o : defs.h buffer.h command.h
 utils.o : defs.h
 # Above use implicit rule for c files with imiplicit variables
 # %.o: %.c
-#        ‘$(CC) $(CPPFLAGS) $(CFLAGS) -c
+#        $(CC) $(CPPFLAGS) $(CFLAGS) -c
 
 .PHONY : clean
 clean :
@@ -209,12 +209,14 @@ ___
 ```julia
 julia> using Pkg
 julia> Pkg.activate(".")
+julia> Pkg.instantiate()
 julia> Pkg.add("Plots")
 ```
 or
 ```julia
 julia> ]
 pkg> activate .
+pkg> instantiate
 pkg> add Plots
 ```
 ___
@@ -247,7 +249,7 @@ ___
 name = "HelloWorld"
 uuid = "b4cd1eb8-1e24-11e8-3319-93036a3eb9f3"
 version = "0.1.0"
-author = ["Some One <someone@email.com>"]
+author = ["Some One \<someone@email.com\>"]
 [deps]
 Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 ```
@@ -280,10 +282,13 @@ Run coverage checking from your Travis via .travis.yml file
   - julia -e 'using Pkg; cd(Pkg.dir("PkgName")); Pkg.add("Coverage"); using Coverage; Codecov.submit(Codecov.process_folder())'
   - julia -e 'using Pkg; cd(Pkg.dir("PkgName")); Pkg.add("Coverage"); using Coverage; Coveralls.submit(process_folder())'
 ```
+___
+## Advanced Package Development
+- See [PkgDev.jl](https://github.com/JuliaLang/PkgDev.jl)
 ---
 ## Sharing Notebooks
-- [nbviewer](https://nbviewer.jupyter.org/)
-- [Binder](https://mybinder.org/)
+- [nbviewer](https://nbviewer.jupyter.org/): For viewing notebooks
+- [Binder](https://mybinder.org/):  For running notebooks in cloud
 ___
 ## [Binder](https://mybinder.org/): Julia
 REQUIRE
