@@ -79,6 +79,15 @@ java -jar bfg.jar --delete-files id_dsa  my-repo.git
 # Reproducibility
 - What does that mean to you?
 ___
+# Reproducibility
+- Scientific results are robust
+- Precise description of calculations
+- Same calculations yield same results
+- Installing same software to do calculations
+- Installing same/updated versions of software
+---
+## Distributing Software
+___
 ## Distributing Software
 Old school
 - tarball
@@ -104,8 +113,17 @@ Modern
    - url
    - Registry of packages
 - "Publish" software
+___
+## Using Packaged Software
+- Install packages via a package manager
+- Package manager finds & install dependancies
+- Package manager figures out versions to make packages work together
+- Files installed in user space
+- Save files defining your environment
+- Activate a project to specify which versions were used
 ---
 # Make
+(because we'll all still need it for years to come)
 ___
 ## Using Make
 ```shell
@@ -169,28 +187,21 @@ clean :
         rm edit $(objects)
 ```
 ___
-#### When should we use `make' instead of shell scripts?
+#### When should we use `make` instead of shell scripts?
 ___
-## When should we use `make'?
+## When should we use `make`?
 For self:
 - Chain of build commands
 - Avoid mistakes in compilation process
 - Reduce build time
 ___
-## When should we use `make'?
+## When should we use `make`?
 For others:
 - Simplifiy configuration of build process
-- C/C++/Fortran/CUDA/LaTeX
-- Data processing pipelines
+- C/C++/Fortran/CUDA (languages w/o package manager)
+- Not Julia/perl/python/R (languages w/ package manager)
+- Simple data processing pipelines
 - If complex decissions... Cmake?
-___
-## Using Packaged Software
-- Install packages via a package manager
-- Package manager finds & install dependancies
-- Package manager figures out versions to make all packages
-- Files installed in user space
-- Save files defining your environment
-- Activate a project to specify which versions were used
 ---
 # Julia Package manager
 ___
@@ -254,13 +265,16 @@ ___
 ```shell
 .gitignore       # Tell git to ignore certain files
 .gitattributes   # Additional git config, e.g., git-lfs
-docs/make.jl     # How to build documentation Documenter.jl
+docs/make.jl     # How to build documentation [Documenter.jl](https://juliadocs.github.io/Documenter.jl/latest/man/guide/#Package-Guide-1)
+docs/src/        # Directory with documentation soure code
 appveyor.yml     # CI for Windows & Linux via AppVeyor
 ```
+
 ___
 ## Coverage Checking
 - [CodeCov](https://codecov.io)
 - [Coverails](https://coveralls.io/)
+
 Run coverage checking from your Travis via .travis.yml file
 ```shell
   - julia -e 'using Pkg; cd(Pkg.dir("PkgName")); Pkg.add("Coverage"); using Coverage; Codecov.submit(Codecov.process_folder())'
@@ -294,10 +308,11 @@ ___
 ---
 # Reading Questions
 ___
-What is the best way to package code to work with different operating systems?
+How to package code to work with different operating systems?
 - individual tarballs?
-- make?
+- generic source + make?
 - Packages?
+- Binder
 - Docker?
 ---
 ## Virtual Machines
@@ -309,7 +324,8 @@ ___
 - [Singularity](https://www.sylabs.io/singularity/) (required for ACI)
 ___
 ### Install Docker
-- Install [Docker](https://docs.docker.com/get-started/).
+- Install [Docker CE](https://docs.docker.com/get-started/).
+   - If using consumer Windows, may need to be inside VirtualBox
 - Make sure `docker run hello-world` works before proceeding.
 ___
 ### Run the Docker image
