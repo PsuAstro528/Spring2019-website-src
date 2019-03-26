@@ -64,10 +64,17 @@ git lfs track "data/big.fits"
 git lfs track "*.jld2"
 git lfs track "data/*"
 ```
+Add/commit/push as ususal
 ___
 ## Rewriting git history
-- [BFG Repo Cleaner](https://rtyley.github.io/bfg-repo-cleaner/)
+- [BFG Repo Cleaner](https://rtyley.github.io/bfg-repo-cleaner/
 - [More detailed explanation](https://help.github.com/en/articles/removing-sensitive-data-from-a-repository)
+
+Usage:
+```bash
+java -jar bfg.jar --delete-files id_dsa  my-repo.git
+```
+
 ---
 # Reproducibility
 - What does that mean to you?
@@ -97,6 +104,85 @@ Modern
    - url
    - Registry of packages
 - "Publish" software
+---
+# Make
+___
+## Using Make
+```shell
+make
+make edit
+make clean
+make all
+```
+___
+### [Simple Makefile](https://www.gnu.org/software/make/manual/html_node/Simple-Makefile.html)
+```make
+edit : main.o kbd.o command.o display.o \
+       insert.o search.o files.o utils.o
+        cc -o edit main.o kbd.o command.o display.o \
+                   insert.o search.o files.o utils.o
+
+main.o : main.c defs.h
+        cc -c main.c
+kbd.o : kbd.c defs.h command.h
+        cc -c kbd.c
+command.o : command.c defs.h command.h
+        cc -c command.c
+display.o : display.c defs.h buffer.h
+        cc -c display.c
+insert.o : insert.c defs.h buffer.h
+        cc -c insert.c
+search.o : search.c defs.h buffer.h
+        cc -c search.c
+files.o : files.c defs.h buffer.h command.h
+        cc -c files.c
+utils.o : utils.c defs.h
+        cc -c utils.c
+clean :
+        rm edit main.o kbd.o command.o display.o \
+           insert.o search.o files.o utils.o
+```
+___
+### [Realistic Makefile](https://www.gnu.org/software/make/manual/html_node/make-Deduces.html#make-Deduces)
+```make
+objects = main.o kbd.o command.o display.o \
+          insert.o search.o files.o utils.o
+
+edit : $(objects)
+        cc -o edit $(objects)
+#        $(CC) $(CFLAGS) $(LDFLAGS) -o edit $(objects)
+
+main.o : defs.h
+kbd.o : defs.h command.h
+command.o : defs.h command.h
+display.o : defs.h buffer.h
+insert.o : defs.h buffer.h
+search.o : defs.h buffer.h
+files.o : defs.h buffer.h command.h
+utils.o : defs.h
+# Above use implicit rule for c files with imiplicit variables
+# %.o: %.c
+#        ‘$(CC) $(CPPFLAGS) $(CFLAGS) -c
+
+.PHONY : clean
+clean :
+        rm edit $(objects)
+```
+___
+#### When should we use `make' instead of shell scripts?
+___
+## When should we use `make'?
+For self:
+- Chain of build commands
+- Avoid mistakes in compilation process
+- Reduce build time
+___
+## When should we use `make'?
+For others:
+- Simplifiy configuration of build process
+- C/C++/Fortran/CUDA/LaTeX
+- Data processing pipelines
+- If complex decissions... Cmake?
 ___
 ## Using Packaged Software
 - Install packages via a package manager
@@ -137,34 +223,64 @@ HelloWorld
     └── HelloWorld.jl
 ```
 ___
+## Adding dependancies to your package
+```julia
+julia> cd("HelloWorld")
+julia> ]
+(v1.0) pkg> activate .
+(HellowWorld) pkg> add Distributions
+```
+___
 #### Project.toml
 ```shell
 name = "HelloWorld"
 uuid = "b4cd1eb8-1e24-11e8-3319-93036a3eb9f3"
 version = "0.1.0"
 author = ["Some One <someone@email.com>"]
+[deps]
+Distributions = "31c24e10-a181-5473-b8eb-7969acd0382f"
 ```
 ___
-## Optional package features
+## Common optional package features
 ```shell
-deps/build.jl
-test/runtests.jl
+deps/build.jl    # Automated building via Pkg.build("PkgName")
+test/runtests.jl # Automated testing via Pkg.test("PkgName")
+.travis.yml      # Continuous Integration Testing via Travis-CI
+LICENSE[.md]     # Communicate your expectations to users
+README[.md]      # Help out potential users
 ```
----
-# Reading Questions
 ___
-What is the best way to package code to work with different operating systems?
-- individual tarballs?
-- make?
-- Packages?
-- Docker?
+## Additional optional package features
+```shell
+.gitignore       # Tell git to ignore certain files
+.gitattributes   # Additional git config, e.g., git-lfs
+docs/make.jl     # How to build documentation Documenter.jl
+appveyor.yml     # CI for Windows & Linux via AppVeyor
+```
+___
+## Coverage Checking
+- [CodeCov](https://codecov.io)
+- [Coverails](https://coveralls.io/)
+Run coverage checking from your Travis via .travis.yml file
+```shell
+  - julia -e 'using Pkg; cd(Pkg.dir("PkgName")); Pkg.add("Coverage"); using Coverage; Codecov.submit(Codecov.process_folder())'
+  - julia -e 'using Pkg; cd(Pkg.dir("PkgName")); Pkg.add("Coverage"); using Coverage; Coveralls.submit(process_folder())'
+```
 ---
 ## Sharing Notebooks
 - [nbviewer](https://nbviewer.jupyter.org/)
 - [Binder](https://mybinder.org/)
 ___
-## Binder
-#### environment.yml
+## [Binder](https://mybinder.org/): Julia
+REQUIRE
+```shell
+julia 1
+Distributions
+PyPlot
+```
+___
+## [Binder](https://mybinder.org/): Python
+environment.yml
 ```shell
 dependencies:
   - matplotlib
@@ -173,6 +289,16 @@ dependencies:
   - pip:
       - julia
 ```
+___
+## [Binder example](https://nbviewer.jupyter.org/github/PsuAstro528/lab2-start/blob/master/ex1.ipynb)
+---
+# Reading Questions
+___
+What is the best way to package code to work with different operating systems?
+- individual tarballs?
+- make?
+- Packages?
+- Docker?
 ---
 ## Virtual Machines
 - VMWare
