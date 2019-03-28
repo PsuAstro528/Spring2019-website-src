@@ -553,17 +553,128 @@ docker-compose.yml specifies:
  -B /storage/work/abf123:/mnt -B /storage/home:/home \
  -H /home/abf123 divetea-debian-master-latest.simg /bin/bash
 ```
-- Can also pull docker image and it will be converted to singularity 
+- Can also pull docker image and it will be converted to singularity
 - Still some issues with some images due to ACI running older linux kernel
 ---
 # Reading Questions
 ___
-How to package code to work with different operating systems?
-- individual tarballs?
-- generic source + make?
-- Packages?
-- Binder
-- Docker?
+#### [GCC Compiler options](https://gcc.gnu.org/onlinedocs/gcc/Option-Summary.html)
+```bash
+-c            #  Compile to object files
+-o filename   # Output filename
+-Wall         # Output all possible warning messages
+-g            # Include debuging flags
+-pg           # Include profiling
+-O [0,1,2,3]  # Optimization level
+-march=native # Optimize for your CPU
+-ffast-math   # Unsafe math optimizations
+-fopenmp      # Compile for OpenMP
+-fopenacc     # Compile for OpenACC
+```
+___
+#### [Julia Compiler options](https://gcc.gnu.org/onlinedocs/gcc/Option-Summary.html)
+Scripting
+```bash
+-e 'using MyPkg; DoSomething()' # short, one-time script
+--project=dir           # Set home project/environment
+```
+Optimizing
+```bash
+-p N                    # Star N worker processes
+-O [0,1,2,3]            # Optimization level
+--check-bounds={yes|no}	# Force bounds checks always or never
+```
+Debugging
+```bash
+-g                       # Extra debugging information
+--math-mode={ieee,fast}  # Standard or fast math
+--code-coverage={none|user|all} # See which lines of code executed
+--track-allocation       # Save how much memory allocated by each line
+--inline={yes|no}        # Control whether inlining is permitted
+```
+---
+# Cross-language support
+___
+## Making a shared library w/ gcc
+C/C++/Fortran
+```bash
+> gcc -c -Wall -O -fPIC Cfile.c
+> gcc -shared -o libCfile.so Cfile.o
+```
+___
+## [Calling C code from Julia](https://docs.julialang.org/en/v1/manual/calling-c-and-fortran-code/index.html)
+
+```julia
+using Libdl
+global const LIB_MY_PKG = Libdl.find_library(["libmyc.so"],[".","/usr/local/lib"] )
+...
+ccall( (:my_c_func, LIB_MY_PKG),     # function, library
+        Cdouble,                     # Return type
+        (Ptr{Cdouble}, Cdouble, Cint), # Argument types
+        my_array, my_double, myint)   # Arguments
+```
+___
+## Calling Fortran code from C++
+- Write & call a C wrapper function
+___
+## Calling Fortran code from Julia
+- Use mangled function names
+- Can only pass pointers to heap/stack
+___
+## Making a shared library w/ Julia
+- [PackageCompiler.jl](https://github.com/JuliaLang/PackageCompiler.jl)
+-  Define function to be ccallable
+```julia
+Base.@ccallable function julia_main(ARGS::Vector{String})::Cint
+    println("hello, world")
+    @show sin(0.0)
+    return 0
+end
+```
+___
+## Compiler options when building a shared library w/ Julia
+-  Compile to shared library
+-  `juliac.jl -vas src/HelloLib.jl`
+- More juliac.jl options
+   - [-O {0,1,2,3}]
+   - [-g <level>]
+   - [--check-bounds {yes|no}]
+   - [--math-mode {ieee,fast}]
+   - [--inline {yes|no}]
+___
+### Calling Julia code from C [(full example)](https://github.com/JuliaLang/PackageCompiler.jl/blob/master/examples/program.c)
+Call from c
+```c
+#include "uv.h"     // Julia headers (for initialization and gc commands)
+#include "julia.h"
+...
+uv_setup_args(argc, argv); // no-op on Windows
+libsupport_init();         // initialization
+...
+jl_options.image_file = JULIAC_PROGRAM_LIBNAME;
+julia_init(JL_IMAGE_JULIA_HOME);
+...
+retcode = julia_main(ARGS); // call the work function, and get back a value
+...
+jl_atexit_hook(retcode);  // Cleanup and gracefully exit
+return retcode;
+```
+---
+## How to package code to work with different operating systems?
+In increasing complexity
+- Tarballs w/ generic source + make + parameters for each OS
+- Packages (that auto-compile on each OS)
+- Binder (so people can run in cloud)
+- Docker (most flexible)
+- Virtual Machine (if security is an issue)
+___
+## When is it worth making some code into a package?
+___
+## When is it worth making some code into a package?
+- Ready to share your code
+- Want to avoid delay of recompiling every time
+- Make it easier to compose with other code/packages
+- Want to increase chance others conribute to your code
 ---
 # Questions?
 {{</revealjs>}}
