@@ -10,7 +10,8 @@ lastmodifierdisplayname = "Eric Ford"
 
 # _High-Performance Scientific Computing for Astrophysics_ 
 ## Astro 528 (Spring 2019)
-{{%excerpt-include filename="syllabus/_index.md" /%}}
+_High-Performance Scientific Computing for Astrophysics_ will combine class discussion and programming exercises to train students in the use of modern computing hardware and programming strategies for application to astronomy and astrophysics research.  Students will gain experience applying these practices during a class project (potentially in support of the student’s dissertation research).
+
 
 - [Syllabus](/syllabus)
 - [Schedule](/lessons)
