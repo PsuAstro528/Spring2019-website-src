@@ -28,20 +28,25 @@ lastmodifieremail = "ebf11@psu.edu"
    - copy files from template repository (lab-template) into labN-dev directory
 
 ```shell
+cp ../lab-template/* .
 cp ../lab-template/{.gitignore,.travis.yml} .
-cp ../lab-template/{.gitignore,.travis.yml,docker-compose.yml,environment.yml,LICENSE,README.md,REQUIRE} .
 cp -r ../lab-template/test .
 ```
 
-### Commit template files to master branch:
+### Commit template files 
 
 ```shell
 git add .gitignore .travis.yml docker-compose.yml environment.yml LICENSE README.md REQUIRE test
 git commit -m "template"
-git push
 ```
-### Create & Switch to solution branch
 
+### Rename to use main branch and push to GitHub
+```shell
+git branch -m master main
+git push -u origin main
+```
+
+### Create & Switch to solution branch
 ```shell
 git checkout -b solution
 ```
@@ -52,8 +57,8 @@ git checkout -b solution
 git add ex?.ipynb test/test?.jl
 git commit -m "new exercise"
 ```
-   - Test each exercise as you go `julia -e 'include("test/test1.jl")'`
-   - Test as a group `julia -e 'include("test/runtests.jl")'`
+   - Test each exercise as you go:  `julia -e 'include("test/test1.jl")'`
+   - Test as a group:  `julia -e 'include("test/runtests.jl")'`
 
 ### Setup Project.toml
 Once assignments is ready for Travis-CI.com to test thea, create/update the Project.toml file in test directory to include needed packages
@@ -61,7 +66,7 @@ Once assignments is ready for Travis-CI.com to test thea, create/update the Proj
 ```julia
 cd("test")
 ]
-activate .
+activate ..
 add NBInclude
 add Weave
 add Glob
@@ -95,9 +100,9 @@ julia -e 'using Weave; convert_doc("exN.ipynb","exN.jmd");'
 git add ex?.jmd; git commit -m "convert from ipynb"
 ```
 
-- Checkout master branch and add jmd files from solution branch
+- Checkout main branch and add jmd files from solution branch
 ```shell
-git checkout master
+git checkout main
 git checkout solution exN.jmd
 git checkout solution test/testN.jl
 ```
@@ -105,7 +110,6 @@ git checkout solution test/testN.jl
 - Edit each exN.jmd to remove code
    - Search for SOLUTION and remove code not for students to see
    - (Note to future self: Should I automate this?)
-
    - Recreate cleaned notebook files exN.ipynb
 
 ```shell
@@ -114,7 +118,7 @@ julia -e 'using Weave; convert_doc("ex2.jmd","ex2.ipynb");'
 julia -e 'using Weave; convert_doc("exN.jmd","exN.ipynb");'
 ```
 
-   - Check that you're happy with the resulting notebooks, then add & commit them to master branch.
+   - Check that you're happy with the resulting notebooks, then add & commit them to main branch.
 
 ```shell
 git add ex?.jmd ex?.ipynb test/test?.jl
@@ -135,7 +139,7 @@ Create starter repostiory on GitHub.com from development repository
    - `cp -r labN-dev labN-start`
    - `cd labN-start`
    - Make _sure_ you're in the labN-start subdirectory
-   - `rm -f .git`
+   - `rm -rf .git`
    - `git init`
    - `git remote add origin git@github.com:PsuAstro528/labN-start.git`
    - Edit .travis.yml to no longer just test solution and now exclude original branch
@@ -144,14 +148,15 @@ Create starter repostiory on GitHub.com from development repository
 git add *
 git add .gitignore .travis.yml
 git commit -m "init"
-git push --set-upstream origin master
+git branch -m master main
+git push --set-upstream origin main
 ```
 
-Make original branch for comparison purposes
+Make original branch for comparison purposes and switch back to main branch
 ```shell
 git checkout -b original
 git push -u origin original
-git checkout master
+git checkout main
 ```
 
 Check that you're happy with the labN-start repository
