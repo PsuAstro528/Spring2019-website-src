@@ -30,7 +30,7 @@ lastmodifieremail = "ebf11@psu.edu"
        + Click the blue "+", enter comments, "Add single comment".
    - Else:
        + click "New pull request"
-       + Select "base: original <- compare:master"
+       + Select "base: original <- compare:main"
        + Click "N changed files"
        + Click each *.jmd file
        + Review differences
