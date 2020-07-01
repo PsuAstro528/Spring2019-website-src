@@ -1,5 +1,11 @@
 <center>
-&nbsp;[Penn State](https://www.psu.edu)&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;[Astronomy & Astrophysics](http://astro.psu.edu)&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;[Institute for CyberScience](https://ics.psu.edu/)&nbsp;
+&nbsp;
+<a href="https://www.psu.edu">Penn State</a>
+&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;
+<a href="http://astro.psu.edu">Astronomy &amp; Astrophysics</a>
+&nbsp;&nbsp;&nbsp;-&nbsp;&nbsp;&nbsp;
+<a href="https://ics.psu.edu">Institute for Computational &amp; Data Sciences</a>
 <br>
-&copy; Eric Ford - 2019 [creative commons cc-by](https://creativecommons.org/licenses/by/4.0/)
+&copy; Eric Ford - 2019 
+<a href="https://creativecommons.org/licenses/by/4.0/">creative commons cc-by</a>
 </center>
